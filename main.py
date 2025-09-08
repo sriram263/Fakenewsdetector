@@ -14,9 +14,9 @@ load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Load ML model and vectorizer  
-model = joblib.load("models/fake_news_model.pkl")
-vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
-threshold = joblib.load("models/optimal_threshold.pkl")
+model = joblib.load("Models/fake_news_model.pkl")
+vectorizer = joblib.load("Models/tfidf_vectorizer.pkl")
+threshold = joblib.load("Models/optimal_threshold.pkl")
 
 CLAUDE_API_URL=os.getenv("CLAUDE_API_URL")
 # Claude API

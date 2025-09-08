@@ -19,27 +19,20 @@ model = joblib.load("models/fake_news_model.pkl")
 vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
 threshold = joblib.load("models/optimal_threshold.pkl")
 
-CLAUDE_API_URL = os.getenv("CLAUDE_API_URL")
+CLAUDE_API_URL =  os.getenv("CLAUDE_API_URL")
 # Claude API
-def fetch_claude_fact_check(user_text):
-    headers = {
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json"
-    }
-    data = {
-        "model": "anthropic/claude-3-haiku",
-        "messages": [
-            {"role": "system", "content": "You are a helpful fact-checking assistant. When a news statement is likely fake, provide what might be true instead."},
-            {"role": "user", "content": f"Fact-check this news: {user_text}. What might be true instead?"}
-        ]
-    }
-    try:
-        response = requests.post(CLAUDE_API_URL, headers=headers, json=data, timeout=10)
-        if response.status_code == 200:
-            return response.json()['choices'][0]['message']['content']
-        else:
-            return "⚠️ Claude API failed to respond."
-    except Exception as e:
+def fetch_claude_fact_check(user_text): 
+    headers = { "Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json" } 
+    data = { "model": "anthropic/claude-3-haiku", 
+            "messages": [ {"role": "system", "content": "You are a helpful fact-checking assistant. When a news statement is likely fake, provide what might be true instead."}, 
+                         {"role": "user", "content": f"Fact-check this news: {user_text}. What might be true instead?"} ] } 
+    try: 
+        response = requests.post(CLAUDE_API_URL, headers=headers, json=data, timeout=10) 
+        if response.status_code == 200: 
+            return response.json()['choices'][0]['message']['content'] 
+        else: 
+            return "⚠️ Claude API failed to respond.",response.status_code 
+    except Exception as e: 
         return f"⚠️ Claude API error: {str(e)}"
 
 

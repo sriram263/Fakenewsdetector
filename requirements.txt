@@ -6,3 +6,4 @@ joblib
 python-dotenv
 requests
 beautifulsoup4
+psycopg2

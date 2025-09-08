@@ -8,7 +8,6 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime
 from custom_responses import custom_responses
-from db import insert_chat
 
 # Load environment variables
 load_dotenv()
@@ -19,7 +18,7 @@ model = joblib.load("models/fake_news_model.pkl")
 vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
 threshold = joblib.load("models/optimal_threshold.pkl")
 
-CLAUDE_API_URL =  os.getenv("CLAUDE_API_URL")
+CLAUDE_API_URL=os.getenv("CLAUDE_API_URL")
 # Claude API
 def fetch_claude_fact_check(user_text): 
     headers = { "Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json" } 
@@ -177,11 +176,6 @@ if user_input:
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
         st.session_state.messages.append(assistant_msg)
-        # Save FAQ interaction to DB
-        with st.spinner("🧠 Reading your Message...."):    
-            insert_chat("user", user_input)
-            insert_chat("bot", answer)  # defaults: prediction='UNKNOWN', confidence=0.00
-
 
         with st.chat_message("assistant"):
             st.markdown(answer)
@@ -247,9 +241,6 @@ if user_input:
                 </div>
             """
         timestamp_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with st.spinner("🧠 Searching for relatable sources...."):
-            insert_chat("user", user_input)
-            insert_chat(speaker="bot", message=prediction, prediction=prediction, confidence_score=round(confidence * 100, 2))
 
         assistant_msg = {
             "role": "assistant",

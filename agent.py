@@ -108,41 +108,36 @@ client = OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
 
-# Initialize Tavily (The Professional Search Tool)
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 class SmartAgent:
     def __init__(self):
-        # We no longer need DDGS() class initialization here
         pass
 
     def get_live_info(self, query):
         """
         Uses Tavily AI to get highly accurate, fresh news.
-        - topic="news": Forces it to look for recent events (breaking news).
-        - days=30: Restricts data to the last month (ensures we get the '4th place' update).
+        Returns a LIST of dictionary objects (Title, URL, Content).
         """
         try:
-            # Tavily Search specifically for news context
             response = tavily_client.search(
                 query=query,
-                topic="news",     # Optimized for news
-                days=365,         # Look at the past year
-                max_results=5,    # Deep search
-                include_answer=True # Lets Tavily generate a direct answer summary
+                topic="news",
+                days=365,
+                max_results=5,
+                include_answer=True
             )
-            
-            # Return just the results list
             return response.get('results', [])
         except Exception as e:
-            return [f"Search Error: {str(e)}"]
+            return []
 
     def process_input(self, user_text):
         """
-        The Master Function:
-        1. Decides INTENT.
-        2. Searches with Tavily.
-        3. Validates with Claude.
+        Returns a DICTIONARY: 
+        {
+            "ai_response": "The text from Claude...",
+            "sources": [List of search result objects] 
+        }
         """
         
         # --- PHASE 1: SEARCH ---
@@ -152,35 +147,25 @@ class SmartAgent:
         system_prompt = f"""
         You are 'Veritas', an advanced AI News Analyst.
         
-        You have two modes of operation based on the user's input:
-
-        MODE 1: CASUAL CHAT / GENERAL QUESTIONS
-        - If the user says "Hi", "Who are you?", or general questions.
-        - ACTION: Reply naturally and concisely.
+        MODE 1: CASUAL CHAT
+        - If input is generic ("Hi", "Thanks"), reply normally.
 
         MODE 2: NEWS VERIFICATION
-        - If the user provides a statement, headline, or claim.
-        - ACTION: Cross-reference the input with the SEARCH RESULTS provided below.
+        - Analyze the claim using the SEARCH RESULTS below.
         
-        SEARCH RESULTS (High-Confidence News):
+        SEARCH RESULTS:
         {json.dumps(search_results)}
 
         CRITICAL INSTRUCTIONS:
-        1. **Trust Freshness:** If sources conflict (e.g., "India is 5th" vs "India becomes 4th"), ALWAYS trust the source with the most recent date.
-        2. **Nuance:** If a change happened recently (like India overtaking Japan), explicitly mention that this is a *recent development*.
-        3. **Verdict Logic:**
-           - Matches Evidence -> REAL
-           - Contradicts Evidence -> FAKE
-           - No Evidence -> UNCERTAIN
-
-        IMPORTANT: If Mode 2, output strictly as HTML JSON:
+        1. Trust fresh data (compare dates).
+        2. If Mode 2, output strictly as HTML JSON:
         
         <VERDICT_JSON>
         {{
             "type": "news_check",
             "verdict": "REAL" | "FAKE" | "UNCERTAIN",
             "confidence": 0-100,
-            "explanation": "Brief summary. If the user is relying on old data (e.g. saying India is 5th), correct them with the new ranking.",
+            "explanation": "Brief summary.",
             "sources": "List of source names"
         }}
         </VERDICT_JSON>
@@ -196,6 +181,15 @@ class SmartAgent:
                 ],
                 temperature=0.3,
             )
-            return response.choices[0].message.content
+            
+            # RETURN BOTH TEXT AND DATA
+            return {
+                "ai_response": response.choices[0].message.content,
+                "sources": search_results
+            }
+            
         except Exception as e:
-            return f"Error connecting to AI: {e}"
+            return {
+                "ai_response": f"Error: {e}",
+                "sources": []
+            }

@@ -31,16 +31,25 @@ if "messages" not in st.session_state:
 if "stats" not in st.session_state:
     st.session_state.stats = {"checked": 0, "real": 0, "fake": 0}
 
+# --- HELPER: UPDATE SIDEBAR ---
+# We define this function so we can call it whenever stats change
+def render_sidebar_stats(container):
+    with container.container():
+        st.markdown("### 📊 Session Stats")
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Checked", st.session_state.stats["checked"])
+        col2.metric("Real", st.session_state.stats["real"])
+        col3.metric("Fake", st.session_state.stats["fake"])
+
 # --- SIDEBAR DASHBOARD ---
 with st.sidebar:
     st.title("🛡️ Veritas Dashboard")
     
-    # Session Stats Widget
-    st.markdown("### 📊 Session Stats")
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Checked", st.session_state.stats["checked"])
-    col2.metric("Real", st.session_state.stats["real"])
-    col3.metric("Fake", st.session_state.stats["fake"])
+    # 1. Create an EMPTY container for stats
+    stats_placeholder = st.empty()
+    
+    # 2. Render initial stats (what we have so far)
+    render_sidebar_stats(stats_placeholder)
     
     st.divider()
 
@@ -56,7 +65,7 @@ with st.sidebar:
             log.append(f"[{msg.get('timestamp', '')}] {role}: {text}")
         return "\n\n".join(log)
 
-    # Buttons in columns for better layout
+    # Buttons in columns
     b_col1, b_col2 = st.columns(2)
     
     with b_col1:
@@ -71,7 +80,6 @@ with st.sidebar:
 
     st.divider()
     
-    # "About" Expander
     with st.expander("ℹ️ How it works"):
         st.caption("""
         1. **Paste a Headline:** Or a short article snippet.
@@ -108,12 +116,11 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
         with st.spinner("🔍 Scanning global news sources..."):
             raw_response = st.session_state.agent.process_input(prompt)
             
-            # JSON Parsing Logic
             json_match = re.search(r'<VERDICT_JSON>(.*?)</VERDICT_JSON>', raw_response, re.DOTALL)
             final_html = ""
             
             if json_match:
-                # Update Stats
+                # --- UPDATE STATS ---
                 st.session_state.stats["checked"] += 1
                 try:
                     data = json.loads(json_match.group(1))
@@ -135,6 +142,9 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
                         css = "uncertain-box"
                         icon = "⚠️"
                         head = "Unverified / Context Missing"
+
+                    # --- CRITICAL FIX: RE-RENDER SIDEBAR IMMEDIATELY ---
+                    render_sidebar_stats(stats_placeholder)
 
                     final_html = f"""
                     <div class="report-box {css}">

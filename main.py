@@ -64,12 +64,12 @@ with st.sidebar:
     
     st.divider()
     
-    # --- MOVED TO EXPANDER: Clean UI, but accessible if needed ---
+    # Regional Settings (Default: India)
     with st.expander("⚙️ Regional Settings"):
         selected_timezone = st.selectbox(
             "Timezone:",
             ["Asia/Kolkata", "US/Pacific", "US/Eastern", "UTC", "Europe/London"],
-            index=0 # Defaulting to India means you rarely need to touch this
+            index=0 
         )
     
     with st.expander("ℹ️ How it works"):
@@ -133,17 +133,16 @@ render_sidebar_ui("startup")
 # --- MAIN CHAT INTERFACE ---
 st.title("🛡️ Veritas AI")
 st.markdown("#### *The Truth is Just a Search Away*")
-# Only show location info if explicitly changed or for context
 st.caption(f"📍 Region: {selected_timezone} | 🕒 Local Time: {get_current_time(selected_timezone)}")
 
 # Display Chat History
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"], avatar="👤" if msg["role"] == "user" else "🛡️"):
-        # 1. Render the HTML Box (Readable Text)
+        # 1. Render HTML Content (If it's a Verdict)
         if "html_content" in msg:
             st.markdown(msg["html_content"], unsafe_allow_html=True)
 
-            # 2. Render Copy Option for Sources
+            # 2. Render Sources (ONLY if they exist in the saved message)
             if "sources_data" in msg and msg["sources_data"]:
                 with st.expander("📚 Related News Sources"):
                     formatted_sources = ""
@@ -151,7 +150,7 @@ for msg in st.session_state.messages:
                         formatted_sources += f"{idx}. {s.get('title', 'Unknown')}\n   URL: {s.get('url', 'N/A')}\n\n"
                     st.code(formatted_sources, language="text")
         else:
-            # Fallback for old messages or chat
+            # 3. Fallback for Chat (Normal Text)
             st.markdown(msg["content"], unsafe_allow_html=True)
         
         if "timestamp" in msg:
@@ -176,7 +175,6 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
     with st.chat_message("assistant", avatar="🛡️"):
         with st.spinner("🔍 Scanning global news sources..."):
             
-            # --- AGENT CALL ---
             agent_output = st.session_state.agent.process_input(prompt)
             raw_text_response = agent_output["ai_response"]
             sources_list = agent_output["sources"]
@@ -185,10 +183,10 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
             json_match = re.search(r'<VERDICT_JSON>(.*?)</VERDICT_JSON>', raw_text_response, re.DOTALL)
             
             html_content = ""
-            explanation_text = ""
             is_news = False
             
             if json_match:
+                # --- IT IS NEWS ---
                 is_news = True
                 st.session_state.stats["checked"] += 1
                 try:
@@ -212,7 +210,6 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
                         icon = "⚠️"
                         head = "Unverified"
 
-                    # REDUCED GAP HTML
                     html_content = f"""
                     <div class="report-box {css}">
                         <h3 style="margin:0; padding-bottom: 5px;">{icon} {head}</h3>
@@ -224,12 +221,15 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
                 except:
                     html_content = raw_text_response
             else:
+                # --- IT IS CHAT ---
+                # We use the raw text response directly (e.g., "Hello! How can I help?")
+                is_news = False
                 html_content = raw_text_response
 
             # 3. Render Output
             st.markdown(html_content, unsafe_allow_html=True)
 
-            # 4. Render Sources (Copyable)
+            # 4. Render Sources (Only if it's ACTUALLY news)
             if sources_list and is_news:
                 with st.expander("📚 Related News Sources"):
                     formatted_sources = ""
@@ -243,7 +243,7 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
             st.session_state.messages.append({
                 "role": "assistant", 
                 "content": html_content, 
-                "html_content": html_content, 
+                "html_content": html_content if is_news else None, # Only save HTML for news
                 "raw_text": raw_text_response,
                 "timestamp": current_time,
                 "sources_data": sources_list if is_news else None

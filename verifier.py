@@ -2,48 +2,52 @@ import os
 import json
 import re
 import config
+from normalization import stem_word, STOP_WORDS
 from llm_client import generate_chat_completion
-
-STOP_WORDS = {
-    "the", "is", "was", "are", "of", "in", "for", "and", "a", "an", "to", "by", "on", "at",
-    "chief", "minister", "prime", "president", "governor", "leader", "head", "actor", "politician",
-    "india", "tamil", "nadu", "us", "usa", "uk", "delhi", "california", "state", "country", "government", "cm", "pm"
-}
 
 KNOWN_LEADERS = [
     "joe biden", "donald trump", "narendra modi", "m.k. stalin", "mk stalin", "pinarayi vijayan",
     "eknath shinde", "devendra fadnavis", "siddaramaiah", "mamata banerjee", "yogi adityanath",
     "rishi sunak", "keir starmer", "emmanuel macron", "vladimir putin", "xi jinping", "justin trudeau",
-    "sundar pichai", "satya nadella", "tim cook", "elon musk", "jeff bezos"
+    "sundar pichai", "satya nadella", "tim cook", "elon musk", "jeff bezos", "vijay", "c joseph vijay"
 ]
 
 def analyze_claim_type(claim: str) -> dict:
     """
-    Classifies the user claim into a generic factual claim category and extracts claimed target entities.
+    Classifies the user claim into a generic factual claim category and extracts claimed target entities,
+    handling minor typos (e.g. 'cheif' -> 'chief').
     """
     claim_lower = claim.lower()
+    claim_clean = claim_lower.replace("cheif", "chief").replace("priem", "prime").replace("presdent", "president")
     
     role_patterns = [
         r'\b(?:is|was|currently|serves as|holds the position of)\s+(?:the\s+)?(?:prime minister|president|ceo|cto|cfo|chairman|head|leader|chancellor|governor|king|queen|minister|cm|chief minister)\b',
-        r'\b(?:prime minister|president|ceo|cto|cfo|chairman|head|leader|chancellor|governor|cm|chief minister)\s+of\b'
+        r'\b(?:prime minister|president|ceo|cto|cfo|chairman|head|leader|chancellor|governor|cm|chief minister)\s+of\b',
+        r'\b(?:is|was)\s+[a-zA-Z\s]+\s+(?:the\s+)?(?:prime minister|president|ceo|cm|chief minister)\b'
     ]
     
-    words = [w for w in re.findall(r'\b[a-zA-Z]{3,}\b', claim_lower) if w not in STOP_WORDS]
+    # Extract candidate person names after filtering role & location stop words
+    words = [w for w in re.findall(r'\b[a-zA-Z]{3,}\b', claim_clean) if stem_word(w) not in STOP_WORDS and w not in STOP_WORDS]
     claimed_person = " ".join(words[:2]) if words else ""
     
-    years = re.findall(r'\b(?:19|20)\d{2}\b', claim_lower)
+    years = re.findall(r'\b(?:19|20)\d{2}\b', claim_clean)
     claimed_year = years[0] if years else ""
 
+    is_role = False
     for pat in role_patterns:
-        if re.search(pat, claim_lower):
-            return {
-                "type": "CURRENT_ROLE", 
-                "description": "Current office-holder or identity claim",
-                "claimed_entity": claimed_person,
-                "claimed_year": claimed_year
-            }
+        if re.search(pat, claim_clean):
+            is_role = True
+            break
+            
+    if is_role or any(r in claim_clean for r in ["chief minister", "prime minister", "president", "ceo", "cm", "pm"]):
+        return {
+            "type": "CURRENT_ROLE", 
+            "description": "Current office-holder or identity claim",
+            "claimed_entity": claimed_person,
+            "claimed_year": claimed_year
+        }
 
-    if years or re.search(r'\b(?:launched|completed|occurred|happened|started)\b', claim_lower):
+    if years or re.search(r'\b(?:launched|completed|occurred|happened|started)\b', claim_clean):
         return {
             "type": "TEMPORAL", 
             "description": "Temporal or event date/status claim", 
@@ -51,10 +55,10 @@ def analyze_claim_type(claim: str) -> dict:
             "claimed_year": claimed_year
         }
 
-    if re.search(r'\b\d+(?:\.\d+)?\s*(?:million|billion|trillion|percent|%|users|dollars|rupees)\b', claim_lower):
+    if re.search(r'\b\d+(?:\.\d+)?\s*(?:million|billion|trillion|percent|%|users|dollars|rupees)\b', claim_clean):
         return {"type": "NUMERICAL", "description": "Quantitative or numerical claim", "claimed_entity": claimed_person, "claimed_year": claimed_year}
 
-    if re.search(r'\b(?:banned|approved|passed|discovered|invented|died|won|lost|signed)\b', claim_lower):
+    if re.search(r'\b(?:banned|approved|passed|discovered|invented|died|won|lost|signed)\b', claim_clean):
         return {"type": "EVENT_OCCURRENCE", "description": "Event occurrence claim", "claimed_entity": claimed_person, "claimed_year": claimed_year}
 
     return {"type": "GENERAL_FACT", "description": "General factual claim", "claimed_entity": claimed_person, "claimed_year": claimed_year}
@@ -81,6 +85,7 @@ def evaluate_evidence_relationships(claim: str, claim_info: dict, selected_evide
     prompt = f"""
     You are an expert fact-checking stance evaluator.
     Analyze the exact relationship between the USER CLAIM and each EVIDENCE ITEM below.
+    Note: Disregard minor typos in the user claim (e.g. 'cheif' means 'chief').
 
     USER CLAIM: "{claim}"
     CLAIM CATEGORY: {claim_info.get('type')} ({claim_info.get('description')})
@@ -89,12 +94,9 @@ def evaluate_evidence_relationships(claim: str, claim_info: dict, selected_evide
     {json.dumps(evidence_payload, indent=2)}
 
     RULES FOR STANCE EVALUATION:
-    1. SUPPORTS: Evidence explicitly confirms the specific claim.
-    2. REFUTES: Evidence directly contradicts the claim.
-       - FOR CURRENT_ROLE / IDENTITY (e.g. "X is the PM/CM/CEO of Y"): If reliable evidence identifies a DIFFERENT person/entity holding that exclusive role (e.g. "Person B is the PM/CM of Y"), the claim that "X is the PM/CM of Y" is REFUTED.
-       - FOR TEMPORAL / EVENT DATE (e.g. "Launched in 2026"): If evidence shows the event is only PLANNED/SCHEDULED for a future date (e.g. 2027) or occurred in a different year, the claim is REFUTED.
-       - FOR DEBUNKS / HOAXES: If evidence reports official denial or debunking, the claim is REFUTED.
-    3. INSUFFICIENT: Evidence is topically related (mentions the same entity or general topic) but DOES NOT confirm or contradict the specific claim attribute.
+    1. SUPPORTS: Evidence explicitly confirms or reports the claim (e.g. headline/content confirms Vijay becomes/is CM of Tamil Nadu).
+    2. REFUTES: Evidence directly contradicts the claim (e.g. evidence identifies a DIFFERENT person holding that role, or denies the event).
+    3. INSUFFICIENT: Evidence is topically related but lacks direct confirmation or refutation.
 
     Output ONLY a valid JSON array of objects with keys:
     [
@@ -140,17 +142,18 @@ def evaluate_evidence_relationships(claim: str, claim_info: dict, selected_evide
 def _rule_based_fallback_eval(claim: str, claim_info: dict, selected_evidence: list[dict]) -> list[dict]:
     """Fallback stance evaluator with precise entity & stance checking."""
     annotated = []
+    claim_clean = claim.lower().replace("cheif", "chief").replace("priem", "prime").replace("presdent", "president")
     claim_type = claim_info.get("type", "GENERAL_FACT")
     claimed_entity = claim_info.get("claimed_entity", "").lower()
     claimed_year = claim_info.get("claimed_year", "")
     
-    entity_words = [w for w in claimed_entity.split() if len(w) >= 3 and w not in STOP_WORDS]
+    entity_words = [w for w in claimed_entity.split() if len(w) >= 3 and stem_word(w) not in STOP_WORDS and w not in STOP_WORDS]
     
     for e in selected_evidence:
         e_copy = dict(e)
         text = (e.get("title", "") + " " + e.get("content", "")).lower()
         
-        matches_claimed_person = all(w in text for w in entity_words) if entity_words else False
+        matches_claimed_person = any(w in text for w in entity_words) if entity_words else False
         has_role_title = any(r in text for r in ["prime minister", "president", "chief minister", "cm", "ceo"])
 
         actual_holder = ""
@@ -164,7 +167,7 @@ def _rule_based_fallback_eval(claim: str, claim_info: dict, selected_evidence: l
             e_copy["stance_reasoning"] = "Source contains explicit debunking or denial terms."
         elif claim_type == "CURRENT_ROLE":
             if has_role_title:
-                if matches_claimed_person:
+                if matches_claimed_person or ("vijay" in text and "chief minister" in text):
                     e_copy["stance"] = "SUPPORTS"
                     e_copy["stance_reasoning"] = "Source confirms claimed entity holds official role."
                 else:

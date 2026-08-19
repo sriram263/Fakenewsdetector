@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 import config
 from knowledge_base import FactCheckKB
+from intent_classifier import classify_input_intent
 from query_generator import generate_multi_queries
 from retrieval import execute_tavily_search, execute_multi_query_retrieval
 from evidence_scorer import score_and_rank_candidates
@@ -35,34 +36,29 @@ class SmartAgent:
         except Exception as e:
             return []
 
-    def is_casual_chat(self, text: str) -> bool:
-        """Determines if user text is a casual greeting or meta-question."""
-        greetings = ["hi", "hello", "hey", "thanks", "thank you", "who are you", "what can you do", "help"]
-        norm = text.strip().lower()
-        return norm in greetings or any(norm.startswith(g) for g in ["hi ", "hello ", "hey "])
-
     def process_input(self, user_text, retrieval_mode=None, kb_enabled=None):
         """
-        Processes user text and returns structured result dictionary with sub-second optimization.
+        Processes user text with First-Stage Intent Classification.
         """
         start_time = time.time()
         
         mode = retrieval_mode if retrieval_mode is not None else config.RETRIEVAL_MODE
         use_kb = kb_enabled if kb_enabled is not None else config.KNOWLEDGE_BASE_ENABLED
 
-        # 1. CASUAL CHAT CHECK
-        if self.is_casual_chat(user_text):
+        # --- STAGE 1: FIRST-STAGE INTENT CLASSIFICATION ---
+        intent_info = classify_input_intent(user_text)
+        if intent_info["intent"] == "CONVERSATIONAL":
             try:
                 chat_reply, used_prov = generate_chat_completion(
                     messages=[
-                        {"role": "system", "content": "You are Veritas, a polite AI fact-checking assistant. Answer casual greetings concisely."},
+                        {"role": "system", "content": "You are Veritas AI, a friendly, professional AI fact-checking analyst. Respond warmly to greetings, farewells, or casual chatter."},
                         {"role": "user", "content": user_text}
                     ],
                     temperature=0.3,
                     max_tokens=150
                 )
-            except Exception as e:
-                chat_reply = "Hello! I am Veritas AI, your fact-checking analyst. Paste a news headline or claim to verify."
+            except Exception:
+                chat_reply = "Goodbye! Feel free to ask whenever you need to verify news or claims. Have a great day!"
                 
             return {
                 "ai_response": chat_reply,
@@ -88,7 +84,7 @@ class SmartAgent:
             "latency_ms": 0.0
         }
 
-        # --- PHASE 1: INSTANT SEMANTIC KNOWLEDGE BASE SEARCH ---
+        # --- STAGE 2: CONTEXTUAL SEMANTIC KNOWLEDGE BASE SEARCH ---
         if use_kb:
             kb_res = self.kb.search_similar_fact_check(user_text)
             retrieval_details["kb_status"] = kb_res["status"]
@@ -118,7 +114,7 @@ class SmartAgent:
                     "retrieval_details": retrieval_details
                 }
 
-        # --- PHASE 2: PARALLEL MULTI-QUERY RETRIEVAL ---
+        # --- STAGE 3: PARALLEL MULTI-QUERY RETRIEVAL ---
         selected_evidence = []
         queries_used = []
 
@@ -135,7 +131,6 @@ class SmartAgent:
             queries_used = queries_info
             retrieval_details["queries"] = queries_info
 
-            # Parallel multi-query retrieval (ThreadPoolExecutor)
             candidates, rstats = execute_multi_query_retrieval(queries_info)
             retrieval_details["raw_results_count"] = rstats["raw_results_count"]
             retrieval_details["deduplicated_count"] = rstats["deduplicated_count"]
@@ -146,12 +141,11 @@ class SmartAgent:
             retrieval_details["conflict_detected"] = sstats.get("conflict_detected", False)
             retrieval_details["domain_breakdown"] = sstats.get("domain_breakdown", {})
 
-        # --- PHASE 3: FAST CLAIM-EVIDENCE VERIFICATION & SYNTHESIS ---
+        # --- STAGE 4: CLAIM-EVIDENCE VERIFICATION & SYNTHESIS ---
         claim_info = analyze_claim_type(user_text)
         annotated_evidence = evaluate_evidence_relationships(user_text, claim_info, selected_evidence)
         verdict_synth = synthesize_verdict_and_confidence(user_text, claim_info, annotated_evidence)
 
-        # Single-pass unified LLM completion call for fast explanation summary
         prompt = f"""
         You are 'Veritas', an advanced AI News Analyst.
         
@@ -207,7 +201,6 @@ class SmartAgent:
                 }
                 ai_response = f"<VERDICT_JSON>\n{json.dumps(verdict_data, indent=2)}\n</VERDICT_JSON>"
 
-            # Store completed result in Knowledge Base for sub-second future queries
             if use_kb:
                 try:
                     self.kb.store_fact_check(

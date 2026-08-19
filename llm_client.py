@@ -11,7 +11,7 @@ def get_llm_client_and_model(provider=None):
     """
     prov = (provider or os.getenv("LLM_PROVIDER", "groq")).lower()
 
-    # 1. GROQ CLOUD (Primary Ultra-Fast Engine)
+    # 1. GROQ CLOUD (Primary Ultra-Fast Direct Model Engine)
     if prov == "groq":
         groq_key = os.getenv("GROQ_API_KEY")
         if groq_key:
@@ -19,10 +19,10 @@ def get_llm_client_and_model(provider=None):
                 base_url="https://api.groq.com/openai/v1",
                 api_key=groq_key
             )
-            return client, "groq/compound-mini", "groq"
+            return client, "allam-2-7b", "groq"
 
     # 2. GOOGLE GEMINI FLASH (Backup 1)
-    if prov == "gemini" or not provider:
+    if prov == "gemini":
         gem_key = os.getenv("GEMINI_API_KEY")
         if gem_key:
             client = OpenAI(
@@ -47,7 +47,7 @@ def get_llm_client_and_model(provider=None):
             base_url="https://api.groq.com/openai/v1",
             api_key=groq_key
         )
-        return client, "groq/compound-mini", "groq"
+        return client, "allam-2-7b", "groq"
 
     raise ValueError("No valid LLM API key found in .env! Please set GROQ_API_KEY or GEMINI_API_KEY.")
 

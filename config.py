@@ -3,6 +3,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Automatically bridge Streamlit Cloud Secrets (secrets.toml) into os.environ
+try:
+    import streamlit as st
+    if hasattr(st, "secrets"):
+        for key, val in st.secrets.items():
+            if isinstance(val, str) and key not in os.environ:
+                os.environ[key] = val
+except Exception:
+    pass
+
 # System Modes & Toggles
 RETRIEVAL_MODE = os.getenv("RETRIEVAL_MODE", "enhanced")  # "baseline" or "enhanced"
 KNOWLEDGE_BASE_ENABLED = os.getenv("KNOWLEDGE_BASE_ENABLED", "true").lower() == "true"
@@ -11,7 +21,7 @@ KNOWLEDGE_BASE_ENABLED = os.getenv("KNOWLEDGE_BASE_ENABLED", "true").lower() == 
 KB_DIR = os.getenv("KB_DIR", "./kb_data")
 KB_INDEX_FILE = os.path.join(KB_DIR, "kb_index.faiss")
 KB_METADATA_FILE = os.path.join(KB_DIR, "kb_metadata.json")
-SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.68"))
+SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.78"))
 DEFAULT_FRESHNESS_DAYS = int(os.getenv("DEFAULT_FRESHNESS_DAYS", "30"))
 TIME_SENSITIVE_FRESHNESS_DAYS = int(os.getenv("TIME_SENSITIVE_FRESHNESS_DAYS", "3"))
 

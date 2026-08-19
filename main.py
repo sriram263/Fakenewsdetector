@@ -1,33 +1,21 @@
 import streamlit as st
-import re
-import json
 import pytz
 from datetime import datetime
 from dotenv import load_dotenv
+
+import config
 from agent import SmartAgent
 
 # Load environment variables
 load_dotenv()
 
 # Page config
-st.set_page_config(page_title="Veritas | AI News Analyst", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="Veritas | AI News Analyst v2.1", page_icon="🛡️", layout="wide")
 
 # --- CSS STYLING ---
 st.markdown("""
     <style>
-    /* 1. VERDICT BOX STYLES */
-    .report-box { 
-        padding: 20px; 
-        border-radius: 12px; 
-        margin-top: 10px; 
-        margin-bottom: 5px; 
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
-    }
-    .real-box { background-color: #d1fae5; border-left: 6px solid #10b981; color: #064e3b; }
-    .fake-box { background-color: #fee2e2; border-left: 6px solid #ef4444; color: #7f1d1d; }
-    .uncertain-box { background-color: #fef3c7; border-left: 6px solid #f59e0b; color: #78350f; }
-    
-    /* 2. CHAT INPUT BORDER -> BLUE */
+    /* CHAT INPUT BORDER -> BLUE */
     div[data-testid="stChatInput"] > div {
         border-color: #3b82f6 !important; 
         border-width: 2px !important;
@@ -37,14 +25,12 @@ st.markdown("""
         box-shadow: 0 0 0 1px #2563eb !important;
     }
 
-    /* 3. GENERAL TWEAKS */
+    /* GENERAL TWEAKS */
     .stButton>button { width: 100%; border-radius: 8px; font-weight: 600; }
     
-    /* TIGHTEN SPACING: Pull expanders up closer to the box */
     div[data-testid="stExpander"] {
-        margin-top: 0px !important;
-        border: none !important;
-        box-shadow: none !important;
+        margin-top: 5px !important;
+        border-radius: 8px !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -63,9 +49,26 @@ with st.sidebar:
     sidebar_placeholder = st.empty()
     
     st.divider()
+
+    # Feature 1 & 2 Controls (Configurable Modes & KB Toggle)
+    with st.expander("⚙️ Engine & Knowledge Base Settings", expanded=True):
+        selected_mode = st.selectbox(
+            "Retrieval Engine Mode:",
+            ["enhanced", "baseline"],
+            index=0,
+            help="Enhanced: Multi-Query + Evidence Quality Ranking | Baseline: Single Tavily Query"
+        )
+        kb_enabled_toggle = st.toggle(
+            "Enable Semantic Knowledge Base",
+            value=True,
+            help="Store and reuse completed fact-checks via persistent local vector DB"
+        )
+        if st.button("🧹 Clear KB Memory", key="clear_kb_btn", type="secondary"):
+            st.session_state.agent.kb.clear_kb()
+            st.toast("Knowledge Base memory cleared!", icon="🧹")
     
     # Regional Settings (Default: India)
-    with st.expander("⚙️ Regional Settings"):
+    with st.expander("🌐 Regional Settings"):
         selected_timezone = st.selectbox(
             "Timezone:",
             ["Asia/Kolkata", "US/Pacific", "US/Eastern", "UTC", "Europe/London"],
@@ -74,9 +77,10 @@ with st.sidebar:
     
     with st.expander("ℹ️ How it works"):
         st.caption("""
-        1. **Paste a Headline:** Veritas searches the live web.
-        2. **AI Analysis:** Checks facts against 5+ sources.
-        3. **Verdict:** Real/Fake rating with evidence.
+        1. **Semantic KB Check:** Reuses verified fact-checks if fresh & similar.
+        2. **Multi-Query Expansion:** Generates 4 complementary queries.
+        3. **Claim-Evidence Verification:** Evaluates source stances (Supports/Refutes/Insufficient).
+        4. **AI Verdict:** Synthesizes calibrated verdict & confidence.
         """)
     st.markdown("Made with ❤️ by Sriram")
 
@@ -91,21 +95,18 @@ def render_sidebar_ui(unique_id):
         st.markdown("### 📊 Session Stats")
         col1, col2, col3 = st.columns(3)
         col1.metric("Checked", st.session_state.stats["checked"])
-        col2.metric("Real", st.session_state.stats["real"])
+        col1_val = st.session_state.stats["real"]
+        col2.metric("Real", col1_val)
         col3.metric("Fake", st.session_state.stats["fake"])
         
         st.markdown("---")
         st.markdown("### ⚙️ Controls")
         
         def generate_chat_log():
-            from bs4 import BeautifulSoup
             log = []
             for msg in st.session_state.messages:
                 role = "User" if msg["role"] == "user" else "Veritas"
-                content = msg.get("raw_text", "")
-                if not content: 
-                    soup = BeautifulSoup(msg["content"], "html.parser")
-                    content = soup.get_text(separator=" ", strip=True)
+                content = msg.get("explanation", msg.get("content", ""))
                 log.append(f"[{msg.get('timestamp', '')}] {role}: {content}")
             return "\n\n".join(log)
 
@@ -113,13 +114,13 @@ def render_sidebar_ui(unique_id):
 
         b_col1, b_col2 = st.columns(2)
         with b_col1:
-            if st.button("🧹 Clear", key=f"clear_{unique_id}", type="secondary"):
+            if st.button("🧹 Clear Chat", key=f"clear_{unique_id}", type="secondary"):
                 st.session_state.messages = []
                 st.session_state.stats = {"checked": 0, "real": 0, "fake": 0}
                 st.rerun()
         with b_col2:
             st.download_button(
-                label="📥 Save", 
+                label="📥 Save Log", 
                 data=chat_log, 
                 file_name="veritas_log.txt", 
                 mime="text/plain", 
@@ -135,23 +136,101 @@ st.title("🛡️ Veritas AI")
 st.markdown("#### *The Truth is Just a Search Away*")
 st.caption(f"📍 Region: {selected_timezone} | 🕒 Local Time: {get_current_time(selected_timezone)}")
 
+# Helper: Render Verdict Card matching Mockup UI
+def render_verdict_card(verdict_data, retrieval_details):
+    if not verdict_data:
+        return
+    
+    verdict = verdict_data.get("verdict", "UNCERTAIN").upper()
+    confidence = verdict_data.get("confidence", 0)
+    explanation = verdict_data.get("explanation", "")
+    
+    kb_badge = ""
+    if retrieval_details and retrieval_details.get("kb_reused"):
+        sim_pct = retrieval_details.get("kb_similarity", 0) * 100
+        kb_badge = f'<span style="background-color: #3b82f6; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.78rem; font-weight: 600; float: right;">⚡ KB Hit ({sim_pct:.1f}% Match)</span>'
+
+    if verdict == "REAL":
+        icon = "✅"
+        title = "Verified Real"
+        text_color = "#064e3b"
+        bg_color = "#d1fae5"
+        border_color = "#10b981"
+    elif verdict == "FAKE":
+        icon = "🚨"
+        title = "Flagged as Fake"
+        text_color = "#7f1d1d"
+        bg_color = "#fee2e2"
+        border_color = "#ef4444"
+    else:
+        icon = "⚠️"
+        title = "Unverified / Uncertain"
+        text_color = "#78350f"
+        bg_color = "#fef3c7"
+        border_color = "#f59e0b"
+
+    card_html = f"""<div style="background-color: {bg_color}; border-left: 6px solid {border_color}; color: {text_color}; padding: 22px 26px; border-radius: 16px; margin: 10px 0 15px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.06); font-family: system-ui, -apple-system, sans-serif;">{kb_badge}<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;"><span style="font-size: 1.8rem; line-height: 1;">{icon}</span><h2 style="margin: 0; padding: 0; font-size: 1.45rem; font-weight: 700; color: {text_color}; border: none; background: transparent; display: inline;">{title}</h2></div><div style="font-size: 0.92rem; opacity: 0.85; font-weight: 500; margin-bottom: 12px; margin-left: 2px;">Confidence: {confidence}%</div><div style="background: {border_color}; opacity: 0.25; height: 1px; margin-bottom: 14px; border-radius: 1px;"></div><div style="font-size: 1.05rem; line-height: 1.6; font-weight: 450; color: {text_color};">{explanation}</div></div>"""
+    
+    st.markdown(card_html, unsafe_allow_html=True)
+
+# Helper: Render Sources Expander
+def render_sources_expander(sources_data):
+    if not sources_data:
+        return
+    with st.expander("📚 Related News Sources & Evidence Stances"):
+        for idx, s in enumerate(sources_data, 1):
+            title = s.get('title', 'Unknown Title')
+            url = s.get('url', 'N/A')
+            category = s.get('domain_category', 'general').upper()
+            score = s.get('final_evidence_score', None)
+            stance = s.get('stance', 'INSUFFICIENT').upper()
+            
+            stance_icon = "✅" if stance == "SUPPORTS" else ("🚨" if stance == "REFUTES" else "ℹ️")
+            score_str = f" | Quality Score: {score}" if score is not None else ""
+            
+            st.markdown(f"**{idx}. {stance_icon} [{stance}]** [{category}] [{title}]({url}){score_str}")
+            if s.get("stance_reasoning"):
+                st.caption(f"_{s.get('stance_reasoning')}_")
+            elif s.get("content"):
+                snippet = s.get("content")[:200] + "..." if len(s.get("content", "")) > 200 else s.get("content")
+                st.caption(f"_{snippet}_")
+
+# Helper: Render Retrieval Details Expander
+def render_retrieval_details_expander(details):
+    if not details or details.get("is_chat"):
+        return
+    with st.expander("🔍 Evidence Retrieval & Fact-Check Details"):
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Retrieval Mode", details.get("retrieval_mode", "N/A").upper())
+        c2.metric("KB Status", details.get("kb_status", "N/A"))
+        c3.metric("KB Similarity", f"{details.get('kb_similarity', 0.0)*100:.1f}%")
+        c4.metric("Latency", f"{details.get('latency_ms', 0)} ms")
+
+        st.markdown("---")
+        st.markdown("##### 🎯 Multi-Query Expansion & Deduplication")
+        q_list = details.get("queries", [])
+        if q_list:
+            for q in q_list:
+                st.text(f"• [{q.get('category', 'query').upper()}] {q.get('query')} ({q.get('purpose', '')})")
+        else:
+            st.text("Single query executed.")
+
+        st.markdown(f"""
+        - **Raw Results Retrieved:** {details.get('raw_results_count', 0)}
+        - **After Deduplication:** {details.get('deduplicated_count', 0)} ({details.get('duplicates_removed', 0)} duplicates removed)
+        - **Final Top Sources Selected:** {len(details.get('selected_evidence', []))}
+        - **Cross-Source Conflict Detected:** {'⚠️ YES' if details.get('conflict_detected') else '✅ NO'}
+        """)
+
 # Display Chat History
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"], avatar="👤" if msg["role"] == "user" else "🛡️"):
-        # 1. Render HTML Content (If it's a Verdict)
-        if "html_content" in msg:
-            st.markdown(msg["html_content"], unsafe_allow_html=True)
-
-            # 2. Render Sources (ONLY if they exist in the saved message)
-            if "sources_data" in msg and msg["sources_data"]:
-                with st.expander("📚 Related News Sources"):
-                    formatted_sources = ""
-                    for idx, s in enumerate(msg["sources_data"], 1):
-                        formatted_sources += f"{idx}. {s.get('title', 'Unknown')}\n   URL: {s.get('url', 'N/A')}\n\n"
-                    st.code(formatted_sources, language="text")
+        if msg.get("verdict_data"):
+            render_verdict_card(msg.get("verdict_data"), msg.get("retrieval_details"))
+            render_sources_expander(msg.get("sources_data"))
+            render_retrieval_details_expander(msg.get("retrieval_details"))
         else:
-            # 3. Fallback for Chat (Normal Text)
-            st.markdown(msg["content"], unsafe_allow_html=True)
+            st.markdown(msg["content"])
         
         if "timestamp" in msg:
             st.caption(f"🕒 {msg['timestamp']}")
@@ -164,7 +243,6 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
     st.session_state.messages.append({
         "role": "user", 
         "content": prompt, 
-        "raw_text": prompt,
         "timestamp": current_time
     })
     with st.chat_message("user", avatar="👤"):
@@ -173,80 +251,47 @@ if prompt := st.chat_input("Paste news headline or ask a question..."):
 
     # 2. AI Processing
     with st.chat_message("assistant", avatar="🛡️"):
-        with st.spinner("🔍 Scanning global news sources..."):
+        with st.spinner("🔍 Executing multi-query expansion & claim-evidence verification..."):
             
-            agent_output = st.session_state.agent.process_input(prompt)
-            raw_text_response = agent_output["ai_response"]
-            sources_list = agent_output["sources"]
+            agent_output = st.session_state.agent.process_input(
+                prompt,
+                retrieval_mode=selected_mode,
+                kb_enabled=kb_enabled_toggle
+            )
             
-            # Extract Verdict
-            json_match = re.search(r'<VERDICT_JSON>(.*?)</VERDICT_JSON>', raw_text_response, re.DOTALL)
+            chat_response = agent_output.get("ai_response", "")
+            verdict_data = agent_output.get("verdict_data", None)
+            sources_list = agent_output.get("sources", [])
+            retrieval_details = agent_output.get("retrieval_details", {})
             
-            html_content = ""
-            is_news = False
-            
-            if json_match:
-                # --- IT IS NEWS ---
-                is_news = True
+            if verdict_data:
+                # Update Session Stats
                 st.session_state.stats["checked"] += 1
-                try:
-                    data = json.loads(json_match.group(1))
-                    verdict = data.get("verdict", "UNCERTAIN")
-                    confidence = data.get("confidence", 0)
-                    explanation_text = data.get("explanation", "Analysis complete.")
-                    
-                    if verdict == "REAL":
-                        st.session_state.stats["real"] += 1
-                        css = "real-box"
-                        icon = "✅"
-                        head = "Verified Real"
-                    elif verdict == "FAKE":
-                        st.session_state.stats["fake"] += 1
-                        css = "fake-box"
-                        icon = "🚨"
-                        head = "Flagged as Fake"
-                    else:
-                        css = "uncertain-box"
-                        icon = "⚠️"
-                        head = "Unverified"
+                v_str = verdict_data.get("verdict")
+                if v_str == "REAL":
+                    st.session_state.stats["real"] += 1
+                elif v_str == "FAKE":
+                    st.session_state.stats["fake"] += 1
 
-                    html_content = f"""
-                    <div class="report-box {css}">
-                        <h3 style="margin:0; padding-bottom: 5px;">{icon} {head}</h3>
-                        <p style="font-size:0.9em; opacity:0.8; margin: 0 0 10px 0;">Confidence: {confidence}%</p>
-                        <div style="background:rgba(0,0,0,0.1); height:1px; margin-bottom:12px;"></div>
-                        <p style="margin:0; line-height:1.5;">{explanation_text}</p>
-                    </div>
-                    """
-                except:
-                    html_content = raw_text_response
+                # Render Verdict Card & Expanders
+                render_verdict_card(verdict_data, retrieval_details)
+                render_sources_expander(sources_list)
+                render_retrieval_details_expander(retrieval_details)
             else:
-                # --- IT IS CHAT ---
-                # We use the raw text response directly (e.g., "Hello! How can I help?")
-                is_news = False
-                html_content = raw_text_response
-
-            # 3. Render Output
-            st.markdown(html_content, unsafe_allow_html=True)
-
-            # 4. Render Sources (Only if it's ACTUALLY news)
-            if sources_list and is_news:
-                with st.expander("📚 Related News Sources"):
-                    formatted_sources = ""
-                    for idx, s in enumerate(sources_list, 1):
-                        formatted_sources += f"{idx}. {s.get('title', 'Unknown')}\n   URL: {s.get('url', 'N/A')}\n\n"
-                    st.code(formatted_sources, language="text")
+                # Render Casual Chat Reply
+                st.markdown(chat_response)
 
             st.caption(f"🕒 {current_time}")
             
-            # 5. Save History
+            # Save History
             st.session_state.messages.append({
                 "role": "assistant", 
-                "content": html_content, 
-                "html_content": html_content if is_news else None, # Only save HTML for news
-                "raw_text": raw_text_response,
+                "content": chat_response, 
+                "verdict_data": verdict_data,
+                "explanation": verdict_data.get("explanation") if verdict_data else chat_response,
                 "timestamp": current_time,
-                "sources_data": sources_list if is_news else None
+                "sources_data": sources_list if verdict_data else None,
+                "retrieval_details": retrieval_details if verdict_data else None
             })
 
             # Force Sidebar Update

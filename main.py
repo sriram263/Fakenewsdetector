@@ -36,8 +36,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- STATE MANAGEMENT ---
-if "agent" not in st.session_state:
+# Re-instantiate agent to ensure new code & prompts take effect immediately
+if "agent" not in st.session_state or getattr(st.session_state.agent, "version", None) != "v2.1_fresh":
     st.session_state.agent = SmartAgent()
+    st.session_state.agent.version = "v2.1_fresh"
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "stats" not in st.session_state:
@@ -63,6 +66,12 @@ with st.sidebar:
             value=True,
             help="Store and reuse completed fact-checks via persistent local vector DB"
         )
+        if st.button("🔄 Refresh AI Engine", key="refresh_engine_btn", type="primary"):
+            st.session_state.agent = SmartAgent()
+            st.session_state.agent.version = "v2.1_fresh"
+            st.toast("AI Engine reloaded with latest models!", icon="🚀")
+            st.rerun()
+
         if st.button("🧹 Clear KB Memory", key="clear_kb_btn", type="secondary"):
             st.session_state.agent.kb.clear_kb()
             st.toast("Knowledge Base memory cleared!", icon="🧹")
@@ -117,6 +126,8 @@ def render_sidebar_ui(unique_id):
             if st.button("🧹 Clear Chat", key=f"clear_{unique_id}", type="secondary"):
                 st.session_state.messages = []
                 st.session_state.stats = {"checked": 0, "real": 0, "fake": 0}
+                st.session_state.agent = SmartAgent()
+                st.session_state.agent.version = "v2.1_fresh"
                 st.rerun()
         with b_col2:
             st.download_button(

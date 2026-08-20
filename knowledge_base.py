@@ -83,7 +83,6 @@ class FactCheckKB:
         Evaluates whether a stored KB entry is fresh based on timestamp, claim context, AND verification version.
         Returns (is_fresh: bool, age_days: float)
         """
-        # Version check: Entries created before v2.1 must be re-verified
         if entry.get("verification_version") != KB_VERSION:
             return False, 999.0
 
@@ -109,6 +108,7 @@ class FactCheckKB:
     def search_similar_fact_check(self, claim: str, threshold=config.SIMILARITY_THRESHOLD) -> dict:
         """
         Searches the Knowledge Base for a semantically similar previous fact check.
+        Only reuses entries with clear REAL or FAKE verdicts.
         """
         if not self.metadata_store or self.index is None or self.index.ntotal == 0:
             return {
@@ -136,8 +136,10 @@ class FactCheckKB:
             sim_score = float(dist)
             candidate_entry = self.metadata_store[idx]
             cand_claim = candidate_entry.get("original_claim", "")
+            cand_verdict = candidate_entry.get("verdict", "UNCERTAIN")
 
-            if sim_score >= threshold:
+            # Only reuse verified REAL or FAKE entries (never UNCERTAIN)
+            if cand_verdict in ["REAL", "FAKE"] and sim_score >= threshold:
                 if are_claims_entity_compatible(claim, cand_claim):
                     if sim_score > best_score:
                         best_score = sim_score
@@ -181,8 +183,13 @@ class FactCheckKB:
         metadata: dict = None
     ) -> dict:
         """
-        Stores a completed fact-check result with verification version v2.1 into the Knowledge Base.
+        Stores a completed fact-check result into the Knowledge Base.
+        Only stores high-confidence REAL or FAKE verdicts.
         """
+        # Guardrail: Do NOT pollute KB with UNCERTAIN or low-confidence verdicts
+        if verdict not in ["REAL", "FAKE"] or confidence < 60:
+            return None
+
         norm_claim = normalize_claim(original_claim)
         vec = get_embedding(norm_claim)
         

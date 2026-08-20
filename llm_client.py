@@ -1,4 +1,5 @@
 import os
+import sys
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -11,7 +12,7 @@ def get_llm_client_and_model(provider=None):
     """
     prov = (provider or os.getenv("LLM_PROVIDER", "groq")).lower()
 
-    # 1. GROQ CLOUD (Primary Ultra-Fast Direct Model Engine)
+    # 1. GROQ CLOUD (Primary Ultra-Fast Model Engine)
     if prov == "groq":
         groq_key = os.getenv("GROQ_API_KEY")
         if groq_key:
@@ -19,7 +20,7 @@ def get_llm_client_and_model(provider=None):
                 base_url="https://api.groq.com/openai/v1",
                 api_key=groq_key
             )
-            return client, "allam-2-7b", "groq"
+            return client, "openai/gpt-oss-120b", "groq"
 
     # 2. GOOGLE GEMINI FLASH (Backup 1)
     if prov == "gemini":
@@ -47,14 +48,15 @@ def get_llm_client_and_model(provider=None):
             base_url="https://api.groq.com/openai/v1",
             api_key=groq_key
         )
-        return client, "allam-2-7b", "groq"
+        return client, "openai/gpt-oss-120b", "groq"
 
     raise ValueError("No valid LLM API key found in .env! Please set GROQ_API_KEY or GEMINI_API_KEY.")
 
-def generate_chat_completion(messages, temperature=0.2, max_tokens=1000):
+def generate_chat_completion(messages, temperature=0.1, max_tokens=1000):
     """
     Executes LLM completion with automatic multi-provider fallback:
     Groq -> Gemini -> OpenRouter.
+    Completely isolated from console encoding bugs.
     """
     providers_to_try = []
     
@@ -75,13 +77,19 @@ def generate_chat_completion(messages, temperature=0.2, max_tokens=1000):
                 temperature=temperature,
                 max_tokens=max_tokens
             )
-            content = response.choices[0].message.content
+            
+            content = None
+            if response and response.choices and len(response.choices) > 0:
+                content = response.choices[0].message.content
+                
             if content:
                 if "<think>" in content and "</think>" in content:
                     content = content.split("</think>")[-1].strip()
+                # Return content immediately without any console print hazards
                 return content.strip(), used_prov
+
         except Exception as e:
-            print(f"[LLM Client] Provider '{prov}' attempt failed: {e}. Trying fallback...")
+            # Store API error and try next provider
             last_error = e
 
     raise RuntimeError(f"All LLM providers failed. Last error: {last_error}")

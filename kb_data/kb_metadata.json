@@ -1,39 +1,1057 @@
 [
   {
-    "id": "d536c23e-6823-40ea-a116-2151c17632a8",
+    "id": "94ff48ac-0c16-41bb-843f-60820ae2f10f",
     "verification_version": "v2.1",
-    "original_claim": "is vijay the cheif minister of tamil nadu?\n\n",
-    "normalized_claim": "vijay cheif minister tamil nadu",
-    "verdict": "REAL",
-    "confidence": 80,
-    "explanation": "Verified REAL: Reliable sources explicitly confirm this claim. Source confirms claimed entity holds official role.",
+    "original_claim": "Chandrayaan-3 crashed on the moon in 2023\n",
+    "normalized_claim": "chandrayaan 3 crash moon 2023",
+    "verdict": "FAKE",
+    "confidence": 95,
+    "explanation": "Multiple news sources report that Chandrayaan-3 successfully performed a soft landing near the Moon's south pole on 23 August 2023, confirming it did not crash. The claim of a crash directly contradicts these reports.",
     "evidence_snippets": [
-      "# Tamil film star Vijay is Indian state chief minister after days of uncertainty\n\nTVK Actor Vijay on the campaign trail in Tamil Nadu in 2026\n\nFilm star-turned-politician C Joseph Vijay has been sworn in as the new chief minister of the Indian state of Tamil Nadu, ending days of political uncertainty.\n\nThe 51-year-old's newly-formed party Tamilaga Vettri Kazhagam (TVK) won 108 seats in last week's vote-counting - leaving him 10 seats short of a majority in the 234-member assembly.",
-      "Actor-turned-politician Vijay has edged past incumbent MK Stalin as the preferred chief ministerial choice among voters in Tamil Nadu, according to the",
-      "img\nimg\n\n# Vijay Officially Takes Charge As The Chief Minister Of Tamil Nadu\n\nTVK Chief Vijay officially took charge as the Chief Minister of Tamil Nadu at the State Secretariat after he was sworn-in as the Chief Minister on Sunday.\n\n## Related Videos\n\nKarti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\n### Karti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\n365 Days Maternity Leave For Third Child: Vijay Govt's Big Women-Centric Move [...] ### BJP Questions ₹5.5 Crore Tender For Tamil Nadu CMO Shift, Govt Rejects Claims\n\nDMK Targets CM Vijay Over Giving Trisha Front Seat During Independence Day Ceremony\n\n### DMK Targets CM Vijay Over Giving Trisha Front Seat During Independence Day Ceremony\n\n## Just Added\n\nCM Omar Abdullah To US Envoy: J&K Issues Won’t Be Solved By Washington\n\n### CM Omar Abdullah To US Envoy: J&K Issues Won’t Be Solved By Washington\n\nJharkhand Students Suspend Protest For 2 Months, Warn Of Fresh Agitation [...] ### Karti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\nAdidas Releases New Pet Kits Featuring Seven Biggest Football Clubs\n\n### Adidas Releases New Pet Kits Featuring Seven Biggest Football Clubs\n\nOpenAI Launches ChatGPT For Teens : Children Aged 13 To 17 Get Stronger Protections\n\n### OpenAI Launches ChatGPT For Teens : Children Aged 13 To 17 Get Stronger Protections\n\nMeta Under Scrutiny : Child Safety Trial Opens In California | Meta Faces Trillion-Dollar Legal Thre",
-      "He wasn't the only one to spring a surprise. TVK candidates - mostly debutants - won 108 seats, leaving Vijay's party just 10 short of a majority in Tamil Nadu's 234-member assembly and pulling off one of the most stunning upsets in recent Indian political history. The actor was sworn in as the state's chief minister on Sunday after days of uncertainty about whether he would get enough numbers to form the government. [...] \"What kind of experience (did) the DMK have when they came to power in 1967? Our aim is to provide a clean administration, and our leader can do that,\" Badhurudeen says.\n\nThere is little doubt that Vijay has made history, single-handedly taking on Tamil Nadu's entrenched political giants, the DMK and AIADMK.\n\nBut amid the celebrations, there is growing recognition that winning an election is only the beginning in politics. [...] In many of his films he portrayed the image of an angry man fighting against corruption, injustice and inequality. He projected himself as a man who stood for the underprivileged and the voiceless - the defender of social justice. That made him hugely popular with fans.\n\nTVK Four women, four men and a child pose for a photo. \n\nOne of Vijay's biggest advantages was the network of around 85,000 fan clubs he had carefully cultivated over his 30‑year career in the Tamil film industry.",
-      "He launched his political party, Tamilaga Vettri Kazhagam (TVK), in 2024 and soon after announced that he would retire from films to pursue politics full-time. His upcoming film this month, Jana Nayagan (The People's Hero), would be his farewell release, he said.\n\nVijay's reasoning was explicit: politics, he argued, is not something one can dabble in. Tamil Nadu's voters, he said, deserved nothing less than full commitment. And the state's political history supports that calculation. [...] Vijay launched his political party, Tamilaga Vettri Kazhagam (TVK), in 2024\n\nChennai-based film critic Aditya Shrikrishna noted that Vijay's appeal has not rested on acting prowess alone. \"He's not a Kamal Haasan or Rajinikanth in terms of filmography,\" he said. \"But his box office pull and fandom are huge and undeniably influential. Dancing, comedy and a keen understanding of populist cinema are his strengths.\" [...] From extremely successful political stints of MG Ramachandran - popularly known as MGR - and Jayalalithaa to the more ambivalent experiments of Rajnikanth, Kamal Haasan, Khushbu and Vijayakanth, the state has repeatedly seen cinema icons turn into full-time politicians. MGR and Jayalalithaa even became chief ministers.\n\nNow Tamil superstar C Joseph Vijay, known as \"Thalapathy\" Vijay (General Vijay), is the latest to join the list."
+      "That foundation further culminated in a historic achievement on 23 August 2023. Chandrayaan-3 made India the first country to achieve a soft landing near the Moon's south pole and the fourth nation after the United States, Russia, and China to successfully soft-land on the lunar surface. The Vikram lander touched down at 69.3° South latitude, a region never previously reached by any spacecraft. Scientific instruments conducted in-situ studies and confirmed the presence of Sulphur through direct [...] ISRO & NASA [...] Lunar Exploration - The Chandrayaan Programme",
+      "In 2023, Chandrayaan-3 made India the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall (7). The Indian team completed the mission on a budget that was orders of magnitude below cumulative Artemis spending. Of course, Artemis is a fundamentally different mission class. It is a multimission, crewed exploration program designed to return astronauts to the Moon and establish a sustained presence, requiring [...] With the landing of Chandrayaan-3 in 2023, India became the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall. Image credit: Indian Space Research Organisation.\n\nGo to FigureOpen in Viewer\n\nFig. 1.\n\nImage 12: Flowchart shows four phases from top to bottom: Initial Mission, Incremental Enhancement, Iterative Improvement, and Successful Execution. [...] Open in ViewerImage 6: Photograph of the lunar module on the moon’s surface with a dark sky in the background.\n\nWith the landing of Chandrayaan-3 in 2023, India became the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall. Image credit: Indian Space Research Organisation.",
+      "The recognition comes nearly three years after Chandrayaan-3 created history on August 23, 2023, by becoming the first spacecraft to successfully achieve a soft landing near the Moon’s south pole — a region considered scientifically significant and strategically important for future exploration.\n\nSign up for Open Magazine's ad-free experience\n\nEnjoy uninterrupted access to premium content and insights.\n\nGo Ad-Free [...] Share\n\nShare\n\nIndia’s Chandrayaan-3 mission received the prestigious 2026 AIAA Goddard Astronautics Award for its historic lunar south pole landing and contributions to future Moon exploration and scientific research\n\nAn image of the moon’s surface taken by Chandrayaan-3’s lander during its descent, August 23, 2023 (Photo: AP) [...] Go Ad-Free\n\nThe mission marked a defining moment for Indian Space Research Organisation and positioned India among the world’s leading spacefaring nations.\n\n## Why Was the Moon’s South Pole Mission So Significant?\n\nBefore Chandrayaan-3, no spacecraft had successfully landed near the Moon’s south polar region.",
+      "Chandrayaan-3 Missionis the second attempt of the Indian Space Research Organisation after the Chandrayaan-2 to demonstrate the capability of India in safe landing and roving on the lunar surface. The Lander Module of Chandrayaan-3 carrying the Lander, Vikram and Rover, Pragyan, made the historic soft landing on the surface of the Lunar South Pole on August 23, 2023. Thus, India became the first nation to soft-land on the surface of the Lunar south pole and overall the fourth to do a soft [...] fourth to do a soft landing anywhere on the Earth’s natural satellite. Indian Space Research Organisation launched the Chandrayaan-3 Mission by using the Geosynchronous Satellite Launch Vehicle Mark III (LVM3) on 14th July 2023 from Sriharikota. [...] The Chandrayaan 3 Mission was launched using the LVM3 rocket system. LVM3 is the new launch vehicle of ISRO with the capability to place the modules into the GTO (Geosynchronous Transfer Orbit) in a cost-effective manner. It is a three-stage launch vehicle with two solid strap stages and one core liquid stage. The Launcher, LVM3 M4, placed the integrated Modules in an Elliptic Parking Orbit of size approx. 170 x 36500 km (a GTO).\n\n### Objectives of Chandrayaan 3 Mission",
+      "Chandrayaan-3 was successfully landed near the lunar south pole by the Indian Space Research Organisation (ISRO), led the mission on 14 July 2023. Vikram's safe landing and Pragyan's deployment were the main focus of the August team.  \n   \n ISRO engineers hoped the propulsion module could still be useful for other operations after the lander and rover achieve their main goals. [...] Join Us\n\nWatch Live TV\n\nEnglish\n\nHindi\n\nLIVE TV\n\nIn Trends\n\nSensex TodayQ1 ResultsUS-Iran WarWeather Update\n\n# Explained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost\n\n## Chandrayaan-3 was successfully launched by the Indian Space Research Organisation (ISRO) on July 14, 2023.\n\nBy CNBCTV18December 30, 2025, 2:10:19 PM IST (Published)\n\n3 Min Read\n\nCNBCTV18 on Google\n\nExplained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost [...] Instead of keeping the module in lunar orbit, a carefully planned sequence of operations in October 2023 increased its velocity and initiated a Trans-Earth Injection (TEI) burn, placing it on a highly elliptical course around Earth with an apogee of approximately 380,000 km.  \n   \n However, the Chandrayaan-3 propulsion module’s extended trajectory around Earth brought it close enough to the Moon’s sphere of influence (SOI) again in early November 2025."
     ],
     "source_urls": [
-      "https://www.bbc.com/news/articles/ce8p2d97482o",
-      "https://www.hindustantimes.com/india-news/vijay-not-stalin-the-preferred-cm-for-tamil-nadu-voters-predicts-axis-my-india-tvk-news-101777474730629.html",
-      "https://www.ndtv.com/video/vijay-officially-takes-charge-as-the-chief-minister-of-tamil-nadu-1097394",
-      "https://www.bbc.com/news/articles/cj4pn1z8x45o",
-      "https://www.bbc.co.uk/news/articles/cx2k5kxk3plo"
+      "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=158973&ModuleId=3&reg=3&lang=1",
+      "https://www.pnas.org/doi/10.1073/pnas.2514657123",
+      "https://openthemagazine.com/world/chandrayaan-3-wins-prestigious-2026-aiaa-goddard-astronautics-award",
+      "https://vajiramandravi.com/upsc-exam/chandrayaan-3",
+      "https://www.cnbctv18.com/india/science/explained-how-the-moon-gave-chandrayaan-3s-propulsion-module-an-unexpected-orbital-boost-ws-l-19807996.htm"
     ],
     "source_titles": [
-      "Vijay, Tamil Nadu election results 2026: Film star takes oath as chief minister",
-      "Vijay, not Stalin, the preferred CM for Tamil Nadu voters, predicts Axis My India | India News",
-      "Video | Vijay Officially Takes Charge As The Chief Minister Of Tamil Nadu",
-      "Vijay, TVK: How social media turned Indian film star into a political force in Tamil Nadu",
-      "Vijay: The Indian film star turning politician in Tamil Nadu - BBC News"
+      "Press Note Details: Press Information Bureau",
+      "Democratizing space: India’s frugal space innovation provides key lessons for emerging nations",
+      "Chandrayaan-3 Honoured with 2026 AIAA Goddard Astronautics Award for Historic Moon South Pole Landing",
+      "Chandrayaan 3 - Complete Details on Chandrayaan 3 Mission",
+      "Explained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost - CNBC TV18"
+    ],
+    "source_domains": [
+      "pib.gov.in",
+      "pnas.org",
+      "openthemagazine.com",
+      "vajiramandravi.com",
+      "cnbctv18.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "pib.gov.in",
+        "score": 1.0,
+        "category": "official"
+      },
+      {
+        "domain": "pnas.org",
+        "score": 0.9,
+        "category": "academic"
+      },
+      {
+        "domain": "openthemagazine.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "vajiramandravi.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "cnbctv18.com",
+        "score": 0.6,
+        "category": "general"
+      }
+    ],
+    "publication_dates": [
+      "Sun, 21 Jun 2026 00:00:00 GMT",
+      "Tue, 24 Feb 2026 00:00:00 GMT",
+      "Fri, 22 May 2026 00:00:00 GMT",
+      "Sat, 11 Jul 2026 05:31:24 GMT",
+      "Tue, 30 Dec 2025 08:40:19 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:09:20.727645",
+    "retrieval_timestamp": "2026-08-20T10:09:20.727645",
+    "search_queries_used": [
+      "Chandrayaan-3 crash moon 2023",
+      "ISRO official report Chandrayaan-3 mission outcome 2023",
+      "Did Chandrayaan-3 successfully land on the moon in 2023?"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=158973&ModuleId=3&reg=3&lang=1",
+        "title": "Press Note Details: Press Information Bureau",
+        "content": "That foundation further culminated in a historic achievement on 23 August 2023. Chandrayaan-3 made India the first country to achieve a soft landing near the Moon's south pole and the fourth nation after the United States, Russia, and China to successfully soft-land on the lunar surface. The Vikram lander touched down at 69.3° South latitude, a region never previously reached by any spacecraft. Scientific instruments conducted in-situ studies and confirmed the presence of Sulphur through direct [...] ISRO & NASA [...] Lunar Exploration - The Chandrayaan Programme",
+        "score": 0.8665964,
+        "published_date": "Sun, 21 Jun 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "1cbb75-00",
+        "search_query": "ISRO official report Chandrayaan-3 mission outcome 2023",
+        "query_category": "official",
+        "normalized_url": "pib.gov.in/PressNoteDetails.aspx",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.3105,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6642,
+        "domain": "pib.gov.in",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2514657123",
+        "title": "Democratizing space: India’s frugal space innovation provides key lessons for emerging nations",
+        "content": "In 2023, Chandrayaan-3 made India the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall (7). The Indian team completed the mission on a budget that was orders of magnitude below cumulative Artemis spending. Of course, Artemis is a fundamentally different mission class. It is a multimission, crewed exploration program designed to return astronauts to the Moon and establish a sustained presence, requiring [...] With the landing of Chandrayaan-3 in 2023, India became the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall. Image credit: Indian Space Research Organisation.\n\nGo to FigureOpen in Viewer\n\nFig. 1.\n\nImage 12: Flowchart shows four phases from top to bottom: Initial Mission, Incremental Enhancement, Iterative Improvement, and Successful Execution. [...] Open in ViewerImage 6: Photograph of the lunar module on the moon’s surface with a dark sky in the background.\n\nWith the landing of Chandrayaan-3 in 2023, India became the first nation to achieve a soft landing near the Moon’s south pole and only the fourth country to accomplish a lunar soft landing overall. Image credit: Indian Space Research Organisation.",
+        "score": 0.79215926,
+        "published_date": "Tue, 24 Feb 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "b22d68-01",
+        "search_query": "Chandrayaan-3 crash moon 2023",
+        "query_category": "direct",
+        "normalized_url": "pnas.org/doi/10.1073/pnas.2514657123",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.3084,
+        "credibility_score": 0.9,
+        "domain_category": "academic",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6284,
+        "domain": "pnas.org",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://openthemagazine.com/world/chandrayaan-3-wins-prestigious-2026-aiaa-goddard-astronautics-award",
+        "title": "Chandrayaan-3 Honoured with 2026 AIAA Goddard Astronautics Award for Historic Moon South Pole Landing",
+        "content": "The recognition comes nearly three years after Chandrayaan-3 created history on August 23, 2023, by becoming the first spacecraft to successfully achieve a soft landing near the Moon’s south pole — a region considered scientifically significant and strategically important for future exploration.\n\nSign up for Open Magazine's ad-free experience\n\nEnjoy uninterrupted access to premium content and insights.\n\nGo Ad-Free [...] Share\n\nShare\n\nIndia’s Chandrayaan-3 mission received the prestigious 2026 AIAA Goddard Astronautics Award for its historic lunar south pole landing and contributions to future Moon exploration and scientific research\n\nAn image of the moon’s surface taken by Chandrayaan-3’s lander during its descent, August 23, 2023 (Photo: AP) [...] Go Ad-Free\n\nThe mission marked a defining moment for Indian Space Research Organisation and positioned India among the world’s leading spacefaring nations.\n\n## Why Was the Moon’s South Pole Mission So Significant?\n\nBefore Chandrayaan-3, no spacecraft had successfully landed near the Moon’s south polar region.",
+        "score": 0.92125154,
+        "published_date": "Fri, 22 May 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "5b2682-04",
+        "search_query": "Did Chandrayaan-3 successfully land on the moon in 2023?",
+        "query_category": "contradiction",
+        "normalized_url": "openthemagazine.com/world/chandrayaan-3-wins-prestigious-2026-aiaa-goddard-astronautics-award",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.4364,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5746,
+        "domain": "openthemagazine.com",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://vajiramandravi.com/upsc-exam/chandrayaan-3",
+        "title": "Chandrayaan 3 - Complete Details on Chandrayaan 3 Mission",
+        "content": "Chandrayaan-3 Missionis the second attempt of the Indian Space Research Organisation after the Chandrayaan-2 to demonstrate the capability of India in safe landing and roving on the lunar surface. The Lander Module of Chandrayaan-3 carrying the Lander, Vikram and Rover, Pragyan, made the historic soft landing on the surface of the Lunar South Pole on August 23, 2023. Thus, India became the first nation to soft-land on the surface of the Lunar south pole and overall the fourth to do a soft [...] fourth to do a soft landing anywhere on the Earth’s natural satellite. Indian Space Research Organisation launched the Chandrayaan-3 Mission by using the Geosynchronous Satellite Launch Vehicle Mark III (LVM3) on 14th July 2023 from Sriharikota. [...] The Chandrayaan 3 Mission was launched using the LVM3 rocket system. LVM3 is the new launch vehicle of ISRO with the capability to place the modules into the GTO (Geosynchronous Transfer Orbit) in a cost-effective manner. It is a three-stage launch vehicle with two solid strap stages and one core liquid stage. The Launcher, LVM3 M4, placed the integrated Modules in an Elliptic Parking Orbit of size approx. 170 x 36500 km (a GTO).\n\n### Objectives of Chandrayaan 3 Mission",
+        "score": 0.8627572,
+        "published_date": "Sat, 11 Jul 2026 05:31:24 GMT",
+        "raw_content": null,
+        "id": "8c72d6-01",
+        "search_query": "ISRO official report Chandrayaan-3 mission outcome 2023",
+        "query_category": "official",
+        "normalized_url": "vajiramandravi.com/upsc-exam/chandrayaan-3",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.4254,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5701,
+        "domain": "vajiramandravi.com",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://www.cnbctv18.com/india/science/explained-how-the-moon-gave-chandrayaan-3s-propulsion-module-an-unexpected-orbital-boost-ws-l-19807996.htm",
+        "title": "Explained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost - CNBC TV18",
+        "content": "Chandrayaan-3 was successfully landed near the lunar south pole by the Indian Space Research Organisation (ISRO), led the mission on 14 July 2023. Vikram's safe landing and Pragyan's deployment were the main focus of the August team.  \n   \n ISRO engineers hoped the propulsion module could still be useful for other operations after the lander and rover achieve their main goals. [...] Join Us\n\nWatch Live TV\n\nEnglish\n\nHindi\n\nLIVE TV\n\nIn Trends\n\nSensex TodayQ1 ResultsUS-Iran WarWeather Update\n\n# Explained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost\n\n## Chandrayaan-3 was successfully launched by the Indian Space Research Organisation (ISRO) on July 14, 2023.\n\nBy CNBCTV18December 30, 2025, 2:10:19 PM IST (Published)\n\n3 Min Read\n\nCNBCTV18 on Google\n\nExplained: How the Moon gave Chandrayaan-3’s propulsion module an unexpected orbital boost [...] Instead of keeping the module in lunar orbit, a carefully planned sequence of operations in October 2023 increased its velocity and initiated a Trans-Earth Injection (TEI) burn, placing it on a highly elliptical course around Earth with an apogee of approximately 380,000 km.  \n   \n However, the Chandrayaan-3 propulsion module’s extended trajectory around Earth brought it close enough to the Moon’s sphere of influence (SOI) again in early November 2025.",
+        "score": 0.9527197,
+        "published_date": "Tue, 30 Dec 2025 08:40:19 GMT",
+        "raw_content": null,
+        "id": "77eb28-01",
+        "search_query": "Did Chandrayaan-3 successfully land on the moon in 2023?",
+        "query_category": "contradiction",
+        "normalized_url": "cnbctv18.com/india/science/explained-how-the-moon-gave-chandrayaan-3s-propulsion-module-an-unexpected-orbital-boost-ws-l-19807996.htm",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.4131,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5652,
+        "domain": "cnbctv18.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source contradicts the claim."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "5b9b1bb8-acbf-4680-a178-cadcbdecea59",
+    "verification_version": "v2.1",
+    "original_claim": "India banned ₹2000 rupee notes in 2025\n",
+    "normalized_claim": "ban rupee 2000 rupee not 2025",
+    "verdict": "FAKE",
+    "confidence": 90,
+    "explanation": "Flagged as FAKE: Credible evidence directly contradicts this claim. Article says there is no ban on circulation of ₹2000 notes.",
+    "evidence_snippets": [
+      "Currently, there are 100, 200, 500 and 2000 rupee notes in circulation in India. Since 2023, India has stopped printing new 2000 rupee notes. It has also issued a notice to the citizens to bring back the 2000 rupee notes printed before that. There is no ban on the circulation of 2000 rupee notes. Therefore, the new arrangement made by the RBI has paved the way for the exchange of all the mentioned Indian notes in Nepal. [...] India has allowed the Central Bank of India to transport (import-export) up to 25,000 rupees to Nepal and Bhutan through the amendment to the Foreign Exchange (Import and Export of Currency) Regulations, 2025. ‘Citizens of Nepal and Bhutan, including Indians, will be able to bring notes of denominations greater than 100 rupees equivalent to 25,000 rupees into India and take them back to Nepal,’ says the new regulation issued by the RBI. [...] the banned Indian rupees with the general public. However, NRB spokesperson Poudel said that efforts are ongoing to exchange the five hundred and thousand rupee notes we have.",
+      "at the close of business on October 31, 2025. “Thus, 98.37 per cent of the Rs 2,000 banknotes in circulation as on May 19, 2023, has since been returned,” the RBI said in its statement.The facility to exchange Rs 2,000 notes has been available at 19 RBI issue offices since May 19, 2023. From October 9, 2023, individuals and entities can also deposit these notes into their bank accounts at RBI offices.In addition, the public can send Rs 2,000 banknotes through India Post from any post office in [...] Copyright © 2025 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service\n\nFollow Us On [...] Edition\n\nIN\n\n IN\n US\n\nEnglish\n\n English\n हिन्दी\n मराठी\n ಕನ್ನಡ\n தமிழ்\n বাংলা\n മലയാളം\n తెలుగు\n ગુજરાતી\n\nTOI logo\n\nSign In\n\nToday's ePaper\n\n News\n Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned\n\n# Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned\n\nTOI Business Desk / TIMESOFINDIA.COM /  Nov 01, 2025, 17:37 IST\n\nShare\n\nAA\n\nText Size\n\n Small\n Medium\n Large",
+      "announced their withdrawal, official data showed on Monday.The RBI had notified the withdrawal of the denomination on May 19, 2023, while clarifying that the notes would continue to be legal tender. At that time, the total value of Rs 2000 notes in circulation stood at Rs 3.56 lakh crore, PTI reported.According to the central bank, the figure has now shrunk to Rs 5,956 crore as of August 31, 2025. “Thus, 98.33 per cent of the Rs 2000 banknotes in circulation as on May 19, 2023, has since been [...] Copyright © 2025 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service\n\nFollow Us On [...] Across The Globe\n\nJason KelceBrittany MahomesJosh Allen WifeCollege FootballTravis KelceMicah ParsonTaylor SwiftJosh AllenNFL Power CouplesBrenden RiceDonald TrumpPatrick Mahomes WifeHailee SteinfeldSCO Summit 2025LeBron JamesDwyane Wade WifeShai Gilgeous AlexanderAlex PalouColin KaepernickPeter NavarroAsia Cup 2025Mitch MarnerPiotr SzczerekWWE RAW PreviewJim KellyDak PrescottAlex Ovechkin ParentsTaylor Swift EngagementEuroBasket 2025Polish CEO Controversy\n\nlogo",
+      "Access\naccess logo\n\n# Over 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha\n\n## Ministry of Finance told Lok Sabha that 98.38 percent of withdrawn ₹2,000 notes have returned to banks, citing Reserve Bank of India data after the May 2023 withdrawal announcement.\n\nCNBCTV18 on Google\nOver 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha\n\n### Tags\n\naccess logo\n\nNews\n\nLive TV\n\nMarket\n\nPopular Categories\n\nCalculators\n\nTrending Now",
+      "On Thursday, the RBI released a bulletin regarding the status of Rs 2000 notes. \"The total value of Rs 2000 banknotes in circulation, which was Rs 3.56 lakh crore at the close of business on May 19, 2023, when the withdrawal of Rs 2000 banknotes was announced, has declined to Rs 5,669 crore at the close of business on December 31, 2025,\" the central bank said in a January 1st update. [...] So, big question - Are Rs 2,000 bank notes illegal now? The answer - No. The RBI has clarified that Rs 2,000 bank notes, despite the withdrawal order, still remain a legal tender. So, this means in case an individual still holds a Rs 2000 note, it is not a crime. However, one must return the note to the central bank.\n\nHow to Exchange Rs 2000 Banknotes: Step-by-Step Guide\n\n## Related Stories\n\nStep 1: Note the closure of bank branch facility [...] MC Logo\n\nAmid slew of money changes that have come into force from January 1st, the Reserve Bank of India has given a key update on Rs 2,000 currency notes. Three years after the central bank had announced the withdrawal of these currency notes, the latest official data suggests that a small percentage of the bank notes are still in circulation."
+    ],
+    "source_urls": [
+      "https://ekantipur.com/business/2025/12/05/en/india-allows-nepal-to-use-indian-rupee-notes-of-denominations-higher-than-100-48-19.html",
+      "https://timesofindia.indiatimes.com/business/india-business/currency-update-rs-2000-notes-worth-rs-5817-crore-still-in-circulation-rbi-says-98-37-of-high-value-bills-returned/articleshow/125015931.cms",
+      "https://timesofindia.indiatimes.com/business/india-business/currency-circulation-rs-2000-notes-worth-rs-5956-crore-still-remain-rbi-says-98-returned-since-withdrawal/articleshow/123638356.cms",
+      "https://www.cnbctv18.com/business/finance/over-98-pc-of-rs-2000-notes-returned-to-banking-system-finmin-lok-sabha-ws-l-19784572.htm",
+      "https://www.moneycontrol.com/news/business/do-you-still-have-rs-2-000-bank-note-check-what-rbi-says-about-its-legal-validity-and-how-to-exchange-13755066.html"
+    ],
+    "source_titles": [
+      "India allows Nepal to use Indian rupee notes of denominations higher than 100 - कान्तिपुर",
+      "Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned - The Times of India",
+      "Currency circulation: Rs 2000 notes worth Rs 5,956 crore still remain; RBI says 98% returned since withdrawal - The Times of India",
+      "Over 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha - CNBC TV18",
+      "Do you still have Rs 2,000 bank note? Check what RBI says about its legal validity and how to exchange"
+    ],
+    "source_domains": [
+      "ekantipur.com",
+      "timesofindia.indiatimes.com",
+      "timesofindia.indiatimes.com",
+      "cnbctv18.com",
+      "moneycontrol.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "ekantipur.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "timesofindia.indiatimes.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "timesofindia.indiatimes.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "cnbctv18.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "moneycontrol.com",
+        "score": 0.6,
+        "category": "general"
+      }
+    ],
+    "publication_dates": [
+      "Fri, 05 Dec 2025 00:00:00 GMT",
+      "Sat, 01 Nov 2025 00:00:00 GMT",
+      "Mon, 01 Sep 2025 00:00:00 GMT",
+      "Mon, 08 Dec 2025 12:04:42 GMT",
+      "Sat, 03 Jan 2026 02:47:01 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:10:43.207677",
+    "retrieval_timestamp": "2026-08-20T10:10:43.207677",
+    "search_queries_used": [
+      "India 2000 rupee note ban 2025",
+      "Reserve Bank of India official announcement 2000 rupee note withdrawal 2025",
+      "Who is the current Finance Minister of India?"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://ekantipur.com/business/2025/12/05/en/india-allows-nepal-to-use-indian-rupee-notes-of-denominations-higher-than-100-48-19.html",
+        "title": "India allows Nepal to use Indian rupee notes of denominations higher than 100 - कान्तिपुर",
+        "content": "Currently, there are 100, 200, 500 and 2000 rupee notes in circulation in India. Since 2023, India has stopped printing new 2000 rupee notes. It has also issued a notice to the citizens to bring back the 2000 rupee notes printed before that. There is no ban on the circulation of 2000 rupee notes. Therefore, the new arrangement made by the RBI has paved the way for the exchange of all the mentioned Indian notes in Nepal. [...] India has allowed the Central Bank of India to transport (import-export) up to 25,000 rupees to Nepal and Bhutan through the amendment to the Foreign Exchange (Import and Export of Currency) Regulations, 2025. ‘Citizens of Nepal and Bhutan, including Indians, will be able to bring notes of denominations greater than 100 rupees equivalent to 25,000 rupees into India and take them back to Nepal,’ says the new regulation issued by the RBI. [...] the banned Indian rupees with the general public. However, NRB spokesperson Poudel said that efforts are ongoing to exchange the five hundred and thousand rupee notes we have.",
+        "score": 0.6912478,
+        "published_date": "Fri, 05 Dec 2025 00:00:00 GMT",
+        "raw_content": null,
+        "id": "28b43d-02",
+        "search_query": "India 2000 rupee note ban 2025",
+        "query_category": "direct",
+        "normalized_url": "ekantipur.com/business/2025/12/05/en/india-allows-nepal-to-use-indian-rupee-notes-of-denominations-higher-than-100-48-19.html",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.5564,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 0.4,
+        "final_evidence_score": 0.5625,
+        "domain": "ekantipur.com",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/business/india-business/currency-update-rs-2000-notes-worth-rs-5817-crore-still-in-circulation-rbi-says-98-37-of-high-value-bills-returned/articleshow/125015931.cms",
+        "title": "Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned - The Times of India",
+        "content": "at the close of business on October 31, 2025. “Thus, 98.37 per cent of the Rs 2,000 banknotes in circulation as on May 19, 2023, has since been returned,” the RBI said in its statement.The facility to exchange Rs 2,000 notes has been available at 19 RBI issue offices since May 19, 2023. From October 9, 2023, individuals and entities can also deposit these notes into their bank accounts at RBI offices.In addition, the public can send Rs 2,000 banknotes through India Post from any post office in [...] Copyright © 2025 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service\n\nFollow Us On [...] Edition\n\nIN\n\n IN\n US\n\nEnglish\n\n English\n हिन्दी\n मराठी\n ಕನ್ನಡ\n தமிழ்\n বাংলা\n മലയാളം\n తెలుగు\n ગુજરાતી\n\nTOI logo\n\nSign In\n\nToday's ePaper\n\n News\n Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned\n\n# Currency update: Rs 2,000 notes worth Rs 5,817 crore still in circulation; RBI says 98.37% of high-value bills returned\n\nTOI Business Desk / TIMESOFINDIA.COM /  Nov 01, 2025, 17:37 IST\n\nShare\n\nAA\n\nText Size\n\n Small\n Medium\n Large",
+        "score": 0.6780931,
+        "published_date": "Sat, 01 Nov 2025 00:00:00 GMT",
+        "raw_content": null,
+        "id": "7cbe1e-03",
+        "search_query": "India 2000 rupee note ban 2025",
+        "query_category": "direct",
+        "normalized_url": "timesofindia.indiatimes.com/business/india-business/currency-update-rs-2000-notes-worth-rs-5817-crore-still-in-circulation-rbi-says-98-37-of-high-value-bills-returned/articleshow/125015931.cms",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.2292,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 0.4,
+        "final_evidence_score": 0.5192,
+        "domain": "timesofindia.indiatimes.com",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/business/india-business/currency-circulation-rs-2000-notes-worth-rs-5956-crore-still-remain-rbi-says-98-returned-since-withdrawal/articleshow/123638356.cms",
+        "title": "Currency circulation: Rs 2000 notes worth Rs 5,956 crore still remain; RBI says 98% returned since withdrawal - The Times of India",
+        "content": "announced their withdrawal, official data showed on Monday.The RBI had notified the withdrawal of the denomination on May 19, 2023, while clarifying that the notes would continue to be legal tender. At that time, the total value of Rs 2000 notes in circulation stood at Rs 3.56 lakh crore, PTI reported.According to the central bank, the figure has now shrunk to Rs 5,956 crore as of August 31, 2025. “Thus, 98.33 per cent of the Rs 2000 banknotes in circulation as on May 19, 2023, has since been [...] Copyright © 2025 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service\n\nFollow Us On [...] Across The Globe\n\nJason KelceBrittany MahomesJosh Allen WifeCollege FootballTravis KelceMicah ParsonTaylor SwiftJosh AllenNFL Power CouplesBrenden RiceDonald TrumpPatrick Mahomes WifeHailee SteinfeldSCO Summit 2025LeBron JamesDwyane Wade WifeShai Gilgeous AlexanderAlex PalouColin KaepernickPeter NavarroAsia Cup 2025Mitch MarnerPiotr SzczerekWWE RAW PreviewJim KellyDak PrescottAlex Ovechkin ParentsTaylor Swift EngagementEuroBasket 2025Polish CEO Controversy\n\nlogo",
+        "score": 0.7366474,
+        "published_date": "Mon, 01 Sep 2025 00:00:00 GMT",
+        "raw_content": null,
+        "id": "8b76db-01",
+        "search_query": "India 2000 rupee note ban 2025",
+        "query_category": "direct",
+        "normalized_url": "timesofindia.indiatimes.com/business/india-business/currency-circulation-rs-2000-notes-worth-rs-5956-crore-still-remain-rbi-says-98-returned-since-withdrawal/articleshow/123638356.cms",
+        "found_by_categories": [
+          "direct",
+          "official"
+        ],
+        "relevance_score": 0.2257,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 0.4,
+        "final_evidence_score": 0.5178,
+        "domain": "timesofindia.indiatimes.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source confirms a different entity/year, directly refuting the claim."
+      },
+      {
+        "url": "https://www.cnbctv18.com/business/finance/over-98-pc-of-rs-2000-notes-returned-to-banking-system-finmin-lok-sabha-ws-l-19784572.htm",
+        "title": "Over 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha - CNBC TV18",
+        "content": "Access\naccess logo\n\n# Over 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha\n\n## Ministry of Finance told Lok Sabha that 98.38 percent of withdrawn ₹2,000 notes have returned to banks, citing Reserve Bank of India data after the May 2023 withdrawal announcement.\n\nCNBCTV18 on Google\nOver 98% of ₹2,000 notes returned to banking system, FinMin tells Lok Sabha\n\n### Tags\n\naccess logo\n\nNews\n\nLive TV\n\nMarket\n\nPopular Categories\n\nCalculators\n\nTrending Now",
+        "score": 0.3443558,
+        "published_date": "Mon, 08 Dec 2025 12:04:42 GMT",
+        "raw_content": null,
+        "id": "5465c0-04",
+        "search_query": "Reserve Bank of India official announcement 2000 rupee note withdrawal 2025",
+        "query_category": "official",
+        "normalized_url": "cnbctv18.com/business/finance/over-98-pc-of-rs-2000-notes-returned-to-banking-system-finmin-lok-sabha-ws-l-19784572.htm",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.3806,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 0.4,
+        "final_evidence_score": 0.4922,
+        "domain": "cnbctv18.com",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides general topic background."
+      },
+      {
+        "url": "https://www.moneycontrol.com/news/business/do-you-still-have-rs-2-000-bank-note-check-what-rbi-says-about-its-legal-validity-and-how-to-exchange-13755066.html",
+        "title": "Do you still have Rs 2,000 bank note? Check what RBI says about its legal validity and how to exchange",
+        "content": "On Thursday, the RBI released a bulletin regarding the status of Rs 2000 notes. \"The total value of Rs 2000 banknotes in circulation, which was Rs 3.56 lakh crore at the close of business on May 19, 2023, when the withdrawal of Rs 2000 banknotes was announced, has declined to Rs 5,669 crore at the close of business on December 31, 2025,\" the central bank said in a January 1st update. [...] So, big question - Are Rs 2,000 bank notes illegal now? The answer - No. The RBI has clarified that Rs 2,000 bank notes, despite the withdrawal order, still remain a legal tender. So, this means in case an individual still holds a Rs 2000 note, it is not a crime. However, one must return the note to the central bank.\n\nHow to Exchange Rs 2000 Banknotes: Step-by-Step Guide\n\n## Related Stories\n\nStep 1: Note the closure of bank branch facility [...] MC Logo\n\nAmid slew of money changes that have come into force from January 1st, the Reserve Bank of India has given a key update on Rs 2,000 currency notes. Three years after the central bank had announced the withdrawal of these currency notes, the latest official data suggests that a small percentage of the bank notes are still in circulation.",
+        "score": 0.7507177,
+        "published_date": "Sat, 03 Jan 2026 02:47:01 GMT",
+        "raw_content": null,
+        "id": "f87a46-00",
+        "search_query": "India 2000 rupee note ban 2025",
+        "query_category": "direct",
+        "normalized_url": "moneycontrol.com/news/business/do-you-still-have-rs-2-000-bank-note-check-what-rbi-says-about-its-legal-validity-and-how-to-exchange-13755066.html",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.3468,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 0.4,
+        "final_evidence_score": 0.4787,
+        "domain": "moneycontrol.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source confirms a different entity/year, directly refuting the claim."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "9fc7db62-4b6b-4947-ac9e-89b13647903f",
+    "verification_version": "v2.1",
+    "original_claim": "ISRO launched the Aditya-L1 solar mission\n",
+    "normalized_claim": "isro launch aditya l1 solar mission",
+    "verdict": "REAL",
+    "confidence": 95,
+    "explanation": "Multiple news sources (ISRO, PIB, NDTV) state that ISRO launched the Aditya‑L1 solar mission in 2023 as India's first dedicated solar observatory. The claim matches these reports.",
+    "evidence_snippets": [
+      "Space weather refers to conditions in space caused by transient activity on the Sun, such as solar plasma eruptions, which can affect satellites, communication and navigation services, and power grid infrastructure on Earth. During such strong space weather events, Earth's magnetic shield can be significantly disturbed. Scientists and research students from the Indian Space Research Organisation (ISRO), using observations from the Aditya-L1 mission along with data from other international space [...] international space missions, have published a breakthrough study in the Astrophysical Journal (DOI 10.3847/1538-4357/ae1974, December 2025) that investigated a powerful solar storm that impacted Earth during October 2024. The storm was caused by a massive eruption of solar plasma material from the Sun. The study revealed that the most severe effects occurred during the impact of the turbulent region of the solar storm, which was identified with the help of Aditya-L1 observations. [...] ISRO's Aditya-L1 decodes the Impact of a Powerful Solar Storm on Earth’s Invisible Magnetic Shield",
+      "India expanded its space ambitions beyond planetary exploration with Aditya-L1, the country's first dedicated solar mission. Launched in 2023, the spacecraft was successfully placed in a halo orbit around the Sun-Earth L1 Lagrange Point, nearly 1.5 million kilometres from Earth. This unique position enables uninterrupted observation of the Sun and its dynamic activity. The mission studies the solar corona, solar winds, and space weather phenomena that influence Earth's environment and [...] ISRO is steadily building the next generation of India’s space transportation technologies. From electric propulsion systems (EPS) that can extend satellite life to advanced cryogenic and semi-cryogenic engines, these breakthroughs will significantly improve mission flexibility, payload performance, and cost efficiency. The first satellite using Electric Propulsion System (EPS) for mission operations is targeted for launch during 2026–27, marking a major step towards more efficient and [...] ISRO and the Saudi Space Agency\n\nIndia and Saudi Arabia elevated their space cooperation on 23 April 2025 through an MoU between  ISRO and the Saudi Space Agency. The agreement promotes collaboration in satellite development, space science, exploration, research, innovation, and capacity building. It also encourages entrepreneurship and academic engagement in space technologies, reflecting a shared commitment to peaceful and developmental uses of outer space.",
+      "India's first solar observatory Aditya-L1 played a key role in helping scientists decode why the strongest solar storm in more than two decades that struck",
+      "###### India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study Home /India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study\n\nDecember 09, 2025 [...] In May 2024, our planet faced the strongest solar storm in more than two decades, which disturbed Earth’s environment severely – an event now called “Gannon’s storm”. The solar storm is composed of a series of giant explosions on the Sun, known as coronal mass ejections (CMEs). A CME is like a massive bubble of hot gas and magnetic energy thrown out from the Sun into space. When these bubbles hit Earth, they can shake our planet’s magnetic shield and cause serious trouble for satellites, [...] During the May 2024 solar storm, scientists discovered something unusual: the Sun’s magnetic fields, which are like twisted ropes inside a solar storm, were breaking and rejoining within the storm. Usually, a CME carries a twisted “magnetic rope” that interacts with Earth’s magnetic shield as it approaches Earth. But this time, two CMEs collided in space and squeezed each other so firmly that the magnetic field lines inside one of them snapped and rejoined in new ways, a process called magnetic",
+      "The Indian Space Research Organisation (ISRO) on Saturday (January 10, 2026) said its Aditya-L1 solar mission has provided new insights into how a powerful solar storm can impact Earth’s magnetic shield.\n\n“The most severe effects occurred during the impact of the turbulent region of the solar storm,” the space agency said in a statement.\n\nAditya-L1 in a global effort reveals why the 2024 solar storm behaved unusually [...] ISRO said the findings reinforce the need for close monitoring of solar activity, noting that the study highlights the importance of understanding of space weather phenomena and their real-time assessments to safeguard the critical space assets.\n\nPublished - January 10, 2026 08:52 pm IST\n\n Copy link\n Email\n Facebook\n Twitter\n Telegram\n LinkedIn\n WhatsApp\n Reddit\n\nSEE ALL  Remove\n\nGoogle Preferred Source\n\n0 / 0\n\nThe Hindu\n\nSign in to unlock member-only benefits! [...] newsletterimg\n\nThe Hindu On Books Books of the week, reviews, excerpts, new titles and features.SEE ALL NEWSLETTERS\n\n Children \n\nElections\n\nElections   Assam   Kerala   Puducherry   Tamil Nadu   West Bengal\n\nFood\n\nFood   Dining   Features   Guides   Recipes\n\n Environment   Real Estate   Agriculture \n\nBrandhub\n\nBrandhub   PR Release\n\nThe Hindu Best Places to Work\n\nJuly 25, 2026e-Paper\n\nSearch for topics, people, articles..."
+    ],
+    "source_urls": [
+      "https://www.isro.gov.in/AdityaL1_decodes_Impact_Powerful_Solar_Storm.html",
+      "https://www.pib.gov.in/PressNoteDetails.aspx?id=158973&NoteId=158973&ModuleId=3&reg=37&lang=1",
+      "https://www.ndtv.com/india-news/indias-aditya-l1-joins-global-effort-in-landmark-solar-storm-study-isro-9779067",
+      "https://www.isro.gov.in/Aditya_L1_Landmark_solar_storm_study.html",
+      "https://www.thehindu.com/sci-tech/science/isros-aditya-l1-decodes-how-solar-storms-impact-earths-magnetic-field/article70494901.ece"
+    ],
+    "source_titles": [
+      "ISRO's Aditya-L1 decodes the Impact of a Powerful Solar Storm on Earth’s Invisible Magnetic Shield",
+      "Press Note Details: Press Information Bureau",
+      "India's Aditya-L1 Joins Global Effort To Study Solar Storm: ISRO",
+      "India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study",
+      "ISRO’s Aditya-L1 decodes how solar storms affect earth’s magnetic field - The Hindu"
+    ],
+    "source_domains": [
+      "isro.gov.in",
+      "pib.gov.in",
+      "ndtv.com",
+      "isro.gov.in",
+      "thehindu.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "isro.gov.in",
+        "score": 1.0,
+        "category": "official"
+      },
+      {
+        "domain": "pib.gov.in",
+        "score": 1.0,
+        "category": "official"
+      },
+      {
+        "domain": "ndtv.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "isro.gov.in",
+        "score": 1.0,
+        "category": "official"
+      },
+      {
+        "domain": "thehindu.com",
+        "score": 0.85,
+        "category": "established_news"
+      }
+    ],
+    "publication_dates": [
+      "Sat, 10 Jan 2026 00:00:00 GMT",
+      "Sun, 21 Jun 2026 00:00:00 GMT",
+      "Tue, 09 Dec 2025 00:00:00 GMT",
+      "Tue, 09 Dec 2025 00:00:00 GMT",
+      "Sat, 10 Jan 2026 15:22:27 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:10:58.181417",
+    "retrieval_timestamp": "2026-08-20T10:10:58.181417",
+    "search_queries_used": [
+      "Aditya-L1 launch ISRO",
+      "ISRO official press release Aditya-L1 mission launch date",
+      "who is the current chairman of ISRO"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.isro.gov.in/AdityaL1_decodes_Impact_Powerful_Solar_Storm.html",
+        "title": "ISRO's Aditya-L1 decodes the Impact of a Powerful Solar Storm on Earth’s Invisible Magnetic Shield",
+        "content": "Space weather refers to conditions in space caused by transient activity on the Sun, such as solar plasma eruptions, which can affect satellites, communication and navigation services, and power grid infrastructure on Earth. During such strong space weather events, Earth's magnetic shield can be significantly disturbed. Scientists and research students from the Indian Space Research Organisation (ISRO), using observations from the Aditya-L1 mission along with data from other international space [...] international space missions, have published a breakthrough study in the Astrophysical Journal (DOI 10.3847/1538-4357/ae1974, December 2025) that investigated a powerful solar storm that impacted Earth during October 2024. The storm was caused by a massive eruption of solar plasma material from the Sun. The study revealed that the most severe effects occurred during the impact of the turbulent region of the solar storm, which was identified with the help of Aditya-L1 observations. [...] ISRO's Aditya-L1 decodes the Impact of a Powerful Solar Storm on Earth’s Invisible Magnetic Shield",
+        "score": 0.65676886,
+        "published_date": "Sat, 10 Jan 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "9a84fd-01",
+        "search_query": "Aditya-L1 launch ISRO",
+        "query_category": "direct",
+        "normalized_url": "isro.gov.in/AdityaL1_decodes_Impact_Powerful_Solar_Storm.html",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.3658,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6863,
+        "domain": "isro.gov.in",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=158973&NoteId=158973&ModuleId=3&reg=37&lang=1",
+        "title": "Press Note Details: Press Information Bureau",
+        "content": "India expanded its space ambitions beyond planetary exploration with Aditya-L1, the country's first dedicated solar mission. Launched in 2023, the spacecraft was successfully placed in a halo orbit around the Sun-Earth L1 Lagrange Point, nearly 1.5 million kilometres from Earth. This unique position enables uninterrupted observation of the Sun and its dynamic activity. The mission studies the solar corona, solar winds, and space weather phenomena that influence Earth's environment and [...] ISRO is steadily building the next generation of India’s space transportation technologies. From electric propulsion systems (EPS) that can extend satellite life to advanced cryogenic and semi-cryogenic engines, these breakthroughs will significantly improve mission flexibility, payload performance, and cost efficiency. The first satellite using Electric Propulsion System (EPS) for mission operations is targeted for launch during 2026–27, marking a major step towards more efficient and [...] ISRO and the Saudi Space Agency\n\nIndia and Saudi Arabia elevated their space cooperation on 23 April 2025 through an MoU between  ISRO and the Saudi Space Agency. The agreement promotes collaboration in satellite development, space science, exploration, research, innovation, and capacity building. It also encourages entrepreneurship and academic engagement in space technologies, reflecting a shared commitment to peaceful and developmental uses of outer space.",
+        "score": 0.85097736,
+        "published_date": "Sun, 21 Jun 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "25ab25-00",
+        "search_query": "ISRO official press release Aditya-L1 mission launch date",
+        "query_category": "official",
+        "normalized_url": "pib.gov.in/PressNoteDetails.aspx",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.3336,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6734,
+        "domain": "pib.gov.in",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.ndtv.com/india-news/indias-aditya-l1-joins-global-effort-in-landmark-solar-storm-study-isro-9779067",
+        "title": "India's Aditya-L1 Joins Global Effort To Study Solar Storm: ISRO",
+        "content": "India's first solar observatory Aditya-L1 played a key role in helping scientists decode why the strongest solar storm in more than two decades that struck",
+        "score": 0.30476588,
+        "published_date": "Tue, 09 Dec 2025 00:00:00 GMT",
+        "raw_content": null,
+        "id": "1d53bd-04",
+        "search_query": "ISRO official press release Aditya-L1 mission launch date",
+        "query_category": "official",
+        "normalized_url": "ndtv.com/india-news/indias-aditya-l1-joins-global-effort-in-landmark-solar-storm-study-isro-9779067",
+        "found_by_categories": [
+          "official",
+          "direct"
+        ],
+        "relevance_score": 0.4434,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6649,
+        "domain": "ndtv.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.isro.gov.in/Aditya_L1_Landmark_solar_storm_study.html",
+        "title": "India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study",
+        "content": "###### India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study Home /India’s Aditya-L1 Joins Global Effort in Landmark Solar Storm Study\n\nDecember 09, 2025 [...] In May 2024, our planet faced the strongest solar storm in more than two decades, which disturbed Earth’s environment severely – an event now called “Gannon’s storm”. The solar storm is composed of a series of giant explosions on the Sun, known as coronal mass ejections (CMEs). A CME is like a massive bubble of hot gas and magnetic energy thrown out from the Sun into space. When these bubbles hit Earth, they can shake our planet’s magnetic shield and cause serious trouble for satellites, [...] During the May 2024 solar storm, scientists discovered something unusual: the Sun’s magnetic fields, which are like twisted ropes inside a solar storm, were breaking and rejoining within the storm. Usually, a CME carries a twisted “magnetic rope” that interacts with Earth’s magnetic shield as it approaches Earth. But this time, two CMEs collided in space and squeezed each other so firmly that the magnetic field lines inside one of them snapped and rejoined in new ways, a process called magnetic",
+        "score": 0.43813655,
+        "published_date": "Tue, 09 Dec 2025 00:00:00 GMT",
+        "raw_content": null,
+        "id": "d62171-03",
+        "search_query": "ISRO official press release Aditya-L1 mission launch date",
+        "query_category": "official",
+        "normalized_url": "isro.gov.in/Aditya_L1_Landmark_solar_storm_study.html",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.2607,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6443,
+        "domain": "isro.gov.in",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides background context."
+      },
+      {
+        "url": "https://www.thehindu.com/sci-tech/science/isros-aditya-l1-decodes-how-solar-storms-impact-earths-magnetic-field/article70494901.ece",
+        "title": "ISRO’s Aditya-L1 decodes how solar storms affect earth’s magnetic field - The Hindu",
+        "content": "The Indian Space Research Organisation (ISRO) on Saturday (January 10, 2026) said its Aditya-L1 solar mission has provided new insights into how a powerful solar storm can impact Earth’s magnetic shield.\n\n“The most severe effects occurred during the impact of the turbulent region of the solar storm,” the space agency said in a statement.\n\nAditya-L1 in a global effort reveals why the 2024 solar storm behaved unusually [...] ISRO said the findings reinforce the need for close monitoring of solar activity, noting that the study highlights the importance of understanding of space weather phenomena and their real-time assessments to safeguard the critical space assets.\n\nPublished - January 10, 2026 08:52 pm IST\n\n Copy link\n Email\n Facebook\n Twitter\n Telegram\n LinkedIn\n WhatsApp\n Reddit\n\nSEE ALL  Remove\n\nGoogle Preferred Source\n\n0 / 0\n\nThe Hindu\n\nSign in to unlock member-only benefits! [...] newsletterimg\n\nThe Hindu On Books Books of the week, reviews, excerpts, new titles and features.SEE ALL NEWSLETTERS\n\n Children \n\nElections\n\nElections   Assam   Kerala   Puducherry   Tamil Nadu   West Bengal\n\nFood\n\nFood   Dining   Features   Guides   Recipes\n\n Environment   Real Estate   Agriculture \n\nBrandhub\n\nBrandhub   PR Release\n\nThe Hindu Best Places to Work\n\nJuly 25, 2026e-Paper\n\nSearch for topics, people, articles...",
+        "score": 0.7348247,
+        "published_date": "Sat, 10 Jan 2026 15:22:27 GMT",
+        "raw_content": null,
+        "id": "0d8fb4-01",
+        "search_query": "ISRO official press release Aditya-L1 mission launch date",
+        "query_category": "official",
+        "normalized_url": "thehindu.com/sci-tech/science/isros-aditya-l1-decodes-how-solar-storms-impact-earths-magnetic-field/article70494901.ece",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.3446,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6253,
+        "domain": "thehindu.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "bb6f1a9e-a8fd-44a1-9ae6-77aeb54ac1dd",
+    "verification_version": "v2.1",
+    "original_claim": "Chandrayaan-3 successfully landed on the lunar south pole\n",
+    "normalized_claim": "chandrayaan 3 successfully land lunar south pole",
+    "verdict": "REAL",
+    "confidence": 98,
+    "explanation": "Multiple reputable news sources confirm that Chandrayaan‑3 achieved a soft landing near the Moon's south pole on 23 August 2023, making India the first nation to do so. The landing site was at approximately 69.3° S latitude.",
+    "evidence_snippets": [
+      "That foundation further culminated in a historic achievement on 23 August 2023. Chandrayaan-3 made India the first country to achieve a soft landing near the Moon's south pole and the fourth nation after the United States, Russia, and China to successfully soft-land on the lunar surface. The Vikram lander touched down at 69.3° South latitude, a region never previously reached by any spacecraft. Scientific instruments conducted in-situ studies and confirmed the presence of Sulphur through direct [...] India's space journey over the last 12 years reflects the spirit of Vishwas, Vikas and Jan Kalyan. Driven by Aatmanirbhar Bharat, Make in India and the vision of Viksit Bharat 2047, the nation has emerged as a leading space power. Landmark achievements include Chandrayaan-3's lunar south pole landing, Aditya-L1's solar mission, and preparations for Gaganyaan and a national space station. Space startups have grown from one in 2014 to over 400 as on Feb 2026. Liberalised Foreign Direct Investment [...] Lunar Exploration - The Chandrayaan Programme",
+      "ISRO's Chandrayaan-3 lunar mission has received the prestigious 2026 Goddard Astronautics Award from the American Institute of Aeronautics and Astronautics (AIAA). The honour was presented at the AIAA ASCEND 2026 conference in Washington, DC, on May 21. The award recognises Chandrayaan-3's historic achievement on August 23, 2023, when it became the first spacecraft to successfully land near the Moon's south pole. This region, never before explored at the surface level, holds immense scientific [...] The Chandrayaan-3 mission has provided crucial data to support future human missions to the Moon. Most importantly, it confirmed the presence of vital chemical elements in the lunar south polar soil, suggesting that local resources could potentially sustain manufacturing operations on the lunar surface in the future. [...] This recognition demonstrates India's growing capabilities in space exploration and reinforces its position as a significant player in global space initiatives.  \n  \n(With inputs from Agencies)\n\nTrack Latest News Live on NDTV.com and get news updates from India  and around the world\n\n### Related News\n\n#### Chandrayaan-3: Vikram's Hop Offers Fresh Insights On Moon's Surface\n\n#### Chandrayaan-3 Finds Active Electrical Environment Near Moon's South Pole",
+      "BENGALURU: Nearly three years after Chandrayaan-3 made history by landing in the Moon's south polar region, scientists have found that soil studied by its Pragyan rover closely matches the chemical makeup of the first meteorite ever confirmed to have come from the Moon.The finding links measurements taken at the mission’s “Shiv Shakti Statio” with “ALHA 81005”, a meteorite found in Antarctica's Allan Hills region during a 1981-82 expedition. ALHA 81005 was the first meteorite ever officially [...] less aluminium and more iron and magnesium than is typical of highland regions elsewhere on the Moon.According to the study, the landing site’s soil appears to be a blend of material from different depths of the lunar crust — not just the upper layer, but also magnesium-rich rock likely dragged up from far below the surface.Scientists believe this deeper material may have been thrown up during the formation of the South Pole-Aitken (SPA) basin, one of the largest impact craters in the solar [...] in the solar system, roughly 350 km from the landing site.The impact that created it billions of years ago could have excavated material from deep within the Moon and scattered it across the surrounding terrain, including the area Chandrayaan-3 later explored.The results also support earlier Chandrayaan-3 findings backing the Lunar Magma Ocean hypothesis, which holds that the young Moon was once covered by a vast ocean of molten rock. As it cooled over time, different minerals crystallised out",
+      "Researchers say both the meteorite and the landing region represent the same rare type of magnesium-rich lunar crust. (Photo: Isro)\n\nIndia Today Science Desk\n\nIndia Today Science Desk\n\nNew Delhi,UPDATED: Jul 6, 2026 16:16 IST\n\nNearly two years after Chandrayaan-3's historic landing near the Moon's South Pole, scientists have uncovered a remarkable link between the lunar surface and a meteorite discovered on Earth more than four decades ago. [...] Chandrayaan-3\n\nAfter Chandrayaan-3's successful landing on August 23, 2023, Pragyan's Alpha Particle X-ray Spectrometer (APXS) examined the elemental composition of lunar soil at the Shiv Shakti Statio, located at 69.37° South, 32.32° East in the Moon's southern highlands. [...] Researchers believe the soil at the Chandrayaan-3 landing site is not derived solely from the Moon's upper crust. Instead, it appears to contain fragments of magnesium-rich rocks excavated from deeper layers during the formation of the gigantic South Pole-Aitken Basin, one of the largest and oldest impact craters in the Solar System located roughly 350 kilometres from the landing site.",
+      "Pakistan’s announcement comes nearly three years after India achieved a major milestone in lunar exploration with Chandrayaan-3.  \n  \nIndia successfully landed Chandrayaan-3 on the Moon on August 23, 2023, making it the first country to land near the lunar south polar region. The mission deployed the Pragyan rover, which carried out experiments and sent scientific information from the lunar surface during its planned operational period. [...] The achievement came after India’s Chandrayaan-2 mission failed to complete its landing attempt in 2019, when communication with the Vikram lander was lost during the final descent.  \n  \nIndia’s success also followed the crash of Russia’s Luna-25 spacecraft while it was attempting to land in the same broad region. [...] The lunar south pole has emerged as one of the most closely watched areas in the new phase of Moon exploration. Much of the region remains difficult to explore because of its challenging terrain, while some permanently shadowed areas are believed to have the potential to contain water ice.  \n  \nThe possibility of finding and studying such resources has made the region important for future lunar science and human exploration plans."
+    ],
+    "source_urls": [
+      "https://www.pib.gov.in/PressNoteDetails.aspx?id=158973&NoteId=158973&ModuleId=3&reg=37&lang=1",
+      "https://www.ndtv.com/india-news/chandrayaan-3-wins-top-us-space-honour-years-after-historic-moon-landing-11531522",
+      "https://timesofindia.indiatimes.com/science/chandrayaan-3-findings-link-landing-site-to-first-known-lunar-meteorite/articleshow/132162607.cms",
+      "https://www.indiatoday.in/science/chandrayaan-3/story/part-of-the-moon-fell-to-earth-how-chandrayaan-3-solved-ancient-lunar-mystery-2941668-2026-07-06",
+      "https://m.economictimes.com/news/new-updates/pakistan-heads-to-moon-with-chinas-help-jinnah-1-rover-to-study-lunar-south-pole-where-chandrayaan-3-landed-3-years-ago/articleshow/133234405.cms"
+    ],
+    "source_titles": [
+      "PIB Backgrounder",
+      "Chandrayaan-3 Wins Top US Space Honour Years After Historic Moon Landing",
+      "Chandrayaan-3 findings link landing site to first-known lunar meteorite - The Times of India",
+      "Part of the Moon fell to Earth: How Chandrayaan-3 solved ancient lunar mystery - India Today",
+      "Pakistan heads to Moon with China’s help; Jinnah-1 rover to study lunar south pole where Chandrayaan-3 landed 3 years ago - The Economic Times"
+    ],
+    "source_domains": [
+      "pib.gov.in",
+      "ndtv.com",
+      "timesofindia.indiatimes.com",
+      "indiatoday.in",
+      "m.economictimes.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "pib.gov.in",
+        "score": 1.0,
+        "category": "official"
+      },
+      {
+        "domain": "ndtv.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "timesofindia.indiatimes.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "indiatoday.in",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "m.economictimes.com",
+        "score": 0.6,
+        "category": "general"
+      }
+    ],
+    "publication_dates": [
+      "Sun, 21 Jun 2026 00:00:00 GMT",
+      "Fri, 22 May 2026 05:55:53 GMT",
+      "Tue, 21 Jul 2026 04:00:00 GMT",
+      "Mon, 06 Jul 2026 10:46:06 GMT",
+      "Sat, 15 Aug 2026 04:00:00 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:11:13.968095",
+    "retrieval_timestamp": "2026-08-20T10:11:13.968095",
+    "search_queries_used": [
+      "Chandrayaan-3 lunar south pole landing confirmation",
+      "ISRO official statement Chandrayaan-3 landing south pole",
+      "Did Chandrayaan-3 successfully land on the lunar south pole?"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=158973&NoteId=158973&ModuleId=3&reg=37&lang=1",
+        "title": "PIB Backgrounder",
+        "content": "That foundation further culminated in a historic achievement on 23 August 2023. Chandrayaan-3 made India the first country to achieve a soft landing near the Moon's south pole and the fourth nation after the United States, Russia, and China to successfully soft-land on the lunar surface. The Vikram lander touched down at 69.3° South latitude, a region never previously reached by any spacecraft. Scientific instruments conducted in-situ studies and confirmed the presence of Sulphur through direct [...] India's space journey over the last 12 years reflects the spirit of Vishwas, Vikas and Jan Kalyan. Driven by Aatmanirbhar Bharat, Make in India and the vision of Viksit Bharat 2047, the nation has emerged as a leading space power. Landmark achievements include Chandrayaan-3's lunar south pole landing, Aditya-L1's solar mission, and preparations for Gaganyaan and a national space station. Space startups have grown from one in 2014 to over 400 as on Feb 2026. Liberalised Foreign Direct Investment [...] Lunar Exploration - The Chandrayaan Programme",
+        "score": 0.6222074,
+        "published_date": "Sun, 21 Jun 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "98ee3a-00",
+        "search_query": "ISRO official statement Chandrayaan-3 landing south pole",
+        "query_category": "official",
+        "normalized_url": "pib.gov.in/PressNoteDetails.aspx",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.4731,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.7292,
+        "domain": "pib.gov.in",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.ndtv.com/india-news/chandrayaan-3-wins-top-us-space-honour-years-after-historic-moon-landing-11531522",
+        "title": "Chandrayaan-3 Wins Top US Space Honour Years After Historic Moon Landing",
+        "content": "ISRO's Chandrayaan-3 lunar mission has received the prestigious 2026 Goddard Astronautics Award from the American Institute of Aeronautics and Astronautics (AIAA). The honour was presented at the AIAA ASCEND 2026 conference in Washington, DC, on May 21. The award recognises Chandrayaan-3's historic achievement on August 23, 2023, when it became the first spacecraft to successfully land near the Moon's south pole. This region, never before explored at the surface level, holds immense scientific [...] The Chandrayaan-3 mission has provided crucial data to support future human missions to the Moon. Most importantly, it confirmed the presence of vital chemical elements in the lunar south polar soil, suggesting that local resources could potentially sustain manufacturing operations on the lunar surface in the future. [...] This recognition demonstrates India's growing capabilities in space exploration and reinforces its position as a significant player in global space initiatives.  \n  \n(With inputs from Agencies)\n\nTrack Latest News Live on NDTV.com and get news updates from India  and around the world\n\n### Related News\n\n#### Chandrayaan-3: Vikram's Hop Offers Fresh Insights On Moon's Surface\n\n#### Chandrayaan-3 Finds Active Electrical Environment Near Moon's South Pole",
+        "score": 0.90985113,
+        "published_date": "Fri, 22 May 2026 05:55:53 GMT",
+        "raw_content": null,
+        "id": "a1231d-02",
+        "search_query": "Did Chandrayaan-3 successfully land on the lunar south pole?",
+        "query_category": "contradiction",
+        "normalized_url": "ndtv.com/india-news/chandrayaan-3-wins-top-us-space-honour-years-after-historic-moon-landing-11531522",
+        "found_by_categories": [
+          "contradiction",
+          "direct"
+        ],
+        "relevance_score": 0.4906,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6837,
+        "domain": "ndtv.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/science/chandrayaan-3-findings-link-landing-site-to-first-known-lunar-meteorite/articleshow/132162607.cms",
+        "title": "Chandrayaan-3 findings link landing site to first-known lunar meteorite - The Times of India",
+        "content": "BENGALURU: Nearly three years after Chandrayaan-3 made history by landing in the Moon's south polar region, scientists have found that soil studied by its Pragyan rover closely matches the chemical makeup of the first meteorite ever confirmed to have come from the Moon.The finding links measurements taken at the mission’s “Shiv Shakti Statio” with “ALHA 81005”, a meteorite found in Antarctica's Allan Hills region during a 1981-82 expedition. ALHA 81005 was the first meteorite ever officially [...] less aluminium and more iron and magnesium than is typical of highland regions elsewhere on the Moon.According to the study, the landing site’s soil appears to be a blend of material from different depths of the lunar crust — not just the upper layer, but also magnesium-rich rock likely dragged up from far below the surface.Scientists believe this deeper material may have been thrown up during the formation of the South Pole-Aitken (SPA) basin, one of the largest impact craters in the solar [...] in the solar system, roughly 350 km from the landing site.The impact that created it billions of years ago could have excavated material from deep within the Moon and scattered it across the surrounding terrain, including the area Chandrayaan-3 later explored.The results also support earlier Chandrayaan-3 findings backing the Lunar Magma Ocean hypothesis, which holds that the young Moon was once covered by a vast ocean of molten rock. As it cooled over time, different minerals crystallised out",
+        "score": 0.83452857,
+        "published_date": "Tue, 21 Jul 2026 04:00:00 GMT",
+        "raw_content": null,
+        "id": "054efa-00",
+        "search_query": "Chandrayaan-3 lunar south pole landing confirmation",
+        "query_category": "direct",
+        "normalized_url": "timesofindia.indiatimes.com/science/chandrayaan-3-findings-link-landing-site-to-first-known-lunar-meteorite/articleshow/132162607.cms",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.373,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6367,
+        "domain": "timesofindia.indiatimes.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.indiatoday.in/science/chandrayaan-3/story/part-of-the-moon-fell-to-earth-how-chandrayaan-3-solved-ancient-lunar-mystery-2941668-2026-07-06",
+        "title": "Part of the Moon fell to Earth: How Chandrayaan-3 solved ancient lunar mystery - India Today",
+        "content": "Researchers say both the meteorite and the landing region represent the same rare type of magnesium-rich lunar crust. (Photo: Isro)\n\nIndia Today Science Desk\n\nIndia Today Science Desk\n\nNew Delhi,UPDATED: Jul 6, 2026 16:16 IST\n\nNearly two years after Chandrayaan-3's historic landing near the Moon's South Pole, scientists have uncovered a remarkable link between the lunar surface and a meteorite discovered on Earth more than four decades ago. [...] Chandrayaan-3\n\nAfter Chandrayaan-3's successful landing on August 23, 2023, Pragyan's Alpha Particle X-ray Spectrometer (APXS) examined the elemental composition of lunar soil at the Shiv Shakti Statio, located at 69.37° South, 32.32° East in the Moon's southern highlands. [...] Researchers believe the soil at the Chandrayaan-3 landing site is not derived solely from the Moon's upper crust. Instead, it appears to contain fragments of magnesium-rich rocks excavated from deeper layers during the formation of the gigantic South Pole-Aitken Basin, one of the largest and oldest impact craters in the Solar System located roughly 350 kilometres from the landing site.",
+        "score": 0.6609831,
+        "published_date": "Mon, 06 Jul 2026 10:46:06 GMT",
+        "raw_content": null,
+        "id": "75221c-04",
+        "search_query": "Chandrayaan-3 lunar south pole landing confirmation",
+        "query_category": "direct",
+        "normalized_url": "indiatoday.in/science/chandrayaan-3/story/part-of-the-moon-fell-to-earth-how-chandrayaan-3-solved-ancient-lunar-mystery-2941668-2026-07-06",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.5441,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6177,
+        "domain": "indiatoday.in",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://m.economictimes.com/news/new-updates/pakistan-heads-to-moon-with-chinas-help-jinnah-1-rover-to-study-lunar-south-pole-where-chandrayaan-3-landed-3-years-ago/articleshow/133234405.cms",
+        "title": "Pakistan heads to Moon with China’s help; Jinnah-1 rover to study lunar south pole where Chandrayaan-3 landed 3 years ago - The Economic Times",
+        "content": "Pakistan’s announcement comes nearly three years after India achieved a major milestone in lunar exploration with Chandrayaan-3.  \n  \nIndia successfully landed Chandrayaan-3 on the Moon on August 23, 2023, making it the first country to land near the lunar south polar region. The mission deployed the Pragyan rover, which carried out experiments and sent scientific information from the lunar surface during its planned operational period. [...] The achievement came after India’s Chandrayaan-2 mission failed to complete its landing attempt in 2019, when communication with the Vikram lander was lost during the final descent.  \n  \nIndia’s success also followed the crash of Russia’s Luna-25 spacecraft while it was attempting to land in the same broad region. [...] The lunar south pole has emerged as one of the most closely watched areas in the new phase of Moon exploration. Much of the region remains difficult to explore because of its challenging terrain, while some permanently shadowed areas are believed to have the potential to contain water ice.  \n  \nThe possibility of finding and studying such resources has made the region important for future lunar science and human exploration plans.",
+        "score": 0.92507464,
+        "published_date": "Sat, 15 Aug 2026 04:00:00 GMT",
+        "raw_content": null,
+        "id": "0283a9-00",
+        "search_query": "Did Chandrayaan-3 successfully land on the lunar south pole?",
+        "query_category": "contradiction",
+        "normalized_url": "m.economictimes.com/news/new-updates/pakistan-heads-to-moon-with-chinas-help-jinnah-1-rover-to-study-lunar-south-pole-where-chandrayaan-3-landed-3-years-ago/articleshow/133234405.cms",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.5396,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6158,
+        "domain": "m.economictimes.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "168f67a9-21e9-4497-bacf-91d28cf319d8",
+    "verification_version": "v2.1",
+    "original_claim": "Elon Musk bought WhatsApp in 2024",
+    "normalized_claim": "elon musk bought whatsapp 2024",
+    "verdict": "FAKE",
+    "confidence": 95,
+    "explanation": "WhatsApp continues to be owned by Meta, with recent 2026 articles reporting Meta appointing a new WhatsApp leader; there is no news of Elon Musk acquiring WhatsApp in 2024.",
+    "evidence_snippets": [
+      "On April 27, the companies led by two of the most powerful figures in the tech world will face each other: not on social media or a podcast, but in a courtroom. Elon Musk, the world's richest man and owner of Tesla, SpaceX and X, will go to trial against Sam Altman, the CEO of OpenAI, the company behind ChatGPT. The lawsuit – which Musk filed in early 2024; then withdrew in the same year and revived the action in early 2026 – is not about money in the traditional sense. It is about a ‘broken [...] Mark Cuban\n\nAndrew Bosworth\n\nJohn Ternus\n\nWhatsapp Plus\n\nSam Altman\n\nElon Musk\n\nSatya Nadella\n\nJensen Huang\n\nMythos\n\nMarc Benioff\n\nMark Cuban\n\n# Sam Altman vs Elon Musk: The billion-dollar feud\n\nSourabh Kulesh / TIMESOFINDIA.COM / Updated: Apr 28, 2026, 14:01 IST\n\nComments\n\nShare\n\nAA\n\nText Size\n\n Small\n Medium\n Large\n\nSam Altman vs Elon Musk: The billion-dollar feud\n\nAI-generated photo for representation purpose [...] Microsoft rolls out Copilot to Accenture’s 743,000 employees, its largest deployment to date\n Samsung Galaxy S26+ review: The ‘Plus Buy’ that holds its ground\n Hack of the day: Silence unknown WhatsApp calls without blocking\n Nikita Bier, product head of Elon Musk’s X shares one thing that he learnt from Tesla CEO\n Bernie Sanders says: Time to listen to Verizon CEO's warning NOW, we are not prepared to ...",
+      "* Kunal Shah, Cred's founder, will replace Will Cathcart as the new leader of WhatsApp, with Cathcart stepping into a new role using artificial intelligence tools. * The investment represents a new chapter for WhatsApp, with Shah tasked with building out new revenue streams, including advertising and subscriptions, and integrating AI agents into WhatsApp. Meta Platforms Inc. is investing $900 million into Indian fintech startup Cred, with plans to appoint its founder, Kunal Shah, the new leader of WhatsApp. The investment gives Meta a roughly 20% stake in Cred, which operates an app that rewards customers for paying their credit card bills on time. Meta has made several investments in India over the past few years, one of its most important markets and a major hub for WhatsApp. The social media giant invested $5.7 billion into Jio Platforms in 2020, taking a 10% stake in the company as part of a push to help increase commerce on WhatsApp. It also announced a deal earlier this month to lease its first AI data center in India.",
+      "# Meta's WhatsApp to be led by Indian startup founder Kunal Shah. BANGALORE, June 22 - Indian fintech ​firm CRED's ‌founder Kunal Shah ​will become ​Meta-owned WhatsApp's new ⁠leader, ​the messaging app's ​current head Will Cathcart said ​on ​Monday in a ‌post ⁠on X. The announcement comes after ​CRED ​announced ⁠it will raise ​about $900 ​million ⁠from Meta. Get a daily digest of breaking business news straight to your inbox with the Reuters Business newsletter. Three ways Trump could get a stake in AI firms for the US. Amazon Prime Day to gauge US consumer strain as focus shifts to basics. AbbVie bets $10.9 billion on Apogee in next-generation immunology growth push. Elon Musk-led SpaceX's first week as a public company sparks market mania. ## Business. * ### X down for thousands of US users, Downdetector shows. Elon Musk's X was ​down for thousands ‌of users in the U.S. on ​Monday, according ​to Downdetector.com. Euro zone consumer confidence rises to -17.7 in June.",
+      "Notices were issued to Apple, Discord, Google, Meta, Microsoft, Skype and WhatsApp in July 2024 that required six-monthly updates from the platforms. The Microsoft-owned Skype no longer exists.\n\nInman Grant said there had been some improvements from the platforms, including detection of known child abuse material and prevention of livestreaming of abuse outside messaging apps, but the platforms still fell short. [...] Apple, which Inman Grant said had previously viewed privacy and safety as being mutually exclusive, had come the farthest.\n\n“[Apple is]really putting an investment … and engaging and developing their communication safety features and evolving those.”\n\nIn 2024 the company began rolling out features to allow children to report nude images and video being sent to them directly to Apple, which could then report the messages to police.\n\nskip past newsletter promotion\n\nafter newsletter promotion [...] The companies will be required to report to eSafety two more times – in March and August this year. Inman Grant said the transparency reports had opened the “black box” on what the companies were doing and would help with future investigations.\n\nX was not included in the notices, and challenged eSafety’s issuing of a similar notice in March 2024 in a case that is still ongoing.\n\nExplore more on these topics\n\n X\n Internet\n Social media\n Social media ban\n news\n\nShare\n\nReuse this content",
+      "# Cybersecurity Policy Report, Court Orders NSO to Stop Hacking WhatsApp Users, (Oct 20, 2025) NSO Group Technologies Ltd. will be barred from deploying its spyware against users of WhatsApp under a permanent injunction issued Friday by a federal judge. NSO Group Technologies Ltd. will be barred from deploying its spyware against users of WhatsApp under a permanent injunction issued Friday by a federal judge. Despite that finding and a penalty of nearly $168 million, NSO has continued hacking WhatsApp and its users, Judge Hamilton noted in an order imposing the injunction (WhatsApp, Inc., et al., v. NSO’s targeting of WhatsApp and its users threatens WhatsApp’s business of selling encrypted communications services, Judge Hamilton decided. + cookie name"
+    ],
+    "source_urls": [
+      "https://timesofindia.indiatimes.com/technology/tech-news/sam-altman-vs-elon-musk-the-billion-dollar-feud/articleshow/130386398.cms",
+      "https://www.bloomberg.com/news/articles/2026-06-22/meta-taps-new-whatsapp-boss-as-part-of-900-million-investment",
+      "https://www.reuters.com/business/metas-whatsapp-be-led-by-indian-startup-founder-kunal-shah-2026-06-22/",
+      "https://www.theguardian.com/technology/2026/feb/05/australia-esafety-commissioner-elon-musk-ai-chatbot-grok-deepfakes",
+      "https://www.vitallaw.com/news/court-orders-nso-to-stop-hacking-whatsapp-users/cspd011e6c27172cff48db95c43430551c2f0e"
+    ],
+    "source_titles": [
+      "Sam Altman vs Elon Musk: The billion-dollar feud",
+      "Meta Taps New WhatsApp Boss as Part of $900 Million Investment - Bloomberg.com",
+      "Meta's WhatsApp to be led by Indian startup founder Kunal Shah - Reuters",
+      "Condemnation of Elon Musk’s AI chatbot reached ‘tipping point’ after French raid, Australia’s eSafety chief says",
+      "Court Orders NSO to Stop Hacking WhatsApp Users (Oct 20, 2025) - VitalLaw.com"
+    ],
+    "source_domains": [
+      "timesofindia.indiatimes.com",
+      "bloomberg.com",
+      "reuters.com",
+      "theguardian.com",
+      "vitallaw.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "timesofindia.indiatimes.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "bloomberg.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "reuters.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "theguardian.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "vitallaw.com",
+        "score": 0.6,
+        "category": "general"
+      }
+    ],
+    "publication_dates": [
+      "Tue, 28 Apr 2026 00:00:00 GMT",
+      "Mon, 22 Jun 2026 13:00:00 GMT",
+      "Mon, 22 Jun 2026 13:47:27 GMT",
+      "Wed, 04 Feb 2026 14:00:47 GMT",
+      "Tue, 21 Oct 2025 02:08:14 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:49:41.437821",
+    "retrieval_timestamp": "2026-08-20T10:49:41.437821",
+    "search_queries_used": [
+      "Elon Musk bought WhatsApp 2024",
+      "WhatsApp ownership official records 2024",
+      "Who currently owns WhatsApp 2024"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/sam-altman-vs-elon-musk-the-billion-dollar-feud/articleshow/130386398.cms",
+        "title": "Sam Altman vs Elon Musk: The billion-dollar feud",
+        "content": "On April 27, the companies led by two of the most powerful figures in the tech world will face each other: not on social media or a podcast, but in a courtroom. Elon Musk, the world's richest man and owner of Tesla, SpaceX and X, will go to trial against Sam Altman, the CEO of OpenAI, the company behind ChatGPT. The lawsuit – which Musk filed in early 2024; then withdrew in the same year and revived the action in early 2026 – is not about money in the traditional sense. It is about a ‘broken [...] Mark Cuban\n\nAndrew Bosworth\n\nJohn Ternus\n\nWhatsapp Plus\n\nSam Altman\n\nElon Musk\n\nSatya Nadella\n\nJensen Huang\n\nMythos\n\nMarc Benioff\n\nMark Cuban\n\n# Sam Altman vs Elon Musk: The billion-dollar feud\n\nSourabh Kulesh / TIMESOFINDIA.COM / Updated: Apr 28, 2026, 14:01 IST\n\nComments\n\nShare\n\nAA\n\nText Size\n\n Small\n Medium\n Large\n\nSam Altman vs Elon Musk: The billion-dollar feud\n\nAI-generated photo for representation purpose [...] Microsoft rolls out Copilot to Accenture’s 743,000 employees, its largest deployment to date\n Samsung Galaxy S26+ review: The ‘Plus Buy’ that holds its ground\n Hack of the day: Silence unknown WhatsApp calls without blocking\n Nikita Bier, product head of Elon Musk’s X shares one thing that he learnt from Tesla CEO\n Bernie Sanders says: Time to listen to Verizon CEO's warning NOW, we are not prepared to ...",
+        "score": 0.24614397,
+        "published_date": "Tue, 28 Apr 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "e0638a-02",
+        "search_query": "Elon Musk bought WhatsApp 2024",
+        "query_category": "direct",
+        "normalized_url": "timesofindia.indiatimes.com/technology/tech-news/sam-altman-vs-elon-musk-the-billion-dollar-feud/articleshow/130386398.cms",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.3719,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6363,
+        "domain": "timesofindia.indiatimes.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/meta-taps-new-whatsapp-boss-as-part-of-900-million-investment",
+        "title": "Meta Taps New WhatsApp Boss as Part of $900 Million Investment - Bloomberg.com",
+        "score": 0.2693661,
+        "published_date": "Mon, 22 Jun 2026 13:00:00 GMT",
+        "content": "* Kunal Shah, Cred's founder, will replace Will Cathcart as the new leader of WhatsApp, with Cathcart stepping into a new role using artificial intelligence tools. * The investment represents a new chapter for WhatsApp, with Shah tasked with building out new revenue streams, including advertising and subscriptions, and integrating AI agents into WhatsApp. Meta Platforms Inc. is investing $900 million into Indian fintech startup Cred, with plans to appoint its founder, Kunal Shah, the new leader of WhatsApp. The investment gives Meta a roughly 20% stake in Cred, which operates an app that rewards customers for paying their credit card bills on time. Meta has made several investments in India over the past few years, one of its most important markets and a major hub for WhatsApp. The social media giant invested $5.7 billion into Jio Platforms in 2020, taking a 10% stake in the company as part of a push to help increase commerce on WhatsApp. It also announced a deal earlier this month to lease its first AI data center in India.",
+        "raw_content": null,
+        "id": "32bdcd-03",
+        "search_query": "Who currently owns WhatsApp 2024",
+        "query_category": "contradiction",
+        "normalized_url": "bloomberg.com/news/articles/2026-06-22/meta-taps-new-whatsapp-boss-as-part-of-900-million-investment",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.2839,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6011,
+        "domain": "bloomberg.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://www.reuters.com/business/metas-whatsapp-be-led-by-indian-startup-founder-kunal-shah-2026-06-22/",
+        "title": "Meta's WhatsApp to be led by Indian startup founder Kunal Shah - Reuters",
+        "score": 0.598524,
+        "published_date": "Mon, 22 Jun 2026 13:47:27 GMT",
+        "content": "# Meta's WhatsApp to be led by Indian startup founder Kunal Shah. BANGALORE, June 22 - Indian fintech ​firm CRED's ‌founder Kunal Shah ​will become ​Meta-owned WhatsApp's new ⁠leader, ​the messaging app's ​current head Will Cathcart said ​on ​Monday in a ‌post ⁠on X. The announcement comes after ​CRED ​announced ⁠it will raise ​about $900 ​million ⁠from Meta. Get a daily digest of breaking business news straight to your inbox with the Reuters Business newsletter. Three ways Trump could get a stake in AI firms for the US. Amazon Prime Day to gauge US consumer strain as focus shifts to basics. AbbVie bets $10.9 billion on Apogee in next-generation immunology growth push. Elon Musk-led SpaceX's first week as a public company sparks market mania. ## Business. * ### X down for thousands of US users, Downdetector shows. Elon Musk's X was ​down for thousands ‌of users in the U.S. on ​Monday, according ​to Downdetector.com. Euro zone consumer confidence rises to -17.7 in June.",
+        "raw_content": null,
+        "id": "efb541-00",
+        "search_query": "Who currently owns WhatsApp 2024",
+        "query_category": "contradiction",
+        "normalized_url": "reuters.com/business/metas-whatsapp-be-led-by-indian-startup-founder-kunal-shah-2026-06-22",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.2411,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.584,
+        "domain": "reuters.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://www.theguardian.com/technology/2026/feb/05/australia-esafety-commissioner-elon-musk-ai-chatbot-grok-deepfakes",
+        "title": "Condemnation of Elon Musk’s AI chatbot reached ‘tipping point’ after French raid, Australia’s eSafety chief says",
+        "content": "Notices were issued to Apple, Discord, Google, Meta, Microsoft, Skype and WhatsApp in July 2024 that required six-monthly updates from the platforms. The Microsoft-owned Skype no longer exists.\n\nInman Grant said there had been some improvements from the platforms, including detection of known child abuse material and prevention of livestreaming of abuse outside messaging apps, but the platforms still fell short. [...] Apple, which Inman Grant said had previously viewed privacy and safety as being mutually exclusive, had come the farthest.\n\n“[Apple is]really putting an investment … and engaging and developing their communication safety features and evolving those.”\n\nIn 2024 the company began rolling out features to allow children to report nude images and video being sent to them directly to Apple, which could then report the messages to police.\n\nskip past newsletter promotion\n\nafter newsletter promotion [...] The companies will be required to report to eSafety two more times – in March and August this year. Inman Grant said the transparency reports had opened the “black box” on what the companies were doing and would help with future investigations.\n\nX was not included in the notices, and challenged eSafety’s issuing of a similar notice in March 2024 in a case that is still ongoing.\n\nExplore more on these topics\n\n X\n Internet\n Social media\n Social media ban\n news\n\nShare\n\nReuse this content",
+        "score": 0.4398682,
+        "published_date": "Wed, 04 Feb 2026 14:00:47 GMT",
+        "raw_content": null,
+        "id": "0972bd-00",
+        "search_query": "Elon Musk bought WhatsApp 2024",
+        "query_category": "direct",
+        "normalized_url": "theguardian.com/technology/2026/feb/05/australia-esafety-commissioner-elon-musk-ai-chatbot-grok-deepfakes",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.2023,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5684,
+        "domain": "theguardian.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://www.vitallaw.com/news/court-orders-nso-to-stop-hacking-whatsapp-users/cspd011e6c27172cff48db95c43430551c2f0e",
+        "title": "Court Orders NSO to Stop Hacking WhatsApp Users (Oct 20, 2025) - VitalLaw.com",
+        "score": 0.07272241,
+        "published_date": "Tue, 21 Oct 2025 02:08:14 GMT",
+        "content": "# Cybersecurity Policy Report, Court Orders NSO to Stop Hacking WhatsApp Users, (Oct 20, 2025) NSO Group Technologies Ltd. will be barred from deploying its spyware against users of WhatsApp under a permanent injunction issued Friday by a federal judge. NSO Group Technologies Ltd. will be barred from deploying its spyware against users of WhatsApp under a permanent injunction issued Friday by a federal judge. Despite that finding and a penalty of nearly $168 million, NSO has continued hacking WhatsApp and its users, Judge Hamilton noted in an order imposing the injunction (WhatsApp, Inc., et al., v. NSO’s targeting of WhatsApp and its users threatens WhatsApp’s business of selling encrypted communications services, Judge Hamilton decided. + cookie name",
+        "raw_content": null,
+        "id": "fd0834-03",
+        "search_query": "WhatsApp ownership official records 2024",
+        "query_category": "official",
+        "normalized_url": "vitallaw.com/news/court-orders-nso-to-stop-hacking-whatsapp-users/cspd011e6c27172cff48db95c43430551c2f0e",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.2894,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5157,
+        "domain": "vitallaw.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "6780799f-da9b-4172-9ded-7266815d8abe",
+    "verification_version": "v2.1",
+    "original_claim": "Narendra Modi is the prime minister of India\n",
+    "normalized_claim": "narendra modi",
+    "verdict": "REAL",
+    "confidence": 95,
+    "explanation": "Multiple recent news articles refer to Narendra Modi as the Prime Minister of India, confirming his current office.",
+    "evidence_snippets": [
+      "# Rubio meets Modi during India visit with energy high on agenda\n\nIndian Government Marco Rubio (left) and Narendra Modi (right) smile at each other as they sit beside their respective countries' flags.\n\nUS Secretary of State Marco Rubio has held talks with Indian Prime Minister Narendra Modi in Delhi as part of a four-day visit to the country. [...] Getty Images U.S. President Donald Trump and Indian Prime Minister Narendra Modi meet in the Oval Office at the White House on February 13, 2025 in Washington, DC\n\nAnd analysts say it is not logical for India to fill the current shortfall in its imports from the US.\n\n\"Energy security is going to be the key theme of this visit because the Iran situation is not going to be resolved anytime soon,\" Vineet Prakash, associate professor of US studies at Delhi's Jawaharlal Nehru University, said.",
+      "# Modi urges Indians to WFH and limit foreign travel as Iran war continues\n\nReuters India's Prime Minister Narendra Modi is seen joining his hands in a greeting at a recent event in Kolkata in West Bengal on May 9, 2026. REUTERS/Sahiba Chawdhary\n\nPrime Minister Narendra Modi has appealed to Indians to revive working from home, buy less gold and limit foreign travel to deal with a surge in global energy ​prices because of the continuing crisis in the Middle East. [...] Analysts say Modi's remarks indicate the government may soon issue some directives to curb energy use. A price revision of petroleum products could also be on the horizon.\n\nIndia's opposition leaders criticised Modi's remarks, saying it pointed to poor planning on the part of the federal government.\n\nCongress party leader Rahul Gandhi said the government was shifting \"responsibility onto the people\" and escaping accountability themselves. [...] \"Patriotism is not only about the willingness to sacrifice one's life on the border. In these times, it is about living responsibly and fulfilling our duties to the nation in our daily lives,\" Modi said.\n\n\"In the current situation, we must place great emphasis on saving foreign exchange,\" he added.\n\nUrging people to use public ​transport such as the metro, Modi suggested people carpool to conserve fuel. He ​also asked farmers to reduce use of fertiliser ​by half.",
+      "Live\n\nLive\n\nNews|Protests\n\n# Who is India’s new education minister Pralhad Joshi?\n\nJoshi has been a member of the cabinet since 2019 and is seen as close to powerful PM Modi.\n\nSave\n\nShare\n\npralhad joshi\n\nPralhad Joshi, India's new minister of education, is seen as close to powerful Prime Minister Narendra Modi [File: Bhawika Chhabra/Reuters]\n\n\n\nBy Al Jazeera Staff\n\nPublished On 26 Jul 202626 Jul 2026 [...] Pralhad Joshi has been appointed as India’s education minister after weeks-long protests over an exam leak scandal led to the resignation of Dharmendra Pradhan.\n\nPradhan’s departure, which came on Saturday, was one of the main demands of the youth-led demonstrations that in recent weeks had spread across India into a major challenge for Prime Minister Narendra Modi and his Bharatiya Janata Party (BJP).\n\n## Recommended Stories\n\nlist of 3 items [...] end of list\n\nThe 63-year-old Joshi is already the minister of new and renewable energy and consumer affairs, food and public distribution but will now also handle the education portfolio, a task political analysts said is likely to prove challenging amid increased scrutiny over the education system.\n\nAs one of the Modi government’s longest serving ministers, Joshi is seen as close to the powerful prime minister.",
+      "Skip to main content\n\nExclusive news, data and analytics for financial market professionals Learn more about Refinitiv\n\n at the Hyderabad House in New Delhi, India, July 2, 2026. REUTERS/Altaf Hussain Purchase Licensing Rights, opens new tab\n\nNEW DELHI/SYDNEY, July 3 (Reuters) - Indian Prime Minister Narendra Modi will visit Indonesia, Australia and ​New Zealand next week, the Indian Foreign Ministry said on ‌Friday, as New Delhi seeks to bolster ties in the Asia-Pacific region. [...] During the visits, Modi is expected to meet leaders of the three countries – Indonesian President ​Prabowo Subianto, Australian Prime Minister Anthony Albanese and New Zealand Prime ​Minister Christopher Luxon.\n\nIn Melbourne, Modi is also expected to meet leaders from top Australian ‌companies, ⁠as well as visit the Melbourne Cricket Ground.\n\nIndia is one of Australia's largest trading partners, with some 1 million Indian-born residents making up Australia's largest overseas population. [...] After ​Modi's recent visits to Mauritius and Seychelles and the visit ⁠of Japan's Prime Minister Sanae Takaichi to New Delhi this week, the ​focus has \"shifted to the eastern maritime zones of the Indian Ocean and ​our Act East engagement\", said Rudrendra Tandon, a top Indian Foreign Ministry official.\n\nAdvertisement · Scroll to continue",
+      "Press Information Bureau (PIB) is the nodal agency of the Government of India to disseminate information to the print and electronic media"
+    ],
+    "source_urls": [
+      "https://www.bbc.com/news/articles/c87qrwyyrn2o",
+      "https://www.bbc.com/news/articles/c8r8e2ne1v6o",
+      "https://www.aljazeera.com/news/2026/7/26/who-is-indias-new-education-minister-pralhad-joshi",
+      "https://www.reuters.com/world/asia-pacific/india-pm-modi-make-first-official-visit-new-zealand-next-week-2026-07-03",
+      "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301142&reg=3&lang=1"
+    ],
+    "source_titles": [
+      "Rubio meets Modi during India visit with energy high on agenda",
+      "Iran war: PM Modi urges Indians to work from home, limit foreign travel",
+      "Who is India’s new education minister Pralhad Joshi?",
+      "India's Modi to visit Indonesia, Australia and New Zealand next week",
+      "Cabinet approves four multitracking projects covering eight Districts in West Bengal, Odisha, Tamil Nadu and Andhra Pradesh, increasing the existing network of Indian Railways by about 410 Kms"
     ],
     "source_domains": [
       "bbc.com",
-      "hindustantimes.com",
-      "ndtv.com",
       "bbc.com",
-      "bbc.co.uk"
+      "aljazeera.com",
+      "reuters.com",
+      "pib.gov.in"
     ],
     "source_credibility_info": [
       {
@@ -42,7 +1060,205 @@
         "category": "established_news"
       },
       {
-        "domain": "hindustantimes.com",
+        "domain": "bbc.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "aljazeera.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "reuters.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "pib.gov.in",
+        "score": 1.0,
+        "category": "official"
+      }
+    ],
+    "publication_dates": [
+      "Fri, 22 May 2026 23:01:04 GMT",
+      "Mon, 11 May 2026 06:02:43 GMT",
+      "Sun, 26 Jul 2026 16:18:03 GMT",
+      "Fri, 03 Jul 2026 00:38:58 GMT",
+      "Wed, 19 Aug 2026 09:00:00 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:51:22.662506",
+    "retrieval_timestamp": "2026-08-20T10:51:22.662506",
+    "search_queries_used": [
+      "Narendra Modi prime minister of India",
+      "official list of Prime Ministers of India site:gov.in",
+      "who is the current Prime Minister of India"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o",
+        "title": "Rubio meets Modi during India visit with energy high on agenda",
+        "content": "# Rubio meets Modi during India visit with energy high on agenda\n\nIndian Government Marco Rubio (left) and Narendra Modi (right) smile at each other as they sit beside their respective countries' flags.\n\nUS Secretary of State Marco Rubio has held talks with Indian Prime Minister Narendra Modi in Delhi as part of a four-day visit to the country. [...] Getty Images U.S. President Donald Trump and Indian Prime Minister Narendra Modi meet in the Oval Office at the White House on February 13, 2025 in Washington, DC\n\nAnd analysts say it is not logical for India to fill the current shortfall in its imports from the US.\n\n\"Energy security is going to be the key theme of this visit because the Iran situation is not going to be resolved anytime soon,\" Vineet Prakash, associate professor of US studies at Delhi's Jawaharlal Nehru University, said.",
+        "score": 0.60917604,
+        "published_date": "Fri, 22 May 2026 23:01:04 GMT",
+        "raw_content": null,
+        "id": "f8ef44-03",
+        "search_query": "Narendra Modi prime minister of India",
+        "query_category": "direct",
+        "normalized_url": "bbc.com/news/articles/c87qrwyyrn2o",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.4282,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6588,
+        "domain": "bbc.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c8r8e2ne1v6o",
+        "title": "Iran war: PM Modi urges Indians to work from home, limit foreign travel",
+        "content": "# Modi urges Indians to WFH and limit foreign travel as Iran war continues\n\nReuters India's Prime Minister Narendra Modi is seen joining his hands in a greeting at a recent event in Kolkata in West Bengal on May 9, 2026. REUTERS/Sahiba Chawdhary\n\nPrime Minister Narendra Modi has appealed to Indians to revive working from home, buy less gold and limit foreign travel to deal with a surge in global energy ​prices because of the continuing crisis in the Middle East. [...] Analysts say Modi's remarks indicate the government may soon issue some directives to curb energy use. A price revision of petroleum products could also be on the horizon.\n\nIndia's opposition leaders criticised Modi's remarks, saying it pointed to poor planning on the part of the federal government.\n\nCongress party leader Rahul Gandhi said the government was shifting \"responsibility onto the people\" and escaping accountability themselves. [...] \"Patriotism is not only about the willingness to sacrifice one's life on the border. In these times, it is about living responsibly and fulfilling our duties to the nation in our daily lives,\" Modi said.\n\n\"In the current situation, we must place great emphasis on saving foreign exchange,\" he added.\n\nUrging people to use public ​transport such as the metro, Modi suggested people carpool to conserve fuel. He ​also asked farmers to reduce use of fertiliser ​by half.",
+        "score": 0.6884899,
+        "published_date": "Mon, 11 May 2026 06:02:43 GMT",
+        "raw_content": null,
+        "id": "60f142-00",
+        "search_query": "who is the current Prime Minister of India",
+        "query_category": "contradiction",
+        "normalized_url": "bbc.com/news/articles/c8r8e2ne1v6o",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.3785,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6389,
+        "domain": "bbc.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/7/26/who-is-indias-new-education-minister-pralhad-joshi",
+        "title": "Who is India’s new education minister Pralhad Joshi?",
+        "content": "Live\n\nLive\n\nNews|Protests\n\n# Who is India’s new education minister Pralhad Joshi?\n\nJoshi has been a member of the cabinet since 2019 and is seen as close to powerful PM Modi.\n\nSave\n\nShare\n\npralhad joshi\n\nPralhad Joshi, India's new minister of education, is seen as close to powerful Prime Minister Narendra Modi [File: Bhawika Chhabra/Reuters]\n\n\n\nBy Al Jazeera Staff\n\nPublished On 26 Jul 202626 Jul 2026 [...] Pralhad Joshi has been appointed as India’s education minister after weeks-long protests over an exam leak scandal led to the resignation of Dharmendra Pradhan.\n\nPradhan’s departure, which came on Saturday, was one of the main demands of the youth-led demonstrations that in recent weeks had spread across India into a major challenge for Prime Minister Narendra Modi and his Bharatiya Janata Party (BJP).\n\n## Recommended Stories\n\nlist of 3 items [...] end of list\n\nThe 63-year-old Joshi is already the minister of new and renewable energy and consumer affairs, food and public distribution but will now also handle the education portfolio, a task political analysts said is likely to prove challenging amid increased scrutiny over the education system.\n\nAs one of the Modi government’s longest serving ministers, Joshi is seen as close to the powerful prime minister.",
+        "score": 0.37223184,
+        "published_date": "Sun, 26 Jul 2026 16:18:03 GMT",
+        "raw_content": null,
+        "id": "8d8b1f-03",
+        "search_query": "who is the current Prime Minister of India",
+        "query_category": "contradiction",
+        "normalized_url": "aljazeera.com/news/2026/7/26/who-is-indias-new-education-minister-pralhad-joshi",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.2665,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5941,
+        "domain": "aljazeera.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.reuters.com/world/asia-pacific/india-pm-modi-make-first-official-visit-new-zealand-next-week-2026-07-03",
+        "title": "India's Modi to visit Indonesia, Australia and New Zealand next week",
+        "content": "Skip to main content\n\nExclusive news, data and analytics for financial market professionals Learn more about Refinitiv\n\n at the Hyderabad House in New Delhi, India, July 2, 2026. REUTERS/Altaf Hussain Purchase Licensing Rights, opens new tab\n\nNEW DELHI/SYDNEY, July 3 (Reuters) - Indian Prime Minister Narendra Modi will visit Indonesia, Australia and ​New Zealand next week, the Indian Foreign Ministry said on ‌Friday, as New Delhi seeks to bolster ties in the Asia-Pacific region. [...] During the visits, Modi is expected to meet leaders of the three countries – Indonesian President ​Prabowo Subianto, Australian Prime Minister Anthony Albanese and New Zealand Prime ​Minister Christopher Luxon.\n\nIn Melbourne, Modi is also expected to meet leaders from top Australian ‌companies, ⁠as well as visit the Melbourne Cricket Ground.\n\nIndia is one of Australia's largest trading partners, with some 1 million Indian-born residents making up Australia's largest overseas population. [...] After ​Modi's recent visits to Mauritius and Seychelles and the visit ⁠of Japan's Prime Minister Sanae Takaichi to New Delhi this week, the ​focus has \"shifted to the eastern maritime zones of the Indian Ocean and ​our Act East engagement\", said Rudrendra Tandon, a top Indian Foreign Ministry official.\n\nAdvertisement · Scroll to continue",
+        "score": 0.580091,
+        "published_date": "Fri, 03 Jul 2026 00:38:58 GMT",
+        "raw_content": null,
+        "id": "27e269-01",
+        "search_query": "who is the current Prime Minister of India",
+        "query_category": "contradiction",
+        "normalized_url": "reuters.com/world/asia-pacific/india-pm-modi-make-first-official-visit-new-zealand-next-week-2026-07-03",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.2307,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5798,
+        "domain": "reuters.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2301142&reg=3&lang=1",
+        "title": "Cabinet approves four multitracking projects covering eight Districts in West Bengal, Odisha, Tamil Nadu and Andhra Pradesh, increasing the existing network of Indian Railways by about 410 Kms",
+        "content": "Press Information Bureau (PIB) is the nodal agency of the Government of India to disseminate information to the print and electronic media",
+        "score": 0.97207,
+        "published_date": "Wed, 19 Aug 2026 09:00:00 GMT",
+        "raw_content": null,
+        "id": "0f3bcf-03",
+        "search_query": "official list of Prime Ministers of India site:gov.in",
+        "query_category": "official",
+        "normalized_url": "pib.gov.in/PressReleaseDetail.aspx",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.0562,
+        "credibility_score": 1.0,
+        "domain_category": "official",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5625,
+        "domain": "pib.gov.in",
+        "stance": "INSUFFICIENT",
+        "stance_reasoning": "Source provides background context."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "9b4e44b7-afda-404e-8016-4000deb27231",
+    "verification_version": "v2.1",
+    "original_claim": "RBI announced the withdrawal of ₹2000 currency notes in 2023\n",
+    "normalized_claim": "rbi announc withdrawal rupee 2000 currency not 2023",
+    "verdict": "REAL",
+    "confidence": 98,
+    "explanation": "Multiple reputable news sources report that the Reserve Bank of India announced the withdrawal of ₹2000 denomination banknotes on May 19, 2023. The claim matches these reports exactly.",
+    "evidence_snippets": [
+      "SEE ALL  Remove\n\nRBI said that ₹2,000 banknotes continue to be legal tender. | Photo Credit: The Hindu\n\nThe Reserve Bank on Friday (May 1, 2026) said 98.47% of the ₹2000 banknotes in circulation have been returned.\n\nThe central bank announced the withdrawal of ₹2,000 denomination banknotes from circulation on May 19, 2023. [...] The total value of ₹2000 banknotes in circulation, which was ₹3.56 lakh crore at the close of business on May 19, 2023, when the withdrawal of the currency was announced, has declined to ₹5,451 crore at the close of business on April 30, 2026.\n\nA nation in banknotes\n\n\"Thus, 98.47% of the ₹2000 banknotes in circulation as on May 19, 2023, have since been returned,\" the Reserve Bank said in a statement. [...] A facility for exchanging ₹2,000 banknotes is available at the 19 issue offices of the Reserve Bank since May 19, 2023. From October 9, 2023, the RBI issue offices also accept ₹2,000 banknotes from individuals/entities for deposit into their bank accounts.\n\nAdditionally, members of the public are sending ₹2,000 banknotes through India Post from any post office within the country to any of the RBI issue offices for credit to their bank accounts, the RBI said in a release.",
+      "The high-value Rs 2000 notes worth Rs 5,884 crore are still in circulation, according to official data released on Wednesday.\n\nThe Reserve Bank of India (RBI) had announced the withdrawal of Rs 2000 denomination banknotes from circulation on May 19, 2023.\n\nRs 2000 banknotes continue to be legal tender. [...] img\n\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\n\nINDIA\nWorld\n\n# Rs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI\n\n## The RBI had announced the withdrawal of Rs 2000 denomination banknotes from circulation on May 19, 2023. The banknotes continue to be legal tender.\n\ntrusted source\ntrusted source\nRs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI [...] From October 9, 2023, RBI issue offices are also accepting Rs 2000 banknotes from individuals/entities for deposit into their bank accounts.\n\nFurther, the public can send Rs 2000 banknotes through India Post from any post office within the country, to any of the RBI issue offices for credit to their bank accounts.",
+      "The RBI had announced the withdrawal of Rs 2,000 banknotes from circulation on May 19, 2023, as part of its currency management exercise. The note was introduced in November 2016 after the government scrapped the old Rs 500 and Rs 1,000 notes during demonetisation to quickly restore cash in the economy. As the supply of other denominations increased over the years, the RBI decided to withdraw the Rs 2,000 note, saying it had largely served the purpose for which it was introduced. [...] According to the RBI, the value of Rs 2,000 banknotes still in circulation has fallen sharply. It stood at Rs 3.56 lakh crore when the withdrawal was announced in May 2023. By April 30, 2026, this had dropped to Rs 5,451 crore.\n\nThe central bank said 98.47 per cent of the Rs 2,000 banknotes that were in circulation when the withdrawal was announced have now been returned. [...] img\n\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\n\nINDIA\nWorld\n\n# Still Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It\n\n## The RBI has said Rs 2,000 banknotes remain legal tender and can still be deposited or exchanged through its 19 Issue Offices or sent via India Post, even though the notes were withdrawn from circulation in 2023.\n\ntrusted source\ntrusted source\nStill Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It",
+      "The RBI reports nearly 98.5 per cent of ₹2,000 banknotes have been returned since the withdrawal was announced on May 19th, 2023. The total value of these notes has declined from ₹3.56 lakh crore, or over $3.7 billion, to just ₹5,451 crore, or about $572 million, as of April end this year. [...] That means barely 1.5 per cent of the original stock is still floating around with the public, a number shrinking every quarter. This is not demonetisation 2.0. Unlike 2016, when ₹500 and ₹1,000 notes were rendered worthless overnight.  \nThe RBI's 2023 move was calculated, low-drama currency management. It did not have any midnight deadlines or queues outside ATMs. The note stays valid indefinitely, with no cutoff date set by the RBI. [...] But the practical channels have narrowed. Commercial banks stopped taking these notes back in October 2023.  \nCurrently, only two routes exist. The 19 RBI issue offices scattered across the country, or India Post. One needs to mail the note from any post office to the RBI with account details, and the money lands in your bank account. The bigger signal here is about India’s cash economy itself.",
+      "The Reserve Bank of India (RBI) on Sunday, 1 February, said that 98.42 per cent of Rs 2,000 denomination banknotes that were in circulation at the time of their withdrawal announcement in May 2023 have been returned to the banking system.\n\nThe RBI also clarified that despite the withdrawal from circulation, Rs 2,000 banknotes continue to be legal tender. [...] In a press release issued subsequently on February 2, the RBI stated that the total value of Rs 2,000 notes in circulation has declined from Rs 3.56 lakh crore on May 19, 2023, when the withdrawal was announced, to Rs 5,609 crore as of January 31, 2026. [...] From October 9, 2023, RBI Issue Offices also began accepting Rs 2,000 notes for direct deposit into bank accounts. In addition, the public has been allowed to send Rs 2,000 notes through India Post from any post office in the country to designated RBI Issue Offices for credit to their bank accounts.\n\nThe RBI has not announced any deadline for depositing or exchanging the remaining Rs 2,000 notes still in circulation and said that existing arrangements remain in place.\n\nTags- Rs 2,000 note"
+    ],
+    "source_urls": [
+      "https://www.thehindu.com/business/Economy/rbi-says-9847-of-2000-banknotes-returned/article70928867.ece",
+      "https://www.ndtv.com/india-news/rs-2000-notes-worth-rs-5-884-crore-still-in-circulation-says-rbi-9379375",
+      "https://www.ndtv.com/india-news/still-have-a-rs-2-000-banknote-heres-how-to-deposit-or-exchange-it-11748554",
+      "https://www.wionews.com/business-economy/rs-2-000-the-last-of-the-pink-notes-face-quiet-exit-as-rbi-confirms-98-5-of-currency-returned-1783662864050",
+      "https://swarajyamag.com/economy/rbi-9842-per-cent-of-rs-2000-notes-returned-to-banking-system"
+    ],
+    "source_titles": [
+      "RBI says 98.47% of ₹2000 banknotes returned - The Hindu",
+      "Rs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI",
+      "Still Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It",
+      "₹2,000: The last of the pink notes face quiet exit as RBI confirms 98.5% of currency returned",
+      "RBI: 98.42 Per Cent Of Rs 2,000 Notes Returned to Banking System"
+    ],
+    "source_domains": [
+      "thehindu.com",
+      "ndtv.com",
+      "ndtv.com",
+      "wionews.com",
+      "swarajyamag.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "thehindu.com",
         "score": 0.85,
         "category": "established_news"
       },
@@ -52,151 +1268,564 @@
         "category": "established_news"
       },
       {
+        "domain": "ndtv.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "wionews.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "swarajyamag.com",
+        "score": 0.6,
+        "category": "general"
+      }
+    ],
+    "publication_dates": [
+      "Fri, 01 May 2026 14:35:34 GMT",
+      "Wed, 01 Oct 2025 17:44:15 GMT",
+      "Thu, 09 Jul 2026 09:58:14 GMT",
+      "Tue, 21 Jul 2026 05:00:00 GMT",
+      "Mon, 02 Feb 2026 00:00:00 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:51:35.811649",
+    "retrieval_timestamp": "2026-08-20T10:51:35.811649",
+    "search_queries_used": [
+      "RBI withdrawal of ₹2000 notes 2023 announcement",
+      "Reserve Bank of India press release 2023 withdrawal of ₹2000 denomination",
+      "who is the current Governor of the Reserve Bank of India"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.thehindu.com/business/Economy/rbi-says-9847-of-2000-banknotes-returned/article70928867.ece",
+        "title": "RBI says 98.47% of ₹2000 banknotes returned - The Hindu",
+        "content": "SEE ALL  Remove\n\nRBI said that ₹2,000 banknotes continue to be legal tender. | Photo Credit: The Hindu\n\nThe Reserve Bank on Friday (May 1, 2026) said 98.47% of the ₹2000 banknotes in circulation have been returned.\n\nThe central bank announced the withdrawal of ₹2,000 denomination banknotes from circulation on May 19, 2023. [...] The total value of ₹2000 banknotes in circulation, which was ₹3.56 lakh crore at the close of business on May 19, 2023, when the withdrawal of the currency was announced, has declined to ₹5,451 crore at the close of business on April 30, 2026.\n\nA nation in banknotes\n\n\"Thus, 98.47% of the ₹2000 banknotes in circulation as on May 19, 2023, have since been returned,\" the Reserve Bank said in a statement. [...] A facility for exchanging ₹2,000 banknotes is available at the 19 issue offices of the Reserve Bank since May 19, 2023. From October 9, 2023, the RBI issue offices also accept ₹2,000 banknotes from individuals/entities for deposit into their bank accounts.\n\nAdditionally, members of the public are sending ₹2,000 banknotes through India Post from any post office within the country to any of the RBI issue offices for credit to their bank accounts, the RBI said in a release.",
+        "score": 0.9092728,
+        "published_date": "Fri, 01 May 2026 14:35:34 GMT",
+        "raw_content": null,
+        "id": "b1ecc8-04",
+        "search_query": "RBI withdrawal of ₹2000 notes 2023 announcement",
+        "query_category": "direct",
+        "normalized_url": "thehindu.com/business/Economy/rbi-says-9847-of-2000-banknotes-returned/article70928867.ece",
+        "found_by_categories": [
+          "direct",
+          "official"
+        ],
+        "relevance_score": 0.5022,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6884,
+        "domain": "thehindu.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.ndtv.com/india-news/rs-2000-notes-worth-rs-5-884-crore-still-in-circulation-says-rbi-9379375",
+        "title": "Rs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI",
+        "content": "The high-value Rs 2000 notes worth Rs 5,884 crore are still in circulation, according to official data released on Wednesday.\n\nThe Reserve Bank of India (RBI) had announced the withdrawal of Rs 2000 denomination banknotes from circulation on May 19, 2023.\n\nRs 2000 banknotes continue to be legal tender. [...] img\n\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\n\nINDIA\nWorld\n\n# Rs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI\n\n## The RBI had announced the withdrawal of Rs 2000 denomination banknotes from circulation on May 19, 2023. The banknotes continue to be legal tender.\n\ntrusted source\ntrusted source\nRs 2000 Notes Worth Rs 5,884 Crore Still In Circulation, Says RBI [...] From October 9, 2023, RBI issue offices are also accepting Rs 2000 banknotes from individuals/entities for deposit into their bank accounts.\n\nFurther, the public can send Rs 2000 banknotes through India Post from any post office within the country, to any of the RBI issue offices for credit to their bank accounts.",
+        "score": 0.9307171,
+        "published_date": "Wed, 01 Oct 2025 17:44:15 GMT",
+        "raw_content": null,
+        "id": "31a436-01",
+        "search_query": "Reserve Bank of India press release 2023 withdrawal of ₹2000 denomination",
+        "query_category": "official",
+        "normalized_url": "ndtv.com/india-news/rs-2000-notes-worth-rs-5-884-crore-still-in-circulation-says-rbi-9379375",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.3964,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6461,
+        "domain": "ndtv.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.ndtv.com/india-news/still-have-a-rs-2-000-banknote-heres-how-to-deposit-or-exchange-it-11748554",
+        "title": "Still Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It",
+        "content": "The RBI had announced the withdrawal of Rs 2,000 banknotes from circulation on May 19, 2023, as part of its currency management exercise. The note was introduced in November 2016 after the government scrapped the old Rs 500 and Rs 1,000 notes during demonetisation to quickly restore cash in the economy. As the supply of other denominations increased over the years, the RBI decided to withdraw the Rs 2,000 note, saying it had largely served the purpose for which it was introduced. [...] According to the RBI, the value of Rs 2,000 banknotes still in circulation has fallen sharply. It stood at Rs 3.56 lakh crore when the withdrawal was announced in May 2023. By April 30, 2026, this had dropped to Rs 5,451 crore.\n\nThe central bank said 98.47 per cent of the Rs 2,000 banknotes that were in circulation when the withdrawal was announced have now been returned. [...] img\n\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\nimg\n\nINDIA\nWorld\n\n# Still Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It\n\n## The RBI has said Rs 2,000 banknotes remain legal tender and can still be deposited or exchanged through its 19 Issue Offices or sent via India Post, even though the notes were withdrawn from circulation in 2023.\n\ntrusted source\ntrusted source\nStill Have A Rs 2,000 Banknote? Here's How To Deposit Or Exchange It",
+        "score": 0.9377661,
+        "published_date": "Thu, 09 Jul 2026 09:58:14 GMT",
+        "raw_content": null,
+        "id": "e12e12-00",
+        "search_query": "RBI withdrawal of ₹2000 notes 2023 announcement",
+        "query_category": "direct",
+        "normalized_url": "ndtv.com/india-news/still-have-a-rs-2-000-banknote-heres-how-to-deposit-or-exchange-it-11748554",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.3755,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6377,
+        "domain": "ndtv.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.wionews.com/business-economy/rs-2-000-the-last-of-the-pink-notes-face-quiet-exit-as-rbi-confirms-98-5-of-currency-returned-1783662864050",
+        "title": "₹2,000: The last of the pink notes face quiet exit as RBI confirms 98.5% of currency returned",
+        "content": "The RBI reports nearly 98.5 per cent of ₹2,000 banknotes have been returned since the withdrawal was announced on May 19th, 2023. The total value of these notes has declined from ₹3.56 lakh crore, or over $3.7 billion, to just ₹5,451 crore, or about $572 million, as of April end this year. [...] That means barely 1.5 per cent of the original stock is still floating around with the public, a number shrinking every quarter. This is not demonetisation 2.0. Unlike 2016, when ₹500 and ₹1,000 notes were rendered worthless overnight.  \nThe RBI's 2023 move was calculated, low-drama currency management. It did not have any midnight deadlines or queues outside ATMs. The note stays valid indefinitely, with no cutoff date set by the RBI. [...] But the practical channels have narrowed. Commercial banks stopped taking these notes back in October 2023.  \nCurrently, only two routes exist. The 19 RBI issue offices scattered across the country, or India Post. One needs to mail the note from any post office to the RBI with account details, and the money lands in your bank account. The bigger signal here is about India’s cash economy itself.",
+        "score": 0.91118777,
+        "published_date": "Tue, 21 Jul 2026 05:00:00 GMT",
+        "raw_content": null,
+        "id": "2d2fdd-03",
+        "search_query": "RBI withdrawal of ₹2000 notes 2023 announcement",
+        "query_category": "direct",
+        "normalized_url": "wionews.com/business-economy/rs-2-000-the-last-of-the-pink-notes-face-quiet-exit-as-rbi-confirms-98-5-of-currency-returned-1783662864050",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.5747,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6299,
+        "domain": "wionews.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://swarajyamag.com/economy/rbi-9842-per-cent-of-rs-2000-notes-returned-to-banking-system",
+        "title": "RBI: 98.42 Per Cent Of Rs 2,000 Notes Returned to Banking System",
+        "content": "The Reserve Bank of India (RBI) on Sunday, 1 February, said that 98.42 per cent of Rs 2,000 denomination banknotes that were in circulation at the time of their withdrawal announcement in May 2023 have been returned to the banking system.\n\nThe RBI also clarified that despite the withdrawal from circulation, Rs 2,000 banknotes continue to be legal tender. [...] In a press release issued subsequently on February 2, the RBI stated that the total value of Rs 2,000 notes in circulation has declined from Rs 3.56 lakh crore on May 19, 2023, when the withdrawal was announced, to Rs 5,609 crore as of January 31, 2026. [...] From October 9, 2023, RBI Issue Offices also began accepting Rs 2,000 notes for direct deposit into bank accounts. In addition, the public has been allowed to send Rs 2,000 notes through India Post from any post office in the country to designated RBI Issue Offices for credit to their bank accounts.\n\nThe RBI has not announced any deadline for depositing or exchanging the remaining Rs 2,000 notes still in circulation and said that existing arrangements remain in place.\n\nTags- Rs 2,000 note",
+        "score": 0.92091084,
+        "published_date": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "raw_content": null,
+        "id": "014bba-01",
+        "search_query": "RBI withdrawal of ₹2000 notes 2023 announcement",
+        "query_category": "direct",
+        "normalized_url": "swarajyamag.com/economy/rbi-9842-per-cent-of-rs-2000-notes-returned-to-banking-system",
+        "found_by_categories": [
+          "direct",
+          "official"
+        ],
+        "relevance_score": 0.4681,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.5873,
+        "domain": "swarajyamag.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "3d5e9e56-c117-4da5-9a0b-7188e40702ee",
+    "verification_version": "v2.1",
+    "original_claim": "India won the T20 World Cup in 2024\n",
+    "normalized_claim": "t20 cup 2024",
+    "verdict": "REAL",
+    "confidence": 98,
+    "explanation": "Multiple reputable news sources report that India won the ICC Men's T20 World Cup in 2024, defeating South Africa in the final. This directly confirms the claim.",
+    "evidence_snippets": [
+      "South Africa suffered a heartbreaking defeat in the 2024 T20 World Cup final against India in Barbados, when they needed 30 off 30 balls with six wickets and lost by seven runs after a clatter of wickets.\n\nThe Proteas beat India and the West Indies in the Super Eight to have many marking them down as the favourites to lift the trophy.\n\n“With regards to being favourites or not, that’s all different people’s opinions,” said Markram. [...] “Us as a team really just try to focus on putting good games of cricket together and playing that exciting brand that we’ve been trying to play for the last 18 months or so.”\n\nAdvertisement\n\nMarkram has led South Africa from the front with 268 runs, including three half-centuries and a top score of 86 not out in seven matches.\n\nHe holds an impressive captaincy record of 15 wins in 16 T20 World Cup matches, with the only defeat in the 2024 final. [...] Live\n\nLive\n\nSport|ICC Men's T20 World Cup\n\n# T20 World Cup semifinal: Unbeaten South Africa ‘fresh’ for New Zealand\n\nSouth Africa were defeated finalists in 2024 and are no strangers to last-four exits, but take an unbeaten run to the semifinals.\n\nSave\n\nShare\n\nSouth Africa's captain Aiden Markram during the T20 World Cup cricket tournament\n\nAiden Markram will seek to lead South Africa to a first cricket World Cup title [Ashwini Bhatia/AP]\n\nBy AFP\n\nPublished On 3 Mar 20263 Mar 2026",
+      "Cricket is a massively popular sport in India, attracting a huge audience and a fan base running into millions - and this is the latest in a string of major victories to trigger nationwide celebrations.\n\nOn Sunday, India became the first team to win consecutive ICC Men's T20 World Cup titles. In 2024, India won the trophy by beating South Africa by seven runs. [...] India beat England last week to qualify for the tournament final, while New Zealand beat South Africa.\n\nSo far, the Indian men's team has won the ODI World Cup twice (1983 and 2011) and the T20 World Cup three times (2007, 2024 and 2026).\n\nThe Board of Control for Cricket in India (BCCI) is yet to announce when and where the victory celebrations will be held - an event in which all team members participate with the World Cup trophy in the presence of thousands of fans. [...] By 23:00 local time (17:30 GMT), gatherings could be seen near Delhi's India Gate, Chennai's Marina Beach, outside Mumbai's airport, and in other cities that include Kolkata, Bengaluru, Lucknow, Guwahati and Patna.\n\nThe victory comes four months after India won their first Women's Cricket World Cup.\n\nReuters A group of men - with two of them holding Indian flags - celebrate India's T20 World Cup victory near Delhi's India Gate on Sunday night.",
+      "It was the cohosts’ first loss of the tournament and also ended their 12-match winning streak in the T20 World Cup that they had carried on from their title-winning run in 2024.\n\nSouth Africa’s bowlers put on a near-perfect display against a strong Indian batting lineup, and were backed by their fielders to leave the pre-tournament favourites reeling. [...] India lost their in-form opener Ishan Kishan on the fourth ball of the innings to the offspin bowling of South Africa’s captain Aiden Markram while trying to hit against the spin.\n\nOne-down batter Tilak Varma was the next to fall as he was caught behind off the first ball of Marco Jansen’s over.\n\nIndia’s captain Suryakumar Yadav and out-of-form star batter Abhishek Sharma tried to rebuild their innings until Sharma fell in the fifth over after scoring 15 runs off 12 deliveries. [...] Skip linksSkip to Content\n\nLive\n\nLive\n\nSport|ICC Men's T20 World Cup\n\n# T20 World Cup: South Africa beat India by 76 runs in Super Eight\n\nIndia were bowled out for 111 chasing 188-run target and must now win their next two games to qualify for the semifinals.\n\nSave\n\nShare",
+      "3: India defeated New Zealand on Sunday to become the first team to capture three T20 World Cup titles. Their previous T20 World Cup triumphs came in 2007 and 2024. The defending champions also became the first team to win back-to-back titles and the first to win a home Men’s T20 World Cup.\n\nIndia collect their champions medal | Final | T20WC 2026\n\nIndia collect their champions medal | Final | T20WC 2026 [...] 383: Sahibzada Farhan raised the bar higher for most runs in a single edition of the World Cup by scoring 383. At the time he set the mark, the previous best was 319 by Virat Kohli in the 2014 edition. However, Tim Seifert (326) and Sanju Samson (321) have also gone past Kohli’s tally since.\n\n176: Sahibzada Farhan and Fakhar Zaman put on 176-run opening stand during Pakistan’s Super Eight clash against Sri Lanka. It stands as the highest partnership for any wicket in T20Is. [...] Watch every maximum as India and England combined to smash a record-breaking 34 sixes in their semi-final of the ICC Men's T20 World Cup in Mumbai\n\n18: Abhishek Sharma brought up his half-century in the final against New Zealand in just 18 balls, making it the fastest of this edition and the fastest in a T20 World Cup knockout game.\n\n24: Sanju Samson hit 24 sixes through the tournament, the most in a single T20 World Cup edition.",
+      "New Zealand never posed a genuine threat in its chase and was all out for 159 in 19 overs. India pacer Jasprit Bumrah took 4-15 in four overs and Axar Patel picked up 3-27 in three overs. New Zealand opener Tim Seifert scored a 26-ball 52 with five sixes.\n\nIndia, which won the T20 World Cup in 2007 and 2024, became the first country to successfully defend its title. India won the 2024 final against South Africa by seven runs but dominated Sunday from the start. [...] India’s 92-0 was the joint highest power play score in any T20 World Cup match, equaling West Indies’ 92-1 against Afghanistan in the 2024 edition.\n\nRelated Stories\n\nFILE -England's Dan Lawrence bats against West Indies during day five of their second cricket Test match at the Kensington Oval in Bridgetown, Barbados, March 20, 2022. (AP Photo/Ricardo Mazalan, File)\n\nEngland recall Lawrence, Carse, Pope, Cook for Pakistan tests with Bethell ruled out\n\n1 MIN READ [...] SECTIONS\n\n  Photo Essays\n\n  TOP STORIES\n\n  - How a photographer centered one woman amid the destruction of a Spokane wildfire\n  - How a photographer captured the speed and danger of Pamplona’s bull run\n  - AP Top Photos of the Month, September 2024\n\n  Newsletters\n\n  The World in Pictures\n\n  Get special access to AP's most compelling images from our global team of photojournalists.\n\n  See All Newsletters\n AP Investigations\n Climate"
+    ],
+    "source_urls": [
+      "https://www.aljazeera.com/sports/2026/3/3/t20-world-cup-semifinal-unbeaten-south-africa-wary-of-new-zealand",
+      "https://www.bbc.com/news/articles/c5ykz3rzrk2o",
+      "https://www.aljazeera.com/sports/2026/2/22/t20-world-cup-south-africa-beat-india-by-76-runs-in-super-eight",
+      "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/all-records-broken-at-the-icc-men-s-t20-world-cup-2026",
+      "https://apnews.com/article/t20-world-cup-final-india-new-zealand-5461fd654307835216341c9f0fa2b69e"
+    ],
+    "source_titles": [
+      "T20 World Cup semifinal: Unbeaten South Africa ‘fresh’ for New Zealand | ICC Men's T20 World Cup News | Al Jazeera",
+      "India T20 World Cup victory: Fans celebrate across the country",
+      "T20 World Cup: South Africa beat India by 76 runs in Super Eight | ICC Men's T20 World Cup News | Al Jazeera",
+      "All records broken at the ICC Men's T20 World Cup 2026 | ICC Men's T20 World Cup, 2026 | ICC",
+      "Brilliant India crushes NZ by 96 runs to win T20 World Cup for a record 3rd time | AP News"
+    ],
+    "source_domains": [
+      "aljazeera.com",
+      "bbc.com",
+      "aljazeera.com",
+      "icc-cricket.com",
+      "apnews.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "aljazeera.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
         "domain": "bbc.com",
         "score": 0.85,
         "category": "established_news"
       },
       {
-        "domain": "bbc.co.uk",
+        "domain": "aljazeera.com",
+        "score": 0.85,
+        "category": "established_news"
+      },
+      {
+        "domain": "icc-cricket.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "apnews.com",
         "score": 0.85,
         "category": "established_news"
       }
     ],
     "publication_dates": [
-      "Fri, 08 May 2026 07:10:16 GMT",
-      "Wed, 29 Apr 2026 00:00:00 GMT",
-      "Sun, 10 May 2026 09:00:37 GMT",
-      "Sun, 10 May 2026 23:34:47 GMT",
-      "Tue, 13 Jan 2026 00:51:34 GMT"
+      "Tue, 03 Mar 2026 15:58:16 GMT",
+      "Mon, 09 Mar 2026 07:16:40 GMT",
+      "Sun, 22 Feb 2026 17:52:23 GMT",
+      "Tue, 10 Mar 2026 02:37:28 GMT",
+      "Sun, 08 Mar 2026 13:25:48 GMT"
     ],
-    "verification_timestamp": "2026-08-19T22:01:15.565273",
-    "retrieval_timestamp": "2026-08-19T22:01:15.565273",
+    "verification_timestamp": "2026-08-20T10:51:57.830051",
+    "retrieval_timestamp": "2026-08-20T10:51:57.830051",
     "search_queries_used": [
-      "Chief Minister of Tamil Nadu",
-      "Who is the current CM of Tamil Nadu?",
-      "Vijay's political career and office history"
+      "India T20 World Cup 2024 winner",
+      "ICC official results 2024 T20 World Cup",
+      "Who won the 2024 ICC Men's T20 World Cup?"
     ],
     "evidence_selected": [
       {
-        "url": "https://www.bbc.com/news/articles/ce8p2d97482o",
-        "title": "Vijay, Tamil Nadu election results 2026: Film star takes oath as chief minister",
-        "content": "# Tamil film star Vijay is Indian state chief minister after days of uncertainty\n\nTVK Actor Vijay on the campaign trail in Tamil Nadu in 2026\n\nFilm star-turned-politician C Joseph Vijay has been sworn in as the new chief minister of the Indian state of Tamil Nadu, ending days of political uncertainty.\n\nThe 51-year-old's newly-formed party Tamilaga Vettri Kazhagam (TVK) won 108 seats in last week's vote-counting - leaving him 10 seats short of a majority in the 234-member assembly.",
-        "score": 0.875031,
-        "published_date": "Fri, 08 May 2026 07:10:16 GMT",
+        "url": "https://www.aljazeera.com/sports/2026/3/3/t20-world-cup-semifinal-unbeaten-south-africa-wary-of-new-zealand",
+        "title": "T20 World Cup semifinal: Unbeaten South Africa ‘fresh’ for New Zealand | ICC Men's T20 World Cup News | Al Jazeera",
+        "content": "South Africa suffered a heartbreaking defeat in the 2024 T20 World Cup final against India in Barbados, when they needed 30 off 30 balls with six wickets and lost by seven runs after a clatter of wickets.\n\nThe Proteas beat India and the West Indies in the Super Eight to have many marking them down as the favourites to lift the trophy.\n\n“With regards to being favourites or not, that’s all different people’s opinions,” said Markram. [...] “Us as a team really just try to focus on putting good games of cricket together and playing that exciting brand that we’ve been trying to play for the last 18 months or so.”\n\nAdvertisement\n\nMarkram has led South Africa from the front with 268 runs, including three half-centuries and a top score of 86 not out in seven matches.\n\nHe holds an impressive captaincy record of 15 wins in 16 T20 World Cup matches, with the only defeat in the 2024 final. [...] Live\n\nLive\n\nSport|ICC Men's T20 World Cup\n\n# T20 World Cup semifinal: Unbeaten South Africa ‘fresh’ for New Zealand\n\nSouth Africa were defeated finalists in 2024 and are no strangers to last-four exits, but take an unbeaten run to the semifinals.\n\nSave\n\nShare\n\nSouth Africa's captain Aiden Markram during the T20 World Cup cricket tournament\n\nAiden Markram will seek to lead South Africa to a first cricket World Cup title [Ashwini Bhatia/AP]\n\nBy AFP\n\nPublished On 3 Mar 20263 Mar 2026",
+        "score": 0.7420672,
+        "published_date": "Tue, 03 Mar 2026 15:58:16 GMT",
         "raw_content": null,
-        "id": "1cea79-03",
-        "search_query": "Chief Minister of Tamil Nadu",
+        "id": "0c23c0-00",
+        "search_query": "ICC official results 2024 T20 World Cup",
+        "query_category": "official",
+        "normalized_url": "aljazeera.com/sports/2026/3/3/t20-world-cup-semifinal-unbeaten-south-africa-wary-of-new-zealand",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.4607,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6718,
+        "domain": "aljazeera.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c5ykz3rzrk2o",
+        "title": "India T20 World Cup victory: Fans celebrate across the country",
+        "content": "Cricket is a massively popular sport in India, attracting a huge audience and a fan base running into millions - and this is the latest in a string of major victories to trigger nationwide celebrations.\n\nOn Sunday, India became the first team to win consecutive ICC Men's T20 World Cup titles. In 2024, India won the trophy by beating South Africa by seven runs. [...] India beat England last week to qualify for the tournament final, while New Zealand beat South Africa.\n\nSo far, the Indian men's team has won the ODI World Cup twice (1983 and 2011) and the T20 World Cup three times (2007, 2024 and 2026).\n\nThe Board of Control for Cricket in India (BCCI) is yet to announce when and where the victory celebrations will be held - an event in which all team members participate with the World Cup trophy in the presence of thousands of fans. [...] By 23:00 local time (17:30 GMT), gatherings could be seen near Delhi's India Gate, Chennai's Marina Beach, outside Mumbai's airport, and in other cities that include Kolkata, Bengaluru, Lucknow, Guwahati and Patna.\n\nThe victory comes four months after India won their first Women's Cricket World Cup.\n\nReuters A group of men - with two of them holding Indian flags - celebrate India's T20 World Cup victory near Delhi's India Gate on Sunday night.",
+        "score": 0.8765607,
+        "published_date": "Mon, 09 Mar 2026 07:16:40 GMT",
+        "raw_content": null,
+        "id": "7d7eae-00",
+        "search_query": "Who won the 2024 ICC Men's T20 World Cup?",
+        "query_category": "contradiction",
+        "normalized_url": "bbc.com/news/articles/c5ykz3rzrk2o",
+        "found_by_categories": [
+          "contradiction",
+          "direct"
+        ],
+        "relevance_score": 0.4232,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6568,
+        "domain": "bbc.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.aljazeera.com/sports/2026/2/22/t20-world-cup-south-africa-beat-india-by-76-runs-in-super-eight",
+        "title": "T20 World Cup: South Africa beat India by 76 runs in Super Eight | ICC Men's T20 World Cup News | Al Jazeera",
+        "content": "It was the cohosts’ first loss of the tournament and also ended their 12-match winning streak in the T20 World Cup that they had carried on from their title-winning run in 2024.\n\nSouth Africa’s bowlers put on a near-perfect display against a strong Indian batting lineup, and were backed by their fielders to leave the pre-tournament favourites reeling. [...] India lost their in-form opener Ishan Kishan on the fourth ball of the innings to the offspin bowling of South Africa’s captain Aiden Markram while trying to hit against the spin.\n\nOne-down batter Tilak Varma was the next to fall as he was caught behind off the first ball of Marco Jansen’s over.\n\nIndia’s captain Suryakumar Yadav and out-of-form star batter Abhishek Sharma tried to rebuild their innings until Sharma fell in the fifth over after scoring 15 runs off 12 deliveries. [...] Skip linksSkip to Content\n\nLive\n\nLive\n\nSport|ICC Men's T20 World Cup\n\n# T20 World Cup: South Africa beat India by 76 runs in Super Eight\n\nIndia were bowled out for 111 chasing 188-run target and must now win their next two games to qualify for the semifinals.\n\nSave\n\nShare",
+        "score": 0.8674071,
+        "published_date": "Sun, 22 Feb 2026 17:52:23 GMT",
+        "raw_content": null,
+        "id": "6d5ccd-01",
+        "search_query": "Who won the 2024 ICC Men's T20 World Cup?",
+        "query_category": "contradiction",
+        "normalized_url": "aljazeera.com/sports/2026/2/22/t20-world-cup-south-africa-beat-india-by-76-runs-in-super-eight",
+        "found_by_categories": [
+          "contradiction"
+        ],
+        "relevance_score": 0.3682,
+        "credibility_score": 0.85,
+        "domain_category": "established_news",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6348,
+        "domain": "aljazeera.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/all-records-broken-at-the-icc-men-s-t20-world-cup-2026",
+        "title": "All records broken at the ICC Men's T20 World Cup 2026 | ICC Men's T20 World Cup, 2026 | ICC",
+        "content": "3: India defeated New Zealand on Sunday to become the first team to capture three T20 World Cup titles. Their previous T20 World Cup triumphs came in 2007 and 2024. The defending champions also became the first team to win back-to-back titles and the first to win a home Men’s T20 World Cup.\n\nIndia collect their champions medal | Final | T20WC 2026\n\nIndia collect their champions medal | Final | T20WC 2026 [...] 383: Sahibzada Farhan raised the bar higher for most runs in a single edition of the World Cup by scoring 383. At the time he set the mark, the previous best was 319 by Virat Kohli in the 2014 edition. However, Tim Seifert (326) and Sanju Samson (321) have also gone past Kohli’s tally since.\n\n176: Sahibzada Farhan and Fakhar Zaman put on 176-run opening stand during Pakistan’s Super Eight clash against Sri Lanka. It stands as the highest partnership for any wicket in T20Is. [...] Watch every maximum as India and England combined to smash a record-breaking 34 sixes in their semi-final of the ICC Men's T20 World Cup in Mumbai\n\n18: Abhishek Sharma brought up his half-century in the final against New Zealand in just 18 balls, making it the fastest of this edition and the fastest in a T20 World Cup knockout game.\n\n24: Sanju Samson hit 24 sixes through the tournament, the most in a single T20 World Cup edition.",
+        "score": 0.43065065,
+        "published_date": "Tue, 10 Mar 2026 02:37:28 GMT",
+        "raw_content": null,
+        "id": "bfec29-02",
+        "search_query": "ICC official results 2024 T20 World Cup",
+        "query_category": "official",
+        "normalized_url": "icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/all-records-broken-at-the-icc-men-s-t20-world-cup-2026",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.5368,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.6147,
+        "domain": "icc-cricket.com",
+        "stance": "SUPPORTS",
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      },
+      {
+        "url": "https://apnews.com/article/t20-world-cup-final-india-new-zealand-5461fd654307835216341c9f0fa2b69e",
+        "title": "Brilliant India crushes NZ by 96 runs to win T20 World Cup for a record 3rd time | AP News",
+        "content": "New Zealand never posed a genuine threat in its chase and was all out for 159 in 19 overs. India pacer Jasprit Bumrah took 4-15 in four overs and Axar Patel picked up 3-27 in three overs. New Zealand opener Tim Seifert scored a 26-ball 52 with five sixes.\n\nIndia, which won the T20 World Cup in 2007 and 2024, became the first country to successfully defend its title. India won the 2024 final against South Africa by seven runs but dominated Sunday from the start. [...] India’s 92-0 was the joint highest power play score in any T20 World Cup match, equaling West Indies’ 92-1 against Afghanistan in the 2024 edition.\n\nRelated Stories\n\nFILE -England's Dan Lawrence bats against West Indies during day five of their second cricket Test match at the Kensington Oval in Bridgetown, Barbados, March 20, 2022. (AP Photo/Ricardo Mazalan, File)\n\nEngland recall Lawrence, Carse, Pope, Cook for Pakistan tests with Bethell ruled out\n\n1 MIN READ [...] SECTIONS\n\n  Photo Essays\n\n  TOP STORIES\n\n  - How a photographer centered one woman amid the destruction of a Spokane wildfire\n  - How a photographer captured the speed and danger of Pamplona’s bull run\n  - AP Top Photos of the Month, September 2024\n\n  Newsletters\n\n  The World in Pictures\n\n  Get special access to AP's most compelling images from our global team of photojournalists.\n\n  See All Newsletters\n AP Investigations\n Climate",
+        "score": 0.86052185,
+        "published_date": "Sun, 08 Mar 2026 13:25:48 GMT",
+        "raw_content": null,
+        "id": "e5e6f8-00",
+        "search_query": "India T20 World Cup 2024 winner",
         "query_category": "direct",
-        "normalized_url": "bbc.com/news/articles/ce8p2d97482o",
+        "normalized_url": "apnews.com/article/t20-world-cup-final-india-new-zealand-5461fd654307835216341c9f0fa2b69e",
         "found_by_categories": [
-          "direct",
-          "official"
+          "direct"
         ],
-        "relevance_score": 0.5322,
+        "relevance_score": 0.312,
         "credibility_score": 0.85,
         "domain_category": "established_news",
         "freshness_score": 0.6,
         "agreement_score": 1.0,
-        "final_evidence_score": 0.7004,
-        "domain": "bbc.com",
+        "final_evidence_score": 0.6123,
+        "domain": "apnews.com",
         "stance": "SUPPORTS",
-        "stance_reasoning": "Source confirms claimed entity holds official role."
+        "stance_reasoning": "Source explicitly confirms claimed facts."
+      }
+    ],
+    "metadata": {
+      "is_time_sensitive": false
+    }
+  },
+  {
+    "id": "9d5486b6-7be3-4e04-a9aa-7ea078ea4244",
+    "verification_version": "v2.1",
+    "original_claim": "A 500-foot solid gold meteorite landed in a Tamil Nadu village\n",
+    "normalized_claim": "500 foot solid gold meteorite land village",
+    "verdict": "FAKE",
+    "confidence": 90,
+    "explanation": "Flagged as FAKE: Credible evidence directly contradicts this claim. Reports an ordinary chondrite of 110 kg in India, contradicting the claim of a 500‑foot solid gold meteorite in Tamil Nadu.",
+    "evidence_snippets": [
+      "IND MH MAHARASHTRA\nIND ML MEGHALAYA\nIND MN MANIPUR\nIND MP MADHYA PRADESH\nIND MZ MIZORAM\nIND NL NAGALAND\nIND OR ORISSA\nIND PB PUNJAB\nIND PY PUDUCHERRY\nIND RJ RAJASTHAN\nIND SK SIKKIM\nIND TN TAMIL NADU\nIND TR TRIPURA\nIND UP UTTAR PRADESH\nIND UT UTTARAKHAND\nIND WB WEST BENGAL\nIRA 01 EAST AZERBAIJAN\nIRA 02 WEST AZERBAIJAN\nIRA 03 ARDABIL\nIRA 04 ISFAHAN\nIRA 05 ILAM\nIRA 06 BUSHEHR\nIRA 07 TEHRAN\nIRA 08 CHAHARMAHAL AND BAKHTIARI\nIRA 10 KHUZESTAN\nIRA 11 ZANJAN\nIRA 12 SEMNAN\nIRA 13 SISTAN AND BALUCHESTAN [...] KAZ MAN MANGYSTAU PROVINCE\nKAZ PAV PAVLODAR PROVINCE\nKAZ SEV NORTH KAZAKHSTAN PROVINCE\nKAZ VOS EAST KAZAKHSTAN PROVINCE\nKAZ YUZ SOUTH KAZAKHSTAN PROVINCE\nKAZ ZAP WEST KAZAKHSTAN PROVINCE\nKAZ ZHA JAMBYL PROVINCE\nKEN 110 NAIROBI\nKEN 200 CENTRAL\nKEN 300 COAST\nKEN 400 EASTERN\nKEN 500 NORTH-EASTERN\nKEN 600 NYANZA\nKEN 700 RIFT VALLEY\nKEN 800 WESTERN\nKIR G GILBERT ISLANDS\nKIR L LINE ISLANDS\nKIR P PHOENIX ISLANDS\nKOR 01 PYONGYANG\nKOR 02 SOUTH PYONGAN\nKOR 03 NORTH PYONGAN\nKOR 04 CHAGANG [...] GolStaDup Gold Star Family Plate - Duplicate REG Registration Fees\nGolStaRnw Gold Star Family Plate - Renew REG Registration Fees\nGovCnsDup Governors Council - Duplicate REG Registration Fees\nGovCnsl Governors Council - Annual REG Registration Fees\nGovCnsRnw Governors Council - Renew REG Registration Fees\nGovCnsSwp Governors Council - Swap REG Registration Fees\nGovFee Government - Annual REG Registration Fees\nGovFeeRnw Government - Renew REG Registration Fees",
+      "Other finds in Texas include the 500-foot- diameter Meteor Crater at Odessa, the third largest crater in the United States, and the Peña Blanca Spring meteorite",
+      "These are fragments of the Ohio meteorite. NASA estimated that the original body of the meteor was around two meters wide and weighed six to seven tons. O 500-",
+      "Healthy screen time with K-6 math, reading and science games kids love.\n\nUpdated on\n\nAug 4, 2026\n\nAvailable on\n\nAndroid, Windows\\\n\nEducational\n\nMathematics\n\nCasual\n\nSingle player\n\nStylized\n\nCartoon\n\nCute\n\n\\Powered by Intel® technology\n\n## Data safety\n\narrow\\_forward\n\nSafety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer provided this information and may update it over time. [...] Intel is a registered trademark of Intel Corporation or its subsidiaries. Windows is a trademark of the Microsoft group of companies.\n\n\\Might not be available for this game\n\n## App support\n\npublic\n\nWebsite\n\nemail\n\nSupport email\n\ncontact@boddlelearning.com\n\nshield\n\nPrivacy Policy\n\nAbout the developer\n\nBoddle Learning, Inc.\n\ncontact@boddlelearning.com\n\n12 N Cheyenne Ave Ste 011 Tulsa, OK 74103-2215 United States\n\n+1 918-727-7720\n\n## Similar games\n\narrow\\_forward\n\nThumbnail image [...] Thumbnail image\n\nProdigy Math: Kids Game\n\nProdigy Education Inc\n\n4.1star\n\nThumbnail image\n\nTimes Tables Rock Stars\n\nMaths Circle\n\n3.3star\n\nThumbnail image\n\nABCya! Games\n\nABCya.com LLC\n\n3.7star\n\nThumbnail image\n\nThird Grade Learning Games\n\nRosiMosi LLC\n\n3.9star\n\nThumbnail image\n\nMaths Circle\n\nThumbnail image\n\nTeach Your Monster to Read\n\nTeach Your Monster\n\n3.3star\n\nTRY 489.99\n\nflagFlag as inappropriate",
+      "The Sulagiri meteorite, one of the largest recorded meteorite falls in India with an approximate weight of 110 kilograms, is an ordinary chondrite recovered"
+    ],
+    "source_urls": [
+      "https://www.mass.gov/doc/ma-rmv-altas-evr-web-service-data-dictionary-draft-v314/download",
+      "https://www.facebook.com/houstonchronicle/posts/dr-marc-fries-a-planetary-scientist-who-runs-nasas-meteorite-falls-website-went-/1367846098692858",
+      "https://www.instagram.com/reel/DWUYJ6AkUGQ",
+      "https://play.google.com/store/apps/details?id=com.boddle.learning&hl=en_US",
+      "https://www.facebook.com/gsipage/posts/the-sulagiri-meteorite-one-of-the-largest-recorded-meteorite-falls-in-india-with/1460677519419778"
+    ],
+    "source_titles": [
+      "EVR Web Service Data Dictionary (DRAFT V3.14)",
+      "Dr. Marc Fries, a planetary scientist who runs NASA's ...",
+      "Meteorites on Instagram: \"Why Can't NASA Detect Some ...",
+      "Boddle: Math & Reading Game - Apps on Google Play",
+      "The Sulagiri meteorite, one of the largest recorded ..."
+    ],
+    "source_domains": [
+      "mass.gov",
+      "facebook.com",
+      "instagram.com",
+      "play.google.com",
+      "facebook.com"
+    ],
+    "source_credibility_info": [
+      {
+        "domain": "mass.gov",
+        "score": 1.0,
+        "category": "official"
       },
       {
-        "url": "https://www.hindustantimes.com/india-news/vijay-not-stalin-the-preferred-cm-for-tamil-nadu-voters-predicts-axis-my-india-tvk-news-101777474730629.html",
-        "title": "Vijay, not Stalin, the preferred CM for Tamil Nadu voters, predicts Axis My India | India News",
-        "content": "Actor-turned-politician Vijay has edged past incumbent MK Stalin as the preferred chief ministerial choice among voters in Tamil Nadu, according to the",
-        "score": 0.71758664,
-        "published_date": "Wed, 29 Apr 2026 00:00:00 GMT",
+        "domain": "facebook.com",
+        "score": 0.4,
+        "category": "unverified"
+      },
+      {
+        "domain": "instagram.com",
+        "score": 0.4,
+        "category": "unverified"
+      },
+      {
+        "domain": "play.google.com",
+        "score": 0.6,
+        "category": "general"
+      },
+      {
+        "domain": "facebook.com",
+        "score": 0.4,
+        "category": "unverified"
+      }
+    ],
+    "publication_dates": [
+      "Wed, 05 Aug 2026 13:59:25 GMT",
+      "Mon, 23 Mar 2026 05:00:00 GMT",
+      "Wed, 22 Apr 2026 05:00:00 GMT",
+      "Tue, 04 Aug 2026 00:00:00 GMT",
+      "Tue, 21 Jul 2026 05:00:00 GMT"
+    ],
+    "verification_timestamp": "2026-08-20T10:52:54.361854",
+    "retrieval_timestamp": "2026-08-20T10:52:54.361854",
+    "search_queries_used": [
+      "500-foot solid gold meteorite Tamil Nadu village",
+      "Tamil Nadu government geological survey official records meteorite landing",
+      "NASA database solid gold meteorite size 500 feet"
+    ],
+    "evidence_selected": [
+      {
+        "url": "https://www.mass.gov/doc/ma-rmv-altas-evr-web-service-data-dictionary-draft-v314/download",
+        "title": "EVR Web Service Data Dictionary (DRAFT V3.14)",
+        "content": "IND MH MAHARASHTRA\nIND ML MEGHALAYA\nIND MN MANIPUR\nIND MP MADHYA PRADESH\nIND MZ MIZORAM\nIND NL NAGALAND\nIND OR ORISSA\nIND PB PUNJAB\nIND PY PUDUCHERRY\nIND RJ RAJASTHAN\nIND SK SIKKIM\nIND TN TAMIL NADU\nIND TR TRIPURA\nIND UP UTTAR PRADESH\nIND UT UTTARAKHAND\nIND WB WEST BENGAL\nIRA 01 EAST AZERBAIJAN\nIRA 02 WEST AZERBAIJAN\nIRA 03 ARDABIL\nIRA 04 ISFAHAN\nIRA 05 ILAM\nIRA 06 BUSHEHR\nIRA 07 TEHRAN\nIRA 08 CHAHARMAHAL AND BAKHTIARI\nIRA 10 KHUZESTAN\nIRA 11 ZANJAN\nIRA 12 SEMNAN\nIRA 13 SISTAN AND BALUCHESTAN [...] KAZ MAN MANGYSTAU PROVINCE\nKAZ PAV PAVLODAR PROVINCE\nKAZ SEV NORTH KAZAKHSTAN PROVINCE\nKAZ VOS EAST KAZAKHSTAN PROVINCE\nKAZ YUZ SOUTH KAZAKHSTAN PROVINCE\nKAZ ZAP WEST KAZAKHSTAN PROVINCE\nKAZ ZHA JAMBYL PROVINCE\nKEN 110 NAIROBI\nKEN 200 CENTRAL\nKEN 300 COAST\nKEN 400 EASTERN\nKEN 500 NORTH-EASTERN\nKEN 600 NYANZA\nKEN 700 RIFT VALLEY\nKEN 800 WESTERN\nKIR G GILBERT ISLANDS\nKIR L LINE ISLANDS\nKIR P PHOENIX ISLANDS\nKOR 01 PYONGYANG\nKOR 02 SOUTH PYONGAN\nKOR 03 NORTH PYONGAN\nKOR 04 CHAGANG [...] GolStaDup Gold Star Family Plate - Duplicate REG Registration Fees\nGolStaRnw Gold Star Family Plate - Renew REG Registration Fees\nGovCnsDup Governors Council - Duplicate REG Registration Fees\nGovCnsl Governors Council - Annual REG Registration Fees\nGovCnsRnw Governors Council - Renew REG Registration Fees\nGovCnsSwp Governors Council - Swap REG Registration Fees\nGovFee Government - Annual REG Registration Fees\nGovFeeRnw Government - Renew REG Registration Fees",
+        "score": 0.02211875,
         "raw_content": null,
-        "id": "091812-04",
-        "search_query": "Who is the current CM of Tamil Nadu?",
-        "query_category": "official",
-        "normalized_url": "hindustantimes.com/india-news/vijay-not-stalin-the-preferred-cm-for-tamil-nadu-voters-predicts-axis-my-india-tvk-news-101777474730629.html",
+        "published_date": "Wed, 05 Aug 2026 13:59:25 GMT",
+        "id": "7f78df-02",
+        "search_query": "500-foot solid gold meteorite Tamil Nadu village",
+        "query_category": "direct",
+        "normalized_url": "mass.gov/doc/ma-rmv-altas-evr-web-service-data-dictionary-draft-v314/download",
         "found_by_categories": [
-          "official"
+          "direct"
         ],
-        "relevance_score": 0.4572,
-        "credibility_score": 0.85,
-        "domain_category": "established_news",
+        "relevance_score": 0.0874,
+        "credibility_score": 1.0,
+        "domain_category": "official",
         "freshness_score": 0.6,
         "agreement_score": 1.0,
-        "final_evidence_score": 0.6704,
-        "domain": "hindustantimes.com",
-        "stance": "SUPPORTS",
-        "stance_reasoning": "Source confirms claimed entity holds official role."
+        "final_evidence_score": 0.575,
+        "domain": "mass.gov",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
       },
       {
-        "url": "https://www.ndtv.com/video/vijay-officially-takes-charge-as-the-chief-minister-of-tamil-nadu-1097394",
-        "title": "Video | Vijay Officially Takes Charge As The Chief Minister Of Tamil Nadu",
-        "content": "img\nimg\n\n# Vijay Officially Takes Charge As The Chief Minister Of Tamil Nadu\n\nTVK Chief Vijay officially took charge as the Chief Minister of Tamil Nadu at the State Secretariat after he was sworn-in as the Chief Minister on Sunday.\n\n## Related Videos\n\nKarti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\n### Karti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\n365 Days Maternity Leave For Third Child: Vijay Govt's Big Women-Centric Move [...] ### BJP Questions ₹5.5 Crore Tender For Tamil Nadu CMO Shift, Govt Rejects Claims\n\nDMK Targets CM Vijay Over Giving Trisha Front Seat During Independence Day Ceremony\n\n### DMK Targets CM Vijay Over Giving Trisha Front Seat During Independence Day Ceremony\n\n## Just Added\n\nCM Omar Abdullah To US Envoy: J&K Issues Won’t Be Solved By Washington\n\n### CM Omar Abdullah To US Envoy: J&K Issues Won’t Be Solved By Washington\n\nJharkhand Students Suspend Protest For 2 Months, Warn Of Fresh Agitation [...] ### Karti Chidambaram Opposes Vijay Govt’s 3rd Child Maternity Leave\n\nAdidas Releases New Pet Kits Featuring Seven Biggest Football Clubs\n\n### Adidas Releases New Pet Kits Featuring Seven Biggest Football Clubs\n\nOpenAI Launches ChatGPT For Teens : Children Aged 13 To 17 Get Stronger Protections\n\n### OpenAI Launches ChatGPT For Teens : Children Aged 13 To 17 Get Stronger Protections\n\nMeta Under Scrutiny : Child Safety Trial Opens In California | Meta Faces Trillion-Dollar Legal Thre",
-        "score": 0.78631157,
-        "published_date": "Sun, 10 May 2026 09:00:37 GMT",
+        "url": "https://www.facebook.com/houstonchronicle/posts/dr-marc-fries-a-planetary-scientist-who-runs-nasas-meteorite-falls-website-went-/1367846098692858",
+        "title": "Dr. Marc Fries, a planetary scientist who runs NASA's ...",
+        "content": "Other finds in Texas include the 500-foot- diameter Meteor Crater at Odessa, the third largest crater in the United States, and the Peña Blanca Spring meteorite",
+        "score": 0.4751919,
         "raw_content": null,
-        "id": "34d84c-02",
-        "search_query": "Who is the current CM of Tamil Nadu?",
-        "query_category": "official",
-        "normalized_url": "ndtv.com/video/vijay-officially-takes-charge-as-the-chief-minister-of-tamil-nadu-1097394",
-        "found_by_categories": [
-          "official"
-        ],
-        "relevance_score": 0.4226,
-        "credibility_score": 0.85,
-        "domain_category": "established_news",
-        "freshness_score": 0.6,
-        "agreement_score": 1.0,
-        "final_evidence_score": 0.6566,
-        "domain": "ndtv.com",
-        "stance": "SUPPORTS",
-        "stance_reasoning": "Source confirms claimed entity holds official role."
-      },
-      {
-        "url": "https://www.bbc.com/news/articles/cj4pn1z8x45o",
-        "title": "Vijay, TVK: How social media turned Indian film star into a political force in Tamil Nadu",
-        "content": "He wasn't the only one to spring a surprise. TVK candidates - mostly debutants - won 108 seats, leaving Vijay's party just 10 short of a majority in Tamil Nadu's 234-member assembly and pulling off one of the most stunning upsets in recent Indian political history. The actor was sworn in as the state's chief minister on Sunday after days of uncertainty about whether he would get enough numbers to form the government. [...] \"What kind of experience (did) the DMK have when they came to power in 1967? Our aim is to provide a clean administration, and our leader can do that,\" Badhurudeen says.\n\nThere is little doubt that Vijay has made history, single-handedly taking on Tamil Nadu's entrenched political giants, the DMK and AIADMK.\n\nBut amid the celebrations, there is growing recognition that winning an election is only the beginning in politics. [...] In many of his films he portrayed the image of an angry man fighting against corruption, injustice and inequality. He projected himself as a man who stood for the underprivileged and the voiceless - the defender of social justice. That made him hugely popular with fans.\n\nTVK Four women, four men and a child pose for a photo. \n\nOne of Vijay's biggest advantages was the network of around 85,000 fan clubs he had carefully cultivated over his 30‑year career in the Tamil film industry.",
-        "score": 0.5082762,
-        "published_date": "Sun, 10 May 2026 23:34:47 GMT",
-        "raw_content": null,
-        "id": "fbd249-02",
-        "search_query": "Vijay's political career and office history",
+        "published_date": "Mon, 23 Mar 2026 05:00:00 GMT",
+        "id": "0fb456-00",
+        "search_query": "NASA database solid gold meteorite size 500 feet",
         "query_category": "contradiction",
-        "normalized_url": "bbc.com/news/articles/cj4pn1z8x45o",
+        "normalized_url": "facebook.com/houstonchronicle/posts/dr-marc-fries-a-planetary-scientist-who-runs-nasas-meteorite-falls-website-went-/1367846098692858",
         "found_by_categories": [
           "contradiction"
         ],
-        "relevance_score": 0.3329,
-        "credibility_score": 0.85,
-        "domain_category": "established_news",
+        "relevance_score": 0.3197,
+        "credibility_score": 0.4,
+        "domain_category": "unverified",
         "freshness_score": 0.6,
         "agreement_score": 1.0,
-        "final_evidence_score": 0.6207,
-        "domain": "bbc.com",
-        "stance": "SUPPORTS",
-        "stance_reasoning": "Source confirms claimed entity holds official role."
+        "final_evidence_score": 0.4579,
+        "domain": "facebook.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
       },
       {
-        "url": "https://www.bbc.co.uk/news/articles/cx2k5kxk3plo",
-        "title": "Vijay: The Indian film star turning politician in Tamil Nadu - BBC News",
-        "content": "He launched his political party, Tamilaga Vettri Kazhagam (TVK), in 2024 and soon after announced that he would retire from films to pursue politics full-time. His upcoming film this month, Jana Nayagan (The People's Hero), would be his farewell release, he said.\n\nVijay's reasoning was explicit: politics, he argued, is not something one can dabble in. Tamil Nadu's voters, he said, deserved nothing less than full commitment. And the state's political history supports that calculation. [...] Vijay launched his political party, Tamilaga Vettri Kazhagam (TVK), in 2024\n\nChennai-based film critic Aditya Shrikrishna noted that Vijay's appeal has not rested on acting prowess alone. \"He's not a Kamal Haasan or Rajinikanth in terms of filmography,\" he said. \"But his box office pull and fandom are huge and undeniably influential. Dancing, comedy and a keen understanding of populist cinema are his strengths.\" [...] From extremely successful political stints of MG Ramachandran - popularly known as MGR - and Jayalalithaa to the more ambivalent experiments of Rajnikanth, Kamal Haasan, Khushbu and Vijayakanth, the state has repeatedly seen cinema icons turn into full-time politicians. MGR and Jayalalithaa even became chief ministers.\n\nNow Tamil superstar C Joseph Vijay, known as \"Thalapathy\" Vijay (General Vijay), is the latest to join the list.",
-        "score": 0.53094244,
-        "published_date": "Tue, 13 Jan 2026 00:51:34 GMT",
+        "url": "https://www.instagram.com/reel/DWUYJ6AkUGQ",
+        "title": "Meteorites on Instagram: \"Why Can't NASA Detect Some ...",
+        "content": "These are fragments of the Ohio meteorite. NASA estimated that the original body of the meteor was around two meters wide and weighed six to seven tons. O 500-",
+        "score": 0.2488722,
         "raw_content": null,
-        "id": "d7a879-01",
-        "search_query": "Vijay's political career and office history",
+        "published_date": "Wed, 22 Apr 2026 05:00:00 GMT",
+        "id": "57d5d4-01",
+        "search_query": "NASA database solid gold meteorite size 500 feet",
         "query_category": "contradiction",
-        "normalized_url": "bbc.co.uk/news/articles/cx2k5kxk3plo",
+        "normalized_url": "instagram.com/reel/DWUYJ6AkUGQ",
         "found_by_categories": [
           "contradiction"
         ],
-        "relevance_score": 0.308,
-        "credibility_score": 0.85,
-        "domain_category": "established_news",
+        "relevance_score": 0.297,
+        "credibility_score": 0.4,
+        "domain_category": "unverified",
         "freshness_score": 0.6,
         "agreement_score": 1.0,
-        "final_evidence_score": 0.6107,
-        "domain": "bbc.co.uk",
-        "stance": "SUPPORTS",
-        "stance_reasoning": "Source confirms claimed entity holds official role."
+        "final_evidence_score": 0.4488,
+        "domain": "instagram.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://play.google.com/store/apps/details?id=com.boddle.learning&hl=en_US",
+        "title": "Boddle: Math & Reading Game - Apps on Google Play",
+        "content": "Healthy screen time with K-6 math, reading and science games kids love.\n\nUpdated on\n\nAug 4, 2026\n\nAvailable on\n\nAndroid, Windows\\\n\nEducational\n\nMathematics\n\nCasual\n\nSingle player\n\nStylized\n\nCartoon\n\nCute\n\n\\Powered by Intel® technology\n\n## Data safety\n\narrow\\_forward\n\nSafety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer provided this information and may update it over time. [...] Intel is a registered trademark of Intel Corporation or its subsidiaries. Windows is a trademark of the Microsoft group of companies.\n\n\\Might not be available for this game\n\n## App support\n\npublic\n\nWebsite\n\nemail\n\nSupport email\n\ncontact@boddlelearning.com\n\nshield\n\nPrivacy Policy\n\nAbout the developer\n\nBoddle Learning, Inc.\n\ncontact@boddlelearning.com\n\n12 N Cheyenne Ave Ste 011 Tulsa, OK 74103-2215 United States\n\n+1 918-727-7720\n\n## Similar games\n\narrow\\_forward\n\nThumbnail image [...] Thumbnail image\n\nProdigy Math: Kids Game\n\nProdigy Education Inc\n\n4.1star\n\nThumbnail image\n\nTimes Tables Rock Stars\n\nMaths Circle\n\n3.3star\n\nThumbnail image\n\nABCya! Games\n\nABCya.com LLC\n\n3.7star\n\nThumbnail image\n\nThird Grade Learning Games\n\nRosiMosi LLC\n\n3.9star\n\nThumbnail image\n\nMaths Circle\n\nThumbnail image\n\nTeach Your Monster to Read\n\nTeach Your Monster\n\n3.3star\n\nTRY 489.99\n\nflagFlag as inappropriate",
+        "score": 0.019228773,
+        "raw_content": null,
+        "published_date": "Tue, 04 Aug 2026 00:00:00 GMT",
+        "id": "fdde03-04",
+        "search_query": "500-foot solid gold meteorite Tamil Nadu village",
+        "query_category": "direct",
+        "normalized_url": "play.google.com/store/apps/details",
+        "found_by_categories": [
+          "direct"
+        ],
+        "relevance_score": 0.1171,
+        "credibility_score": 0.6,
+        "domain_category": "general",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.4468,
+        "domain": "play.google.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
+      },
+      {
+        "url": "https://www.facebook.com/gsipage/posts/the-sulagiri-meteorite-one-of-the-largest-recorded-meteorite-falls-in-india-with/1460677519419778",
+        "title": "The Sulagiri meteorite, one of the largest recorded ...",
+        "content": "The Sulagiri meteorite, one of the largest recorded meteorite falls in India with an approximate weight of 110 kilograms, is an ordinary chondrite recovered",
+        "score": 0.31390378,
+        "raw_content": null,
+        "published_date": "Tue, 21 Jul 2026 05:00:00 GMT",
+        "id": "affe58-01",
+        "search_query": "Tamil Nadu government geological survey official records meteorite landing",
+        "query_category": "official",
+        "normalized_url": "facebook.com/gsipage/posts/the-sulagiri-meteorite-one-of-the-largest-recorded-meteorite-falls-in-india-with/1460677519419778",
+        "found_by_categories": [
+          "official"
+        ],
+        "relevance_score": 0.2846,
+        "credibility_score": 0.4,
+        "domain_category": "unverified",
+        "freshness_score": 0.6,
+        "agreement_score": 1.0,
+        "final_evidence_score": 0.4438,
+        "domain": "facebook.com",
+        "stance": "REFUTES",
+        "stance_reasoning": "Source provides facts contradicting or refuting the claim."
       }
     ],
     "metadata": {
